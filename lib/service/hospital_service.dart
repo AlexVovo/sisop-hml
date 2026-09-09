@@ -357,24 +357,26 @@ class HospitalServicer {
 
     final col = _db.collection('hospitais');
 
-    // 1) docId
+    // 1) nome_hospital (exato). Usuários registradores chegam aqui pelo nome
+    // associado ao seu cadastro; consultar primeiro pelo nome também permite
+    // que as regras do Firestore comprovem o vínculo com o hospital.
+    final q2 = await col.where('nome_hospital', isEqualTo: key).limit(1).get();
+    if (q2.docs.isNotEmpty) {
+      final d = q2.docs.first;
+      return {...d.data(), '_docId': d.id};
+    }
+
+    // 2) docId
     final byId = await col.doc(key).get();
     if (byId.exists) {
       final data = byId.data();
       if (data != null) return {...data, '_docId': byId.id};
     }
 
-    // 2) id_hospital
+    // 3) id_hospital
     final q1 = await col.where('id_hospital', isEqualTo: key).limit(1).get();
     if (q1.docs.isNotEmpty) {
       final d = q1.docs.first;
-      return {...d.data(), '_docId': d.id};
-    }
-
-    // 3) nome_hospital (exato)
-    final q2 = await col.where('nome_hospital', isEqualTo: key).limit(1).get();
-    if (q2.docs.isNotEmpty) {
-      final d = q2.docs.first;
       return {...d.data(), '_docId': d.id};
     }
 
@@ -471,13 +473,9 @@ class HospitalServicer {
   /// Token do hospital ativo.
   Future<String?> getActiveHospitalToken() async {
     final id = await getActiveHospitalId();
-    final q = await _db
-        .collection('hospitais')
-        .where('id_hospital', isEqualTo: id)
-        .limit(1)
-        .get();
-    if (q.docs.isEmpty) return null;
-    return q.docs.first.data()['token_hospital'] as String?;
+    final hospital = await _db.collection('hospitais').doc(id).get();
+    if (!hospital.exists) return null;
+    return hospital.data()?['token_hospital'] as String?;
   }
 
   /// Nome do hospital ativo em cache (se já resolvido).
