@@ -181,39 +181,13 @@ class HospitalServicer {
   // -------------------- Buscas utilitárias -----------------
   // =========================================================
 
-  /// Busca token tentando: docId -> id_hospital -> nome_hospital (exato).
+  /// Busca o token do hospital associado ao usuário atual.
   Future<String?> buscarTokenSmart(String selecionadoRaw) async {
     final selecionado = selecionadoRaw.trim();
     try {
-      final col = _db.collection('hospitais');
-
-      // 1) docId
-      final byId = await col.doc(selecionado).get();
-      if (byId.exists) {
-        final data = byId.data();
-        final token = data?['token_hospital'] as String?;
-        if (token != null && token.isNotEmpty) return token;
-      }
-
-      // 2) id_hospital
-      final q1 =
-          await col.where('id_hospital', isEqualTo: selecionado).limit(1).get();
-      if (q1.docs.isNotEmpty) {
-        final token = q1.docs.first.data()['token_hospital'] as String?;
-        if (token != null && token.isNotEmpty) return token;
-      }
-
-      // 3) nome_hospital
-      final q2 = await col
-          .where('nome_hospital', isEqualTo: selecionado)
-          .limit(1)
-          .get();
-      if (q2.docs.isNotEmpty) {
-        final token = q2.docs.first.data()['token_hospital'] as String?;
-        if (token != null && token.isNotEmpty) return token;
-      }
-
-      return null;
+      final hospital = await _findHospitalByAny(selecionado);
+      final token = hospital?['token_hospital']?.toString().trim();
+      return token == null || token.isEmpty ? null : token;
     } catch (e) {
       return null;
     }
