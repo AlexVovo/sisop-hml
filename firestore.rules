@@ -10,13 +10,58 @@ service cloud.firestore {
       return signedIn() && request.auth.token.admin == true;
     }
 
+    function assignedHospital() {
+      return signedIn() &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid))
+          .data.hospitaisSelecionados.hasAny([resource.data.nome_hospital]);
+    }
+
     match /dashboard_public/{document=**} {
       allow read: if true;
       allow write: if admin();
     }
 
-    match /{document=**} {
+    match /hospitais/{hospitalId} {
+      allow read: if admin() || assignedHospital();
+      allow write: if admin();
+    }
+
+    match /users/{userId} {
+      allow read: if admin() || (signedIn() && request.auth.uid == userId);
+      allow create, delete: if admin();
+      allow update: if admin() || (
+        signedIn() &&
+        request.auth.uid == userId &&
+        request.resource.data.diff(resource.data).affectedKeys()
+          .hasOnly(['acessos', 'chaveauth', 'hospitalAtivo'])
+      );
+    }
+
+    match /temporaryPatients/{document=**} {
+      allow read, delete: if admin() || (
+        signedIn() && resource.data.email == request.auth.token.email
+      );
+      allow create: if admin() || (
+        signedIn() && request.resource.data.email == request.auth.token.email
+      );
+      allow update: if admin() || (
+        signedIn() &&
+        resource.data.email == request.auth.token.email &&
+        request.resource.data.email == request.auth.token.email
+      );
+    }
+
+    match /logs/{logId} {
+      allow read, update, delete: if admin();
+      allow create: if signedIn();
+    }
+
+    match /user_tracking/{document=**} {
       allow read, write: if admin();
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
     }
   }
 }

@@ -2,6 +2,7 @@ import 'package:animated_snack_bar/animated_snack_bar.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:regsitroweb/pagesapp/auth_pages/login/qr_auth.dart';
 import 'package:regsitroweb/pagesapp/auth_pages/login/totp_screen.dart';
 import 'package:regsitroweb/pagesapp/selectHospital/selectpage.dart';
@@ -20,15 +21,23 @@ class UserServicer {
     String? iduser,
     List<dynamic> hospitaisSelecionados,
   ) async {
+    FirebaseApp? userCreationApp;
     try {
-      await _auth.createUserWithEmailAndPassword(
+      userCreationApp = await Firebase.initializeApp(
+        name: 'user-creation-${DateTime.now().microsecondsSinceEpoch}',
+        options: Firebase.app().options,
+      );
+      final userCreationAuth = FirebaseAuth.instanceFor(app: userCreationApp);
+      final credential = await userCreationAuth.createUserWithEmailAndPassword(
         email: email.trim(),
         password: password.trim(),
       );
+      final uid = credential.user!.uid;
 
-      await FirebaseFirestore.instance.collection("users").doc(iduser).set({
-        'uid': iduser,
-        'email': email,
+      await FirebaseFirestore.instance.collection("users").doc(uid).set({
+        'uid': uid,
+        'id_usuario': iduser,
+        'email': email.trim(),
         'hospitaisSelecionados': hospitaisSelecionados,
         // 👇 define hospitalAtivo como o primeiro hospital selecionado, se existir
         'hospitalAtivo':
@@ -62,6 +71,11 @@ class UserServicer {
         ).show(context);
       }
       return false;
+    } finally {
+      if (userCreationApp != null) {
+        await FirebaseAuth.instanceFor(app: userCreationApp).signOut();
+        await userCreationApp.delete();
+      }
     }
   }
 
@@ -83,13 +97,12 @@ class UserServicer {
 
   Future<void> registrarAcesso(String email) async {
     try {
-      QuerySnapshot userQuery = await FirebaseFirestore.instance
-          .collection('users')
-          .where('email', isEqualTo: email.trim())
-          .get();
+      final uid = _auth.currentUser?.uid;
+      if (uid == null) return;
+      final userDoc =
+          await FirebaseFirestore.instance.collection('users').doc(uid).get();
 
-      if (userQuery.docs.isNotEmpty) {
-        DocumentSnapshot userDoc = userQuery.docs.first;
+      if (userDoc.exists) {
         List acessos = userDoc['acessos'] ?? [];
 
         // Obtém a data do último acesso registrado
@@ -108,10 +121,7 @@ class UserServicer {
 
         if (!mesmoDia) {
           // Só registra se ainda não houve um acesso hoje
-          await FirebaseFirestore.instance
-              .collection('users')
-              .doc(userDoc.id)
-              .update({
+          await userDoc.reference.update({
             'acessos': FieldValue.arrayUnion([
               {'data': Timestamp.now()}
             ]),
@@ -165,14 +175,12 @@ class UserServicer {
       SharedPreferences prefs = await SharedPreferences.getInstance();
       bool isVerified = prefs.getBool('isVerified') ?? false;
 
-      QuerySnapshot userQuery = await FirebaseFirestore.instance
+      final userDoc = await FirebaseFirestore.instance
           .collection('users')
-          .where('email', isEqualTo: user.email!.trim())
+          .doc(user.uid)
           .get();
 
-      if (userQuery.docs.isNotEmpty) {
-        DocumentSnapshot userDoc = userQuery.docs.first;
-
+      if (userDoc.exists) {
         await registrarAcesso(user.email!);
 
         if (isVerified) {

@@ -23,19 +23,19 @@ class _HospitalSelectionPageState extends State<HospitalSelectionPage> {
   }
 
   Future<void> _fetchHospitals() async {
-    String? userEmail = FirebaseAuth.instance.currentUser?.email;
+    final user = FirebaseAuth.instance.currentUser;
 
-    if (userEmail == null) return;
+    if (user == null) return;
 
     try {
-      CollectionReference users =
-          FirebaseFirestore.instance.collection('users');
-      QuerySnapshot querySnapshot =
-          await users.where('email', isEqualTo: userEmail).get();
+      final userDocument = await FirebaseFirestore.instance
+          .collection('users')
+          .doc(user.uid)
+          .get();
 
-      if (querySnapshot.docs.isNotEmpty) {
+      if (userDocument.exists) {
         Map<String, dynamic> userData =
-            querySnapshot.docs.first.data() as Map<String, dynamic>;
+            userDocument.data() as Map<String, dynamic>;
         List<dynamic> hospitaisSelecionados =
             userData['hospitaisSelecionados'] ?? [];
 
