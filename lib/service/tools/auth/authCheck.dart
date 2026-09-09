@@ -2,7 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:regsitroweb/pagesapp/adminPage/adminPage.dart';
 import 'package:regsitroweb/pagesapp/auth_pages/login/login_screen.dart';
-import 'package:regsitroweb/service/tools/auth/auth_service.dart';
 import 'package:regsitroweb/service/user_servicer.dart';
 
 class AuthCheck extends StatelessWidget {
@@ -20,16 +19,21 @@ class AuthCheck extends StatelessWidget {
 
           if (snapshot.hasData) {
             User? user = snapshot.data;
-            String? email =
-                AuthenticationService(FirebaseAuth.instance).getName();
+            return FutureBuilder<IdTokenResult>(
+              future: user!.getIdTokenResult(true),
+              builder: (context, tokenSnapshot) {
+                if (tokenSnapshot.connectionState == ConnectionState.waiting) {
+                  return const Center(child: CircularProgressIndicator());
+                }
 
-            if (email == 'projetobioinfo@ici.ong') {
-              return const Adminpage(); // Redireciona para a página do admin
-            } else {
-              UserServicer userServicer = UserServicer();
-              userServicer.handleRedirection(context, user);
-              return const SizedBox(); // Placeholder enquanto redireciona
-            }
+                if (tokenSnapshot.data?.claims?['admin'] == true) {
+                  return const Adminpage();
+                }
+
+                UserServicer().handleRedirection(context, user);
+                return const SizedBox();
+              },
+            );
           } else {
             return const LoginScreen(); // Redireciona para a tela de login
           }
