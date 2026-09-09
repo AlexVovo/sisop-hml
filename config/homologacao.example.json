@@ -1,0 +1,17 @@
+{
+  "FIREBASE_PROJECT_ID": "seu-projeto-homologacao",
+  "FIREBASE_MESSAGING_SENDER_ID": "000000000000",
+  "FIREBASE_STORAGE_BUCKET": "seu-projeto-homologacao.appspot.com",
+  "FIREBASE_AUTH_DOMAIN": "seu-projeto-homologacao.firebaseapp.com",
+  "FIREBASE_WEB_API_KEY": "api-key-web-de-homologacao",
+  "FIREBASE_WEB_APP_ID": "1:000000000000:web:xxxxxxxxxxxxxxxxxxxxxx",
+  "FIREBASE_MEASUREMENT_ID": "G-XXXXXXXXXX",
+  "FIREBASE_ANDROID_API_KEY": "api-key-android-de-homologacao",
+  "FIREBASE_ANDROID_APP_ID": "1:000000000000:android:xxxxxxxxxxxxxxxxxxxxxx",
+  "FIREBASE_IOS_API_KEY": "api-key-ios-de-homologacao",
+  "FIREBASE_IOS_APP_ID": "1:000000000000:ios:xxxxxxxxxxxxxxxxxxxxxx",
+  "FIREBASE_MACOS_API_KEY": "api-key-macos-de-homologacao",
+  "FIREBASE_MACOS_APP_ID": "1:000000000000:ios:xxxxxxxxxxxxxxxxxxxxxx",
+  "FIREBASE_IOS_BUNDLE_ID": "com.example.registroici.homologacao",
+  "FIREBASE_MACOS_BUNDLE_ID": "com.example.registroici.homologacao"
+}

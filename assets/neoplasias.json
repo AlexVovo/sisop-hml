@@ -1,0 +1,142 @@
+[
+    {
+        "Diagnóstico": "Leucemia Linfoblástica aguda",
+        "Classificação": "B, T, Bifenotipica, outros",
+        "Estadiamento": "Alto Risco, Baixo risco, risco moderado"
+    },
+    {
+        "Diagnóstico": "Leucemia Mielóide Aguda",
+        "Classificação": "LPA (Leucemia Promielocítica Aguda), LMMJ (Leucemia Mielomonocítica Juvenil), Down (Síndrome de Down), outros",
+        "Estadiamento": "Alto Risco, Baixo risco, risco moderado"
+    },
+    {
+        "Diagnóstico": "Linfoma Hodking",
+        "Classificação": "Clássico, Esclerose Nodular, Predomínio linfocitário, Celularidade mista, outros",
+        "Estadiamento": "I, II, III, IV, A, B"
+    },
+    {
+        "Diagnóstico": "Linfoma Não Hodgkin",
+        "Classificação": "Burkitt, linfoblástico B, Linfoblástico T, grandes células B, Anaplásico, Outros",
+        "Estadiamento": "I, II, III, IV"
+    },
+    {
+        "Diagnóstico": "Hepatoblastoma",
+        "Classificação": "Muito baixo risco, Baixo Risco, Intermediário, Alto risco",
+        "Estadiamento": "Metastático, Localizado"
+    },
+    {
+        "Diagnóstico": "Osteossarcoma",
+        "Classificação": "Convencional, Telangiectásico, Intra ósseo, Pequenas células",
+        "Estadiamento": "Metastático, Localizado"
+    },
+    {
+        "Diagnóstico": "Sarcoma de Ewing",
+        "Classificação": "",
+        "Estadiamento": "Metastático, Localizado"
+    },
+    {
+        "Diagnóstico": "Rabdomiossarcoma",
+        "Classificação": "Grupo de Risco, muito baixo, Baixo, Intermediário, Alto",
+        "Estadiamento": "Metastático, Localizado (TNM)"
+    },
+    {
+        "Diagnóstico": "Sarcoma de partes moles",
+        "Classificação": "",
+        "Estadiamento": "Metastático, Localizado (TNM)"
+    },
+    {
+        "Diagnóstico": "Tumor de Wilms",
+        "Classificação": "Unilateral, Bilateral",
+        "Estadiamento": "I, II, III, IV, V"
+    },
+    {
+        "Diagnóstico": "Retinoblastoma",
+        "Classificação": "Unilateral, Bilateral",
+        "Estadiamento": "Grupo A, Grupo B, Grupo C, Grupo D, Grupo E"
+    },
+    {
+        "Diagnóstico": "Tumor de células germinativas (TCG)",
+        "Classificação": "Seminona, Germinoma, Teratoma",
+        "Estadiamento": "Metastático, Localizado, Regional, I, II, III, IV"
+    },
+    {
+        "Diagnóstico": "Meduloblastoma",
+        "Classificação": "Risco Standard, Alto risco",
+        "Estadiamento": "Metastático, Localizado"
+    },
+    {
+        "Diagnóstico": "Ependimoma",
+        "Classificação": "Supratentorial, Fossa posterior, Espinhal",
+        "Estadiamento": "Metastático, Localizado"
+    },
+    {
+        "Diagnóstico": "Neuroblastoma",
+        "Classificação": "Baixo, Intermediário, Alto Risco",
+        "Estadiamento": "Metastático, Localizado"
+    },
+    {
+        "Diagnóstico": "Glioma",
+        "Classificação": "",
+        "Estadiamento": "Baixo grau, Alto grau "
+    },
+    {
+        "Diagnóstico": "Gliomatose",
+        "Classificação": "",
+        "Estadiamento": ""
+    },
+    {
+        "Diagnóstico": "Astrocitoma",
+        "Classificação": "",
+        "Estadiamento": "Grau I, Grau II, Grau III, Grau IV"
+    },
+    {
+        "Diagnóstico": "Oligodendrogliomas",
+        "Classificação": "",
+        "Estadiamento": "Grau II, Grau III"
+    },
+    {
+        "Diagnóstico": "Meningioma",
+        "Classificação": "",
+        "Estadiamento": ""
+    },
+    {
+        "Diagnóstico": "Ependiomas",
+        "Classificação": "",
+        "Estadiamento": ""
+    },
+    {
+        "Diagnóstico": "Ganglioglioma",
+        "Classificação": "",
+        "Estadiamento": ""
+    },
+    {
+        "Diagnóstico": "Schwannoma (Neurilemoma)",
+        "Classificação": "",
+        "Estadiamento": ""
+    },
+    {
+        "Diagnóstico": "Craniofaringiomas",
+        "Classificação": "",
+        "Estadiamento": ""
+    },
+    {
+        "Diagnóstico": "Cordoma",
+        "Classificação": "",
+        "Estadiamento": ""
+    },
+    {
+        "Diagnóstico": "Ganglioneuroma",
+        "Classificação": "",
+        "Estadiamento": ""
+    },
+    {
+        "Diagnóstico": "Pineoblastoma",
+        "Classificação": "",
+        "Estadiamento": ""
+    },
+    {
+        "Diagnóstico": "Outro",
+        "Classificação": "",
+        "Estadiamento": ""
+    }
+]

@@ -1,0 +1,4436 @@
+[
+    {
+        "SUBCAT": "C000",
+        "DESCRICAO": "Neoplasia maligna do lábio superior externo",
+        "DESCRABREV": "C00.0 Labio super externo",
+        "neoplasias": "C000-Neoplasia maligna do lábio superior externo"
+    },
+    {
+        "SUBCAT": "C001",
+        "DESCRICAO": "Neoplasia maligna do lábio inferior externo",
+        "DESCRABREV": "C00.1 Labio infer externo",
+        "neoplasias": "C001-Neoplasia maligna do lábio inferior externo"
+    },
+    {
+        "SUBCAT": "C002",
+        "DESCRICAO": "Neoplasia maligna do lábio externo, não especificado",
+        "DESCRABREV": "C00.2 Labio externo NE",
+        "neoplasias": "C002-Neoplasia maligna do lábio externo, não especificado"
+    },
+    {
+        "SUBCAT": "C003",
+        "DESCRICAO": "Neoplasia maligna do lábio superior, face interna",
+        "DESCRABREV": "C00.3 Labio super face interna",
+        "neoplasias": "C003-Neoplasia maligna do lábio superior, face interna"
+    },
+    {
+        "SUBCAT": "C004",
+        "DESCRICAO": "Neoplasia maligna do lábio inferior, face interna",
+        "DESCRABREV": "C00.4 Labio infer face interna",
+        "neoplasias": "C004-Neoplasia maligna do lábio inferior, face interna"
+    },
+    {
+        "SUBCAT": "C005",
+        "DESCRICAO": "Neoplasia maligna do lábio, sem especificação, face interna",
+        "DESCRABREV": "C00.5 Labio s/especificacao face interna",
+        "neoplasias": "C005-Neoplasia maligna do lábio, sem especificação, face interna"
+    },
+    {
+        "SUBCAT": "C006",
+        "DESCRICAO": "Neoplasia maligna da comissura labial",
+        "DESCRABREV": "C00.6 Comissura labial",
+        "neoplasias": "C006-Neoplasia maligna da comissura labial"
+    },
+    {
+        "SUBCAT": "C008",
+        "DESCRICAO": "Neoplasia maligna do lábio com lesão invasiva",
+        "DESCRABREV": "C00.8 Lesao invasiva do labio",
+        "neoplasias": "C008-Neoplasia maligna do lábio com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C009",
+        "DESCRICAO": "Neoplasia maligna do lábio, não especificado",
+        "DESCRABREV": "C00.9 Labio NE",
+        "neoplasias": "C009-Neoplasia maligna do lábio, não especificado"
+    },
+    {
+        "SUBCAT": "C01",
+        "DESCRICAO": "Neoplasia maligna da base da língua",
+        "DESCRABREV": "C01   Neopl malig da base da lingua",
+        "neoplasias": "C01-Neoplasia maligna da base da língua"
+    },
+    {
+        "SUBCAT": "C020",
+        "DESCRICAO": "Neoplasia maligna da face dorsal da língua",
+        "DESCRABREV": "C02.0 Face dorsal da lingua",
+        "neoplasias": "C020-Neoplasia maligna da face dorsal da língua"
+    },
+    {
+        "SUBCAT": "C021",
+        "DESCRICAO": "Neoplasia maligna da borda da língua",
+        "DESCRABREV": "C02.1 Borda da lingua",
+        "neoplasias": "C021-Neoplasia maligna da borda da língua"
+    },
+    {
+        "SUBCAT": "C022",
+        "DESCRICAO": "Neoplasia maligna da face ventral da língua",
+        "DESCRABREV": "C02.2 Face ventral da lingua",
+        "neoplasias": "C022-Neoplasia maligna da face ventral da língua"
+    },
+    {
+        "SUBCAT": "C023",
+        "DESCRICAO": "Neoplasia maligna de dois terços anteriores da língua, parte não especificada",
+        "DESCRABREV": "C02.3 Dois tercos anteriores da lingua parte NE",
+        "neoplasias": "C023-Neoplasia maligna de dois terços anteriores da língua, parte não especificada"
+    },
+    {
+        "SUBCAT": "C024",
+        "DESCRICAO": "Neoplasia maligna da amígdala lingual",
+        "DESCRABREV": "C02.4 Amigdala lingual",
+        "neoplasias": "C024-Neoplasia maligna da amígdala lingual"
+    },
+    {
+        "SUBCAT": "C028",
+        "DESCRICAO": "Neoplasia maligna da língua com lesão invasiva",
+        "DESCRABREV": "C02.8 Lesao invasiva da lingua",
+        "neoplasias": "C028-Neoplasia maligna da língua com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C029",
+        "DESCRICAO": "Neoplasia maligna da língua, não especificada",
+        "DESCRABREV": "C02.9 Lingua NE",
+        "neoplasias": "C029-Neoplasia maligna da língua, não especificada"
+    },
+    {
+        "SUBCAT": "C030",
+        "DESCRICAO": "Neoplasia maligna da gengiva superior",
+        "DESCRABREV": "C03.0 Gengiva super",
+        "neoplasias": "C030-Neoplasia maligna da gengiva superior"
+    },
+    {
+        "SUBCAT": "C031",
+        "DESCRICAO": "Neoplasia maligna da gengiva inferior",
+        "DESCRABREV": "C03.1 Gengiva infer",
+        "neoplasias": "C031-Neoplasia maligna da gengiva inferior"
+    },
+    {
+        "SUBCAT": "C039",
+        "DESCRICAO": "Neoplasia maligna da gengiva, não especificada",
+        "DESCRABREV": "C03.9 Gengiva NE",
+        "neoplasias": "C039-Neoplasia maligna da gengiva, não especificada"
+    },
+    {
+        "SUBCAT": "C040",
+        "DESCRICAO": "Neoplasia maligna do assoalho anterior da boca",
+        "DESCRABREV": "C04.0 Assoalho anterior da boca",
+        "neoplasias": "C040-Neoplasia maligna do assoalho anterior da boca"
+    },
+    {
+        "SUBCAT": "C041",
+        "DESCRICAO": "Neoplasia maligna do assoalho lateral da boca",
+        "DESCRABREV": "C04.1 Assoalho lateral da boca",
+        "neoplasias": "C041-Neoplasia maligna do assoalho lateral da boca"
+    },
+    {
+        "SUBCAT": "C048",
+        "DESCRICAO": "Neoplasia maligna do assoalho da boca com lesão invasiva",
+        "DESCRABREV": "C04.8 Lesao invasiva do assoalho da boca",
+        "neoplasias": "C048-Neoplasia maligna do assoalho da boca com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C049",
+        "DESCRICAO": "Neoplasia maligna do assoalho da boca, não especificado",
+        "DESCRABREV": "C04.9 Assoalho da boca NE",
+        "neoplasias": "C049-Neoplasia maligna do assoalho da boca, não especificado"
+    },
+    {
+        "SUBCAT": "C050",
+        "DESCRICAO": "Neoplasia maligna do palato duro",
+        "DESCRABREV": "C05.0 Palato duro",
+        "neoplasias": "C050-Neoplasia maligna do palato duro"
+    },
+    {
+        "SUBCAT": "C051",
+        "DESCRICAO": "Neoplasia maligna do palato mole",
+        "DESCRABREV": "C05.1 Palato mole",
+        "neoplasias": "C051-Neoplasia maligna do palato mole"
+    },
+    {
+        "SUBCAT": "C052",
+        "DESCRICAO": "Neoplasia maligna da úvula",
+        "DESCRABREV": "C05.2 Uvula",
+        "neoplasias": "C052-Neoplasia maligna da úvula"
+    },
+    {
+        "SUBCAT": "C058",
+        "DESCRICAO": "Neoplasia maligna do palato com lesão invasiva",
+        "DESCRABREV": "C05.8 Lesao invasiva do palato",
+        "neoplasias": "C058-Neoplasia maligna do palato com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C059",
+        "DESCRICAO": "Neoplasia maligna do palato, não especificado",
+        "DESCRABREV": "C05.9 Palato NE",
+        "neoplasias": "C059-Neoplasia maligna do palato, não especificado"
+    },
+    {
+        "SUBCAT": "C060",
+        "DESCRICAO": "Neoplasia maligna da mucosa oral",
+        "DESCRABREV": "C06.0 Mucosa oral",
+        "neoplasias": "C060-Neoplasia maligna da mucosa oral"
+    },
+    {
+        "SUBCAT": "C061",
+        "DESCRICAO": "Neoplasia maligna do vestíbulo da boca",
+        "DESCRABREV": "C06.1 Vestibulo da boca",
+        "neoplasias": "C061-Neoplasia maligna do vestíbulo da boca"
+    },
+    {
+        "SUBCAT": "C062",
+        "DESCRICAO": "Neoplasia maligna da área retromolar",
+        "DESCRABREV": "C06.2 Area retromolar",
+        "neoplasias": "C062-Neoplasia maligna da área retromolar"
+    },
+    {
+        "SUBCAT": "C068",
+        "DESCRICAO": "Neoplasia maligna de outras partes e de partes não especificadas da boca com lesão invasiva",
+        "DESCRABREV": "C06.8 Lesao invasiva outr partes e partes NE boca",
+        "neoplasias": "C068-Neoplasia maligna de outras partes e de partes não especificadas da boca com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C069",
+        "DESCRICAO": "Neoplasia maligna da boca, não especificada",
+        "DESCRABREV": "C06.9 Boca NE",
+        "neoplasias": "C069-Neoplasia maligna da boca, não especificada"
+    },
+    {
+        "SUBCAT": "C07",
+        "DESCRICAO": "Neoplasia maligna da glândula parótida",
+        "DESCRABREV": "C07   Neopl malig da gland parotida",
+        "neoplasias": "C07-Neoplasia maligna da glândula parótida"
+    },
+    {
+        "SUBCAT": "C080",
+        "DESCRICAO": "Neoplasia maligna da glândula submandibular",
+        "DESCRABREV": "C08.0 Gland submandibular",
+        "neoplasias": "C080-Neoplasia maligna da glândula submandibular"
+    },
+    {
+        "SUBCAT": "C081",
+        "DESCRICAO": "Neoplasia maligna da glândula sublingual",
+        "DESCRABREV": "C08.1 Gland sublingual",
+        "neoplasias": "C081-Neoplasia maligna da glândula sublingual"
+    },
+    {
+        "SUBCAT": "C088",
+        "DESCRICAO": "Neoplasia maligna das glândulas salivares maiores com lesão invasiva",
+        "DESCRABREV": "C08.8 Lesao invasiva de gland salivares maiores",
+        "neoplasias": "C088-Neoplasia maligna das glândulas salivares maiores com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C089",
+        "DESCRICAO": "Neoplasia maligna da glândula salivar maior, não especificada",
+        "DESCRABREV": "C08.9 Gland salivar maior NE",
+        "neoplasias": "C089-Neoplasia maligna da glândula salivar maior, não especificada"
+    },
+    {
+        "SUBCAT": "C090",
+        "DESCRICAO": "Neoplasia maligna da fossa amigdaliana",
+        "DESCRABREV": "C09.0 Fossa amigdaliana",
+        "neoplasias": "C090-Neoplasia maligna da fossa amigdaliana"
+    },
+    {
+        "SUBCAT": "C091",
+        "DESCRICAO": "Neoplasia maligna do pilar amigdaliano (anterior) (posterior)",
+        "DESCRABREV": "C09.1 Pilar amigdaliano",
+        "neoplasias": "C091-Neoplasia maligna do pilar amigdaliano (anterior) (posterior)"
+    },
+    {
+        "SUBCAT": "C098",
+        "DESCRICAO": "Neoplasia maligna da amígdala com lesão invasiva",
+        "DESCRABREV": "C09.8 Lesao invasiva da amigdala",
+        "neoplasias": "C098-Neoplasia maligna da amígdala com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C099",
+        "DESCRICAO": "Neoplasia maligna da amígdala, não especificada",
+        "DESCRABREV": "C09.9 Amigdala NE",
+        "neoplasias": "C099-Neoplasia maligna da amígdala, não especificada"
+    },
+    {
+        "SUBCAT": "C100",
+        "DESCRICAO": "Neoplasia maligna da valécula",
+        "DESCRABREV": "C10.0 Valecula",
+        "neoplasias": "C100-Neoplasia maligna da valécula"
+    },
+    {
+        "SUBCAT": "C101",
+        "DESCRICAO": "Neoplasia maligna da face anterior da epiglote",
+        "DESCRABREV": "C10.1 Face anterior da epiglote",
+        "neoplasias": "C101-Neoplasia maligna da face anterior da epiglote"
+    },
+    {
+        "SUBCAT": "C102",
+        "DESCRICAO": "Neoplasia maligna da parede lateral da orofaringe",
+        "DESCRABREV": "C10.2 Parede lateral da orofaringe",
+        "neoplasias": "C102-Neoplasia maligna da parede lateral da orofaringe"
+    },
+    {
+        "SUBCAT": "C103",
+        "DESCRICAO": "Neoplasia maligna da parede posterior da orofaringe",
+        "DESCRABREV": "C10.3 Parede posterior da orofaringe",
+        "neoplasias": "C103-Neoplasia maligna da parede posterior da orofaringe"
+    },
+    {
+        "SUBCAT": "C104",
+        "DESCRICAO": "Neoplasia maligna da fenda branquial",
+        "DESCRABREV": "C10.4 Fenda branquial",
+        "neoplasias": "C104-Neoplasia maligna da fenda branquial"
+    },
+    {
+        "SUBCAT": "C108",
+        "DESCRICAO": "Neoplasia maligna da orofaringe com lesão invasiva",
+        "DESCRABREV": "C10.8 Lesao invasiva da orofaringe",
+        "neoplasias": "C108-Neoplasia maligna da orofaringe com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C109",
+        "DESCRICAO": "Neoplasia maligna da orofaringe, não especificada",
+        "DESCRABREV": "C10.9 Orofaringe NE",
+        "neoplasias": "C109-Neoplasia maligna da orofaringe, não especificada"
+    },
+    {
+        "SUBCAT": "C110",
+        "DESCRICAO": "Neoplasia maligna da parede superior da nasofaringe",
+        "DESCRABREV": "C11.0 Parede super da nasofaringe",
+        "neoplasias": "C110-Neoplasia maligna da parede superior da nasofaringe"
+    },
+    {
+        "SUBCAT": "C111",
+        "DESCRICAO": "Neoplasia maligna da parede posterior da nasofaringe",
+        "DESCRABREV": "C11.1 Parede posterior da nasofaringe",
+        "neoplasias": "C111-Neoplasia maligna da parede posterior da nasofaringe"
+    },
+    {
+        "SUBCAT": "C112",
+        "DESCRICAO": "Neoplasia maligna da parede lateral da nasofaringe",
+        "DESCRABREV": "C11.2 Parede lateral da nasofaringe",
+        "neoplasias": "C112-Neoplasia maligna da parede lateral da nasofaringe"
+    },
+    {
+        "SUBCAT": "C113",
+        "DESCRICAO": "Neoplasia maligna da parede anterior da nasofaringe",
+        "DESCRABREV": "C11.3 Parede anterior da nasofaringe",
+        "neoplasias": "C113-Neoplasia maligna da parede anterior da nasofaringe"
+    },
+    {
+        "SUBCAT": "C118",
+        "DESCRICAO": "Neoplasia maligna da nasofaringe com lesão invasiva",
+        "DESCRABREV": "C11.8 Lesao invasiva da nasofaringe",
+        "neoplasias": "C118-Neoplasia maligna da nasofaringe com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C119",
+        "DESCRICAO": "Neoplasia maligna da nasofaringe, não especificada",
+        "DESCRABREV": "C11.9 Nasofaringe NE",
+        "neoplasias": "C119-Neoplasia maligna da nasofaringe, não especificada"
+    },
+    {
+        "SUBCAT": "C12",
+        "DESCRICAO": "Neoplasia maligna do seio piriforme",
+        "DESCRABREV": "C12   Neopl malig do seio piriforme",
+        "neoplasias": "C12-Neoplasia maligna do seio piriforme"
+    },
+    {
+        "SUBCAT": "C130",
+        "DESCRICAO": "Neoplasia maligna da região pós-cricóidea",
+        "DESCRABREV": "C13.0 Regiao pos-cricoidea",
+        "neoplasias": "C130-Neoplasia maligna da região pós-cricóidea"
+    },
+    {
+        "SUBCAT": "C131",
+        "DESCRICAO": "Neoplasia maligna da prega ariepiglótica, face hipofaríngea",
+        "DESCRABREV": "C13.1 Prega ariepiglotica face hipofaringea",
+        "neoplasias": "C131-Neoplasia maligna da prega ariepiglótica, face hipofaríngea"
+    },
+    {
+        "SUBCAT": "C132",
+        "DESCRICAO": "Neoplasia maligna da parede posterior da hipofaringe",
+        "DESCRABREV": "C13.2 Parede posterior da hipofaringe",
+        "neoplasias": "C132-Neoplasia maligna da parede posterior da hipofaringe"
+    },
+    {
+        "SUBCAT": "C138",
+        "DESCRICAO": "Neoplasia maligna da hipofaringe com lesão invasiva",
+        "DESCRABREV": "C13.8 Lesao invasiva da hipofaringe",
+        "neoplasias": "C138-Neoplasia maligna da hipofaringe com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C139",
+        "DESCRICAO": "Neoplasia maligna da hipofaringe, não especificada",
+        "DESCRABREV": "C13.9 Hipofaringe NE",
+        "neoplasias": "C139-Neoplasia maligna da hipofaringe, não especificada"
+    },
+    {
+        "SUBCAT": "C140",
+        "DESCRICAO": "Neoplasia maligna da faringe, não especificada",
+        "DESCRABREV": "C14.0 Faringe NE",
+        "neoplasias": "C140-Neoplasia maligna da faringe, não especificada"
+    },
+    {
+        "SUBCAT": "C142",
+        "DESCRICAO": "Neoplasia maligna do anel de Waldeyer",
+        "DESCRABREV": "C14.2 Anel de Waldeyer",
+        "neoplasias": "C142-Neoplasia maligna do anel de Waldeyer"
+    },
+    {
+        "SUBCAT": "C148",
+        "DESCRICAO": "Neoplasia maligna do lábio, cavidade oral e faringe com lesão invasiva",
+        "DESCRABREV": "C14.8 Lesao invasiva labio cavidade oral e faringe",
+        "neoplasias": "C148-Neoplasia maligna do lábio, cavidade oral e faringe com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C150",
+        "DESCRICAO": "Neoplasia maligna da porção cervical do esôfago (esôfago cervical)",
+        "DESCRABREV": "C15.0 Porcao cervical do esofago",
+        "neoplasias": "C150-Neoplasia maligna da porção cervical do esôfago (esôfago cervical)"
+    },
+    {
+        "SUBCAT": "C151",
+        "DESCRICAO": "Neoplasia maligna da porção torácica do esôfago (esôfago torácico)",
+        "DESCRABREV": "C15.1 Porcao toracica do esofago",
+        "neoplasias": "C151-Neoplasia maligna da porção torácica do esôfago (esôfago torácico)"
+    },
+    {
+        "SUBCAT": "C152",
+        "DESCRICAO": "Neoplasia maligna da porção abdominal do esôfago (esôfago abdominal)",
+        "DESCRABREV": "C15.2 Porcao abdominal do esofago",
+        "neoplasias": "C152-Neoplasia maligna da porção abdominal do esôfago (esôfago abdominal)"
+    },
+    {
+        "SUBCAT": "C153",
+        "DESCRICAO": "Neoplasia maligna do terço superior do esôfago",
+        "DESCRABREV": "C15.3 Terco super do esofago",
+        "neoplasias": "C153-Neoplasia maligna do terço superior do esôfago"
+    },
+    {
+        "SUBCAT": "C154",
+        "DESCRICAO": "Neoplasia maligna do terço médio do esôfago",
+        "DESCRABREV": "C15.4 Terco medio do esofago",
+        "neoplasias": "C154-Neoplasia maligna do terço médio do esôfago"
+    },
+    {
+        "SUBCAT": "C155",
+        "DESCRICAO": "Neoplasia maligna do terço inferior do esôfago",
+        "DESCRABREV": "C15.5 Terco infer do esofago",
+        "neoplasias": "C155-Neoplasia maligna do terço inferior do esôfago"
+    },
+    {
+        "SUBCAT": "C158",
+        "DESCRICAO": "Neoplasia maligna do esôfago com lesão invasiva",
+        "DESCRABREV": "C15.8 Lesao invasiva do esofago",
+        "neoplasias": "C158-Neoplasia maligna do esôfago com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C159",
+        "DESCRICAO": "Neoplasia maligna do esôfago, não especificado",
+        "DESCRABREV": "C15.9 Esofago NE",
+        "neoplasias": "C159-Neoplasia maligna do esôfago, não especificado"
+    },
+    {
+        "SUBCAT": "C160",
+        "DESCRICAO": "Neoplasia maligna da cárdia",
+        "DESCRABREV": "C16.0 Cardia",
+        "neoplasias": "C160-Neoplasia maligna da cárdia"
+    },
+    {
+        "SUBCAT": "C161",
+        "DESCRICAO": "Neoplasia maligna do fundo do estômago",
+        "DESCRABREV": "C16.1 Fundo do estomago",
+        "neoplasias": "C161-Neoplasia maligna do fundo do estômago"
+    },
+    {
+        "SUBCAT": "C162",
+        "DESCRICAO": "Neoplasia maligna do corpo do estômago",
+        "DESCRABREV": "C16.2 Corpo do estomago",
+        "neoplasias": "C162-Neoplasia maligna do corpo do estômago"
+    },
+    {
+        "SUBCAT": "C163",
+        "DESCRICAO": "Neoplasia maligna do antro pilórico",
+        "DESCRABREV": "C16.3 Antro pilorico",
+        "neoplasias": "C163-Neoplasia maligna do antro pilórico"
+    },
+    {
+        "SUBCAT": "C164",
+        "DESCRICAO": "Neoplasia maligna do piloro",
+        "DESCRABREV": "C16.4 Piloro",
+        "neoplasias": "C164-Neoplasia maligna do piloro"
+    },
+    {
+        "SUBCAT": "C165",
+        "DESCRICAO": "Neoplasia maligna da pequena curvatura do estômago, não especificada",
+        "DESCRABREV": "C16.5 Pequena curvatura do estomago NE",
+        "neoplasias": "C165-Neoplasia maligna da pequena curvatura do estômago, não especificada"
+    },
+    {
+        "SUBCAT": "C166",
+        "DESCRICAO": "Neoplasia maligna da grande curvatura do estômago, não especificada",
+        "DESCRABREV": "C16.6 Grande curvatura do estomago NE",
+        "neoplasias": "C166-Neoplasia maligna da grande curvatura do estômago, não especificada"
+    },
+    {
+        "SUBCAT": "C168",
+        "DESCRICAO": "Neoplasia maligna do estômago com lesão invasiva",
+        "DESCRABREV": "C16.8 Lesao invasiva do estomago",
+        "neoplasias": "C168-Neoplasia maligna do estômago com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C169",
+        "DESCRICAO": "Neoplasia maligna do estômago, não especificado",
+        "DESCRABREV": "C16.9 Estomago NE",
+        "neoplasias": "C169-Neoplasia maligna do estômago, não especificado"
+    },
+    {
+        "SUBCAT": "C170",
+        "DESCRICAO": "Neoplasia maligna do duodeno",
+        "DESCRABREV": "C17.0 Duodeno",
+        "neoplasias": "C170-Neoplasia maligna do duodeno"
+    },
+    {
+        "SUBCAT": "C171",
+        "DESCRICAO": "Neoplasia maligna do jejuno",
+        "DESCRABREV": "C17.1 Jejuno",
+        "neoplasias": "C171-Neoplasia maligna do jejuno"
+    },
+    {
+        "SUBCAT": "C172",
+        "DESCRICAO": "Neoplasia maligna do íleo",
+        "DESCRABREV": "C17.2 Ileo",
+        "neoplasias": "C172-Neoplasia maligna do íleo"
+    },
+    {
+        "SUBCAT": "C173",
+        "DESCRICAO": "Neoplasia maligna do divertículo de Meckel",
+        "DESCRABREV": "C17.3 Diverticulo de Meckel",
+        "neoplasias": "C173-Neoplasia maligna do divertículo de Meckel"
+    },
+    {
+        "SUBCAT": "C178",
+        "DESCRICAO": "Neoplasia maligna do intestino delgado com lesão invasiva",
+        "DESCRABREV": "C17.8 Lesao invasiva do intestino delgado",
+        "neoplasias": "C178-Neoplasia maligna do intestino delgado com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C179",
+        "DESCRICAO": "Neoplasia maligna do intestino delgado, não especificado",
+        "DESCRABREV": "C17.9 Intestino delgado NE",
+        "neoplasias": "C179-Neoplasia maligna do intestino delgado, não especificado"
+    },
+    {
+        "SUBCAT": "C180",
+        "DESCRICAO": "Neoplasia maligna do ceco",
+        "DESCRABREV": "C18.0 Ceco",
+        "neoplasias": "C180-Neoplasia maligna do ceco"
+    },
+    {
+        "SUBCAT": "C181",
+        "DESCRICAO": "Neoplasia maligna do apêndice (vermiforme)",
+        "DESCRABREV": "C18.1 Apendice",
+        "neoplasias": "C181-Neoplasia maligna do apêndice (vermiforme)"
+    },
+    {
+        "SUBCAT": "C182",
+        "DESCRICAO": "Neoplasia maligna do cólon ascendente",
+        "DESCRABREV": "C18.2 Colon ascendente",
+        "neoplasias": "C182-Neoplasia maligna do cólon ascendente"
+    },
+    {
+        "SUBCAT": "C183",
+        "DESCRICAO": "Neoplasia maligna da flexura (ângulo) hepática(o)",
+        "DESCRABREV": "C18.3 Flexura hepatica",
+        "neoplasias": "C183-Neoplasia maligna da flexura (ângulo) hepática(o)"
+    },
+    {
+        "SUBCAT": "C184",
+        "DESCRICAO": "Neoplasia maligna do cólon transverso",
+        "DESCRABREV": "C18.4 Colon transverso",
+        "neoplasias": "C184-Neoplasia maligna do cólon transverso"
+    },
+    {
+        "SUBCAT": "C185",
+        "DESCRICAO": "Neoplasia maligna da flexura (ângulo) esplênica(o)",
+        "DESCRABREV": "C18.5 Flexura esplenica",
+        "neoplasias": "C185-Neoplasia maligna da flexura (ângulo) esplênica(o)"
+    },
+    {
+        "SUBCAT": "C186",
+        "DESCRICAO": "Neoplasia maligna do cólon descendente",
+        "DESCRABREV": "C18.6 Colon descendente",
+        "neoplasias": "C186-Neoplasia maligna do cólon descendente"
+    },
+    {
+        "SUBCAT": "C187",
+        "DESCRICAO": "Neoplasia maligna do cólon sigmóide",
+        "DESCRABREV": "C18.7 Colon sigmoide",
+        "neoplasias": "C187-Neoplasia maligna do cólon sigmóide"
+    },
+    {
+        "SUBCAT": "C188",
+        "DESCRICAO": "Neoplasia maligna do cólon com lesão invasiva",
+        "DESCRABREV": "C18.8 Lesao invasiva do colon",
+        "neoplasias": "C188-Neoplasia maligna do cólon com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C189",
+        "DESCRICAO": "Neoplasia maligna do cólon, não especificado",
+        "DESCRABREV": "C18.9 Colon NE",
+        "neoplasias": "C189-Neoplasia maligna do cólon, não especificado"
+    },
+    {
+        "SUBCAT": "C19",
+        "DESCRICAO": "Neoplasia maligna da junção retossigmóide",
+        "DESCRABREV": "C19   Neopl malig da juncao retossigmoide",
+        "neoplasias": "C19-Neoplasia maligna da junção retossigmóide"
+    },
+    {
+        "SUBCAT": "C20",
+        "DESCRICAO": "Neoplasia maligna do reto",
+        "DESCRABREV": "C20   Neopl malig do reto",
+        "neoplasias": "C20-Neoplasia maligna do reto"
+    },
+    {
+        "SUBCAT": "C210",
+        "DESCRICAO": "Neoplasia maligna do ânus, não especificado",
+        "DESCRABREV": "C21.0 Anus NE",
+        "neoplasias": "C210-Neoplasia maligna do ânus, não especificado"
+    },
+    {
+        "SUBCAT": "C211",
+        "DESCRICAO": "Neoplasia maligna do canal anal",
+        "DESCRABREV": "C21.1 Canal anal",
+        "neoplasias": "C211-Neoplasia maligna do canal anal"
+    },
+    {
+        "SUBCAT": "C212",
+        "DESCRICAO": "Neoplasia maligna da zona cloacogênica",
+        "DESCRABREV": "C21.2 Zona cloacogenica",
+        "neoplasias": "C212-Neoplasia maligna da zona cloacogênica"
+    },
+    {
+        "SUBCAT": "C218",
+        "DESCRICAO": "Neoplasia maligna do reto, ânus e do canal anal com lesão invasiva",
+        "DESCRABREV": "C21.8 Lesao invasiva do reto anus e do canal anal",
+        "neoplasias": "C218-Neoplasia maligna do reto, ânus e do canal anal com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C220",
+        "DESCRICAO": "Carcinoma de células hepáticas",
+        "DESCRABREV": "C22.0 Carcinoma de celulas hepaticas",
+        "neoplasias": "C220-Carcinoma de células hepáticas"
+    },
+    {
+        "SUBCAT": "C221",
+        "DESCRICAO": "Carcinoma de vias biliares intra-hepáticas",
+        "DESCRABREV": "C22.1 Carcinoma de vias biliares intra-hepaticas",
+        "neoplasias": "C221-Carcinoma de vias biliares intra-hepáticas"
+    },
+    {
+        "SUBCAT": "C222",
+        "DESCRICAO": "Hepatoblastoma",
+        "DESCRABREV": "C22.2 Hepatoblastoma",
+        "neoplasias": "C222-Hepatoblastoma"
+    },
+    {
+        "SUBCAT": "C223",
+        "DESCRICAO": "Angiossarcoma do fígado",
+        "DESCRABREV": "C22.3 Angiossarcoma do figado",
+        "neoplasias": "C223-Angiossarcoma do fígado"
+    },
+    {
+        "SUBCAT": "C224",
+        "DESCRICAO": "Outros sarcomas do fígado",
+        "DESCRABREV": "C22.4 Outr sarcomas do figado",
+        "neoplasias": "C224-Outros sarcomas do fígado"
+    },
+    {
+        "SUBCAT": "C227",
+        "DESCRICAO": "Outros carcinomas especificados do fígado",
+        "DESCRABREV": "C22.7 Outr carcinomas espec do figado",
+        "neoplasias": "C227-Outros carcinomas especificados do fígado"
+    },
+    {
+        "SUBCAT": "C229",
+        "DESCRICAO": "Neoplasia maligna do fígado, não especificada",
+        "DESCRABREV": "C22.9 Neopl malig do figado NE",
+        "neoplasias": "C229-Neoplasia maligna do fígado, não especificada"
+    },
+    {
+        "SUBCAT": "C23",
+        "DESCRICAO": "Neoplasia maligna da vesícula biliar",
+        "DESCRABREV": "C23   Neopl malig da vesicula biliar",
+        "neoplasias": "C23-Neoplasia maligna da vesícula biliar"
+    },
+    {
+        "SUBCAT": "C240",
+        "DESCRICAO": "Neoplasia maligna das vias biliares extra-hepáticas",
+        "DESCRABREV": "C24.0 Vias biliares extra-hepaticas",
+        "neoplasias": "C240-Neoplasia maligna das vias biliares extra-hepáticas"
+    },
+    {
+        "SUBCAT": "C241",
+        "DESCRICAO": "Neoplasia maligna da ampola de Vater",
+        "DESCRABREV": "C24.1 Ampola de Vater",
+        "neoplasias": "C241-Neoplasia maligna da ampola de Vater"
+    },
+    {
+        "SUBCAT": "C248",
+        "DESCRICAO": "Neoplasia maligna das vias biliares com lesão invasiva",
+        "DESCRABREV": "C24.8 Lesao invasiva das vias biliares",
+        "neoplasias": "C248-Neoplasia maligna das vias biliares com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C249",
+        "DESCRICAO": "Neoplasia maligna da via biliar, não especificada",
+        "DESCRABREV": "C24.9 Via biliar NE",
+        "neoplasias": "C249-Neoplasia maligna da via biliar, não especificada"
+    },
+    {
+        "SUBCAT": "C250",
+        "DESCRICAO": "Neoplasia maligna da cabeça do pâncreas",
+        "DESCRABREV": "C25.0 Cabeca do pancreas",
+        "neoplasias": "C250-Neoplasia maligna da cabeça do pâncreas"
+    },
+    {
+        "SUBCAT": "C251",
+        "DESCRICAO": "Neoplasia maligna do corpo do pâncreas",
+        "DESCRABREV": "C25.1 Corpo do pancreas",
+        "neoplasias": "C251-Neoplasia maligna do corpo do pâncreas"
+    },
+    {
+        "SUBCAT": "C252",
+        "DESCRICAO": "Neoplasia maligna da cauda do pâncreas",
+        "DESCRABREV": "C25.2 Cauda do pancreas",
+        "neoplasias": "C252-Neoplasia maligna da cauda do pâncreas"
+    },
+    {
+        "SUBCAT": "C253",
+        "DESCRICAO": "Neoplasia maligna do canal pancreático",
+        "DESCRABREV": "C25.3 Canal pancreatico",
+        "neoplasias": "C253-Neoplasia maligna do canal pancreático"
+    },
+    {
+        "SUBCAT": "C254",
+        "DESCRICAO": "Neoplasia maligna do pâncreas endócrino",
+        "DESCRABREV": "C25.4 Pancreas endocrino",
+        "neoplasias": "C254-Neoplasia maligna do pâncreas endócrino"
+    },
+    {
+        "SUBCAT": "C257",
+        "DESCRICAO": "Neoplasia maligna de outras partes do pâncreas",
+        "DESCRABREV": "C25.7 Neopl malig de outr partes do pancreas",
+        "neoplasias": "C257-Neoplasia maligna de outras partes do pâncreas"
+    },
+    {
+        "SUBCAT": "C258",
+        "DESCRICAO": "Neoplasia maligna do pâncreas com lesão invasiva",
+        "DESCRABREV": "C25.8 Lesao invasiva do pancreas",
+        "neoplasias": "C258-Neoplasia maligna do pâncreas com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C259",
+        "DESCRICAO": "Neoplasia maligna do pâncreas, não especificado",
+        "DESCRABREV": "C25.9 Pancreas NE",
+        "neoplasias": "C259-Neoplasia maligna do pâncreas, não especificado"
+    },
+    {
+        "SUBCAT": "C260",
+        "DESCRICAO": "Neoplasia maligna do trato intestinal, parte não especificada",
+        "DESCRABREV": "C26.0 Trato intestinal parte NE",
+        "neoplasias": "C260-Neoplasia maligna do trato intestinal, parte não especificada"
+    },
+    {
+        "SUBCAT": "C261",
+        "DESCRICAO": "Neoplasia maligna do baço",
+        "DESCRABREV": "C26.1 Baco",
+        "neoplasias": "C261-Neoplasia maligna do baço"
+    },
+    {
+        "SUBCAT": "C268",
+        "DESCRICAO": "Neoplasia maligna do aparelho digestivo com lesão invasiva",
+        "DESCRABREV": "C26.8 Lesao invasiva do aparelho digestivo",
+        "neoplasias": "C268-Neoplasia maligna do aparelho digestivo com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C269",
+        "DESCRICAO": "Neoplasia maligna de localizações mal definidas dentro do aparelho digestivo",
+        "DESCRABREV": "C26.9 Localiz mal def dentro aparelho digestivo",
+        "neoplasias": "C269-Neoplasia maligna de localizações mal definidas dentro do aparelho digestivo"
+    },
+    {
+        "SUBCAT": "C300",
+        "DESCRICAO": "Neoplasia maligna da cavidade nasal",
+        "DESCRABREV": "C30.0 Cavidade nasal",
+        "neoplasias": "C300-Neoplasia maligna da cavidade nasal"
+    },
+    {
+        "SUBCAT": "C301",
+        "DESCRICAO": "Neoplasia maligna do ouvido médio",
+        "DESCRABREV": "C30.1 Ouvido medio",
+        "neoplasias": "C301-Neoplasia maligna do ouvido médio"
+    },
+    {
+        "SUBCAT": "C310",
+        "DESCRICAO": "Neoplasia maligna do seio maxilar",
+        "DESCRABREV": "C31.0 Seio maxilar",
+        "neoplasias": "C310-Neoplasia maligna do seio maxilar"
+    },
+    {
+        "SUBCAT": "C311",
+        "DESCRICAO": "Neoplasia maligna do seio etmoidal",
+        "DESCRABREV": "C31.1 Seio etmoidal",
+        "neoplasias": "C311-Neoplasia maligna do seio etmoidal"
+    },
+    {
+        "SUBCAT": "C312",
+        "DESCRICAO": "Neoplasia maligna do seio frontal",
+        "DESCRABREV": "C31.2 Seio frontal",
+        "neoplasias": "C312-Neoplasia maligna do seio frontal"
+    },
+    {
+        "SUBCAT": "C313",
+        "DESCRICAO": "Neoplasia maligna do seio esfenoidal",
+        "DESCRABREV": "C31.3 Seio esfenoidal",
+        "neoplasias": "C313-Neoplasia maligna do seio esfenoidal"
+    },
+    {
+        "SUBCAT": "C318",
+        "DESCRICAO": "Neoplasia maligna dos seios da face com lesão invasiva",
+        "DESCRABREV": "C31.8 Lesao invasiva dos seios da face",
+        "neoplasias": "C318-Neoplasia maligna dos seios da face com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C319",
+        "DESCRICAO": "Neoplasia maligna do seio da face, não especificado",
+        "DESCRABREV": "C31.9 Seio da face NE",
+        "neoplasias": "C319-Neoplasia maligna do seio da face, não especificado"
+    },
+    {
+        "SUBCAT": "C320",
+        "DESCRICAO": "Neoplasia maligna da glote",
+        "DESCRABREV": "C32.0 Glote",
+        "neoplasias": "C320-Neoplasia maligna da glote"
+    },
+    {
+        "SUBCAT": "C321",
+        "DESCRICAO": "Neoplasia maligna da região supraglótica",
+        "DESCRABREV": "C32.1 Regiao supraglotica",
+        "neoplasias": "C321-Neoplasia maligna da região supraglótica"
+    },
+    {
+        "SUBCAT": "C322",
+        "DESCRICAO": "Neoplasia maligna da região subglótica",
+        "DESCRABREV": "C32.2 Regiao subglotica",
+        "neoplasias": "C322-Neoplasia maligna da região subglótica"
+    },
+    {
+        "SUBCAT": "C323",
+        "DESCRICAO": "Neoplasia maligna das cartilagens da laringe",
+        "DESCRABREV": "C32.3 Cartilagens da laringe",
+        "neoplasias": "C323-Neoplasia maligna das cartilagens da laringe"
+    },
+    {
+        "SUBCAT": "C328",
+        "DESCRICAO": "Neoplasia maligna da laringe com lesão invasiva",
+        "DESCRABREV": "C32.8 Lesao invasiva da laringe",
+        "neoplasias": "C328-Neoplasia maligna da laringe com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C329",
+        "DESCRICAO": "Neoplasia maligna da laringe, não especificada",
+        "DESCRABREV": "C32.9 Laringe NE",
+        "neoplasias": "C329-Neoplasia maligna da laringe, não especificada"
+    },
+    {
+        "SUBCAT": "C33",
+        "DESCRICAO": "Neoplasia maligna da traquéia",
+        "DESCRABREV": "C33   Neopl malig da traqueia",
+        "neoplasias": "C33-Neoplasia maligna da traquéia"
+    },
+    {
+        "SUBCAT": "C340",
+        "DESCRICAO": "Neoplasia maligna do brônquio principal",
+        "DESCRABREV": "C34.0 Bronquio principal",
+        "neoplasias": "C340-Neoplasia maligna do brônquio principal"
+    },
+    {
+        "SUBCAT": "C341",
+        "DESCRICAO": "Neoplasia maligna do lobo superior, brônquio ou pulmão",
+        "DESCRABREV": "C34.1 Lobo super bronquio ou pulmao",
+        "neoplasias": "C341-Neoplasia maligna do lobo superior, brônquio ou pulmão"
+    },
+    {
+        "SUBCAT": "C342",
+        "DESCRICAO": "Neoplasia maligna do lobo médio, brônquio ou pulmão",
+        "DESCRABREV": "C34.2 Lobo medio bronquio ou pulmao",
+        "neoplasias": "C342-Neoplasia maligna do lobo médio, brônquio ou pulmão"
+    },
+    {
+        "SUBCAT": "C343",
+        "DESCRICAO": "Neoplasia maligna do lobo inferior, brônquio ou pulmão",
+        "DESCRABREV": "C34.3 Lobo infer bronquio ou pulmao",
+        "neoplasias": "C343-Neoplasia maligna do lobo inferior, brônquio ou pulmão"
+    },
+    {
+        "SUBCAT": "C348",
+        "DESCRICAO": "Neoplasia maligna dos brônquios e dos pulmões com lesão invasiva",
+        "DESCRABREV": "C34.8 Lesao invasiva dos bronquios e dos pulmoes",
+        "neoplasias": "C348-Neoplasia maligna dos brônquios e dos pulmões com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C349",
+        "DESCRICAO": "Neoplasia maligna dos brônquios ou pulmões, não especificado",
+        "DESCRABREV": "C34.9 Bronquios ou pulmoes NE",
+        "neoplasias": "C349-Neoplasia maligna dos brônquios ou pulmões, não especificado"
+    },
+    {
+        "SUBCAT": "C37",
+        "DESCRICAO": "Neoplasia maligna do timo",
+        "DESCRABREV": "C37   Neopl malig do timo",
+        "neoplasias": "C37-Neoplasia maligna do timo"
+    },
+    {
+        "SUBCAT": "C380",
+        "DESCRICAO": "Neoplasia maligna do coração",
+        "DESCRABREV": "C38.0 Coracao",
+        "neoplasias": "C380-Neoplasia maligna do coração"
+    },
+    {
+        "SUBCAT": "C381",
+        "DESCRICAO": "Neoplasia maligna do mediastino anterior",
+        "DESCRABREV": "C38.1 Mediastino anterior",
+        "neoplasias": "C381-Neoplasia maligna do mediastino anterior"
+    },
+    {
+        "SUBCAT": "C382",
+        "DESCRICAO": "Neoplasia maligna do mediastino posterior",
+        "DESCRABREV": "C38.2 Mediastino posterior",
+        "neoplasias": "C382-Neoplasia maligna do mediastino posterior"
+    },
+    {
+        "SUBCAT": "C383",
+        "DESCRICAO": "Neoplasia maligna do mediastino, porção não especificada",
+        "DESCRABREV": "C38.3 Mediastino porcao NE",
+        "neoplasias": "C383-Neoplasia maligna do mediastino, porção não especificada"
+    },
+    {
+        "SUBCAT": "C384",
+        "DESCRICAO": "Neoplasia maligna da pleura",
+        "DESCRABREV": "C38.4 Pleura",
+        "neoplasias": "C384-Neoplasia maligna da pleura"
+    },
+    {
+        "SUBCAT": "C388",
+        "DESCRICAO": "Neoplasia maligna do coração, mediastino e pleura com lesão invasiva",
+        "DESCRABREV": "C38.8 Lesao invasiva coracao mediastino e pleura",
+        "neoplasias": "C388-Neoplasia maligna do coração, mediastino e pleura com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C390",
+        "DESCRICAO": "Neoplasia maligna do trato respiratório superior, porção não especificada",
+        "DESCRABREV": "C39.0 Trato respirat super porcao NE",
+        "neoplasias": "C390-Neoplasia maligna do trato respiratório superior, porção não especificada"
+    },
+    {
+        "SUBCAT": "C398",
+        "DESCRICAO": "Neoplasia maligna do aparelho respiratório e dos órgãos intratorácicos com lesão invasiva",
+        "DESCRABREV": "C39.8 Lesao invasiva ap respirat org intratoracic",
+        "neoplasias": "C398-Neoplasia maligna do aparelho respiratório e dos órgãos intratorácicos com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C399",
+        "DESCRICAO": "Neoplasia maligna de localizações mal definidas do aparelho respiratório",
+        "DESCRABREV": "C39.9 Localiz mal definidas do aparelho respirat",
+        "neoplasias": "C399-Neoplasia maligna de localizações mal definidas do aparelho respiratório"
+    },
+    {
+        "SUBCAT": "C400",
+        "DESCRICAO": "Neoplasia maligna da omoplata [escápula] e ossos longos dos membros superiores",
+        "DESCRABREV": "C40.0 Omoplata e ossos longos dos membros super",
+        "neoplasias": "C400-Neoplasia maligna da omoplata [escápula] e ossos longos dos membros superiores"
+    },
+    {
+        "SUBCAT": "C401",
+        "DESCRICAO": "Neoplasia maligna dos ossos curtos dos membros superiores",
+        "DESCRABREV": "C40.1 Ossos curtos dos membros super",
+        "neoplasias": "C401-Neoplasia maligna dos ossos curtos dos membros superiores"
+    },
+    {
+        "SUBCAT": "C402",
+        "DESCRICAO": "Neoplasia maligna dos ossos longos dos membros inferiores",
+        "DESCRABREV": "C40.2 Ossos longos dos membros infer",
+        "neoplasias": "C402-Neoplasia maligna dos ossos longos dos membros inferiores"
+    },
+    {
+        "SUBCAT": "C403",
+        "DESCRICAO": "Neoplasia maligna dos ossos curtos dos membros inferiores",
+        "DESCRABREV": "C40.3 Ossos curtos dos membros infer",
+        "neoplasias": "C403-Neoplasia maligna dos ossos curtos dos membros inferiores"
+    },
+    {
+        "SUBCAT": "C408",
+        "DESCRICAO": "Neoplasia maligna dos ossos e cartilagens articulares dos membros com lesão invasiva",
+        "DESCRABREV": "C40.8 Lesao invasiva ossos/cartilag artic membros",
+        "neoplasias": "C408-Neoplasia maligna dos ossos e cartilagens articulares dos membros com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C409",
+        "DESCRICAO": "Neoplasia maligna dos ossos e cartilagens articulares de membro não especificado",
+        "DESCRABREV": "C40.9 Ossos e cartilagens articulares de membro NE",
+        "neoplasias": "C409-Neoplasia maligna dos ossos e cartilagens articulares de membro não especificado"
+    },
+    {
+        "SUBCAT": "C410",
+        "DESCRICAO": "Neoplasia maligna dos ossos do crânio e da face",
+        "DESCRABREV": "C41.0 Ossos do cranio e da face",
+        "neoplasias": "C410-Neoplasia maligna dos ossos do crânio e da face"
+    },
+    {
+        "SUBCAT": "C411",
+        "DESCRICAO": "Neoplasia maligna da mandíbula",
+        "DESCRABREV": "C41.1 Mandibula",
+        "neoplasias": "C411-Neoplasia maligna da mandíbula"
+    },
+    {
+        "SUBCAT": "C412",
+        "DESCRICAO": "Neoplasia maligna da coluna vertebral",
+        "DESCRABREV": "C41.2 Coluna vertebral",
+        "neoplasias": "C412-Neoplasia maligna da coluna vertebral"
+    },
+    {
+        "SUBCAT": "C413",
+        "DESCRICAO": "Neoplasia maligna das costelas, esterno e clavícula",
+        "DESCRABREV": "C41.3 Costelas esterno e clavicula",
+        "neoplasias": "C413-Neoplasia maligna das costelas, esterno e clavícula"
+    },
+    {
+        "SUBCAT": "C414",
+        "DESCRICAO": "Neoplasia maligna dos ossos da pelve, sacro e cóccix",
+        "DESCRABREV": "C41.4 Ossos da pelve sacro e coccix",
+        "neoplasias": "C414-Neoplasia maligna dos ossos da pelve, sacro e cóccix"
+    },
+    {
+        "SUBCAT": "C418",
+        "DESCRICAO": "Neoplasia maligna dos ossos e das cartilagens articulares com lesão invasiva",
+        "DESCRABREV": "C41.8 Lesao invasiva ossos e cartilag articulares",
+        "neoplasias": "C418-Neoplasia maligna dos ossos e das cartilagens articulares com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C419",
+        "DESCRICAO": "Neoplasia maligna dos ossos e cartilagens articulares, não especificados",
+        "DESCRABREV": "C41.9 Ossos e cartilagens articulares NE",
+        "neoplasias": "C419-Neoplasia maligna dos ossos e cartilagens articulares, não especificados"
+    },
+    {
+        "SUBCAT": "C430",
+        "DESCRICAO": "Melanoma maligno do lábio",
+        "DESCRABREV": "C43.0 Melanoma malig do labio",
+        "neoplasias": "C430-Melanoma maligno do lábio"
+    },
+    {
+        "SUBCAT": "C431",
+        "DESCRICAO": "Melanoma maligno da pálpebra, incluindo as comissuras palpebrais",
+        "DESCRABREV": "C43.1 Melanoma malig palpebra incl comiss palpebr",
+        "neoplasias": "C431-Melanoma maligno da pálpebra, incluindo as comissuras palpebrais"
+    },
+    {
+        "SUBCAT": "C432",
+        "DESCRICAO": "Melanoma maligno da orelha e do conduto auditivo externo",
+        "DESCRABREV": "C43.2 Melanoma malig orelha conduto auditiv extern",
+        "neoplasias": "C432-Melanoma maligno da orelha e do conduto auditivo externo"
+    },
+    {
+        "SUBCAT": "C433",
+        "DESCRICAO": "Melanoma maligno de outras partes e partes não especificadas da face",
+        "DESCRABREV": "C43.3 Melanoma malig outr partes e NE da face",
+        "neoplasias": "C433-Melanoma maligno de outras partes e partes não especificadas da face"
+    },
+    {
+        "SUBCAT": "C434",
+        "DESCRICAO": "Melanoma maligno do couro cabeludo e do pescoço",
+        "DESCRABREV": "C43.4 Melanoma malig couro cabeludo e do pescoco",
+        "neoplasias": "C434-Melanoma maligno do couro cabeludo e do pescoço"
+    },
+    {
+        "SUBCAT": "C435",
+        "DESCRICAO": "Melanoma maligno do tronco",
+        "DESCRABREV": "C43.5 Melanoma maligno do tronco",
+        "neoplasias": "C435-Melanoma maligno do tronco"
+    },
+    {
+        "SUBCAT": "C436",
+        "DESCRICAO": "Melanoma maligno do membro superior, incluindo ombro",
+        "DESCRABREV": "C43.6 Melanoma maligno do membro super incl ombro",
+        "neoplasias": "C436-Melanoma maligno do membro superior, incluindo ombro"
+    },
+    {
+        "SUBCAT": "C437",
+        "DESCRICAO": "Melanoma maligno do membro inferior, incluindo quadril",
+        "DESCRABREV": "C43.7 Melanoma maligno membro infer incl quadril",
+        "neoplasias": "C437-Melanoma maligno do membro inferior, incluindo quadril"
+    },
+    {
+        "SUBCAT": "C438",
+        "DESCRICAO": "Melanoma maligno invasivo da pele",
+        "DESCRABREV": "C43.8 Melanoma maligno invasivo da pele",
+        "neoplasias": "C438-Melanoma maligno invasivo da pele"
+    },
+    {
+        "SUBCAT": "C439",
+        "DESCRICAO": "Melanoma maligno de pele, não especificado",
+        "DESCRABREV": "C43.9 Melanoma maligno de pele NE",
+        "neoplasias": "C439-Melanoma maligno de pele, não especificado"
+    },
+    {
+        "SUBCAT": "C440",
+        "DESCRICAO": "Neoplasia maligna da pele do lábio",
+        "DESCRABREV": "C44.0 Pele do labio",
+        "neoplasias": "C440-Neoplasia maligna da pele do lábio"
+    },
+    {
+        "SUBCAT": "C441",
+        "DESCRICAO": "Neoplasia maligna da pele da pálpebra, incluindo o canto",
+        "DESCRABREV": "C44.1 Pele da palpebra incl o canto",
+        "neoplasias": "C441-Neoplasia maligna da pele da pálpebra, incluindo o canto"
+    },
+    {
+        "SUBCAT": "C442",
+        "DESCRICAO": "Neoplasia maligna da pele da orelha e do conduto auditivo externo",
+        "DESCRABREV": "C44.2 Pele da orelha e do conduto auditivo externo",
+        "neoplasias": "C442-Neoplasia maligna da pele da orelha e do conduto auditivo externo"
+    },
+    {
+        "SUBCAT": "C443",
+        "DESCRICAO": "Neoplasia maligna da pele de outras partes e de partes não especificadas da face",
+        "DESCRABREV": "C44.3 Pele de outr partes e de partes NE da face",
+        "neoplasias": "C443-Neoplasia maligna da pele de outras partes e de partes não especificadas da face"
+    },
+    {
+        "SUBCAT": "C444",
+        "DESCRICAO": "Neoplasia maligna da pele do couro cabeludo e do pescoço",
+        "DESCRABREV": "C44.4 Pele do couro cabeludo e do pescoco",
+        "neoplasias": "C444-Neoplasia maligna da pele do couro cabeludo e do pescoço"
+    },
+    {
+        "SUBCAT": "C445",
+        "DESCRICAO": "Neoplasia maligna da pele do tronco",
+        "DESCRABREV": "C44.5 Pele do tronco",
+        "neoplasias": "C445-Neoplasia maligna da pele do tronco"
+    },
+    {
+        "SUBCAT": "C446",
+        "DESCRICAO": "Neoplasia maligna da pele do membro superior, incluindo ombro",
+        "DESCRABREV": "C44.6 Pele do membro super incl ombro",
+        "neoplasias": "C446-Neoplasia maligna da pele do membro superior, incluindo ombro"
+    },
+    {
+        "SUBCAT": "C447",
+        "DESCRICAO": "Neoplasia maligna da pele do membro inferior, incluindo quadril",
+        "DESCRABREV": "C44.7 Pele do membro infer incl quadril",
+        "neoplasias": "C447-Neoplasia maligna da pele do membro inferior, incluindo quadril"
+    },
+    {
+        "SUBCAT": "C448",
+        "DESCRICAO": "Neoplasia maligna da pele com lesão invasiva",
+        "DESCRABREV": "C44.8 Lesao invasiva da pele",
+        "neoplasias": "C448-Neoplasia maligna da pele com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C449",
+        "DESCRICAO": "Neoplasia maligna da pele, não especificada",
+        "DESCRABREV": "C44.9 Neopl malig da pele NE",
+        "neoplasias": "C449-Neoplasia maligna da pele, não especificada"
+    },
+    {
+        "SUBCAT": "C450",
+        "DESCRICAO": "Mesotelioma da pleura",
+        "DESCRABREV": "C45.0 Mesotelioma da pleura",
+        "neoplasias": "C450-Mesotelioma da pleura"
+    },
+    {
+        "SUBCAT": "C451",
+        "DESCRICAO": "Mesotelioma do peritônio",
+        "DESCRABREV": "C45.1 Mesotelioma do peritonio",
+        "neoplasias": "C451-Mesotelioma do peritônio"
+    },
+    {
+        "SUBCAT": "C452",
+        "DESCRICAO": "Mesotelioma do pericárdio",
+        "DESCRABREV": "C45.2 Mesotelioma do pericardio",
+        "neoplasias": "C452-Mesotelioma do pericárdio"
+    },
+    {
+        "SUBCAT": "C457",
+        "DESCRICAO": "Mesotelioma de outras localizações",
+        "DESCRABREV": "C45.7 Mesotelioma de outr localiz",
+        "neoplasias": "C457-Mesotelioma de outras localizações"
+    },
+    {
+        "SUBCAT": "C459",
+        "DESCRICAO": "Mesotelioma, não especificado",
+        "DESCRABREV": "C45.9 Mesotelioma NE",
+        "neoplasias": "C459-Mesotelioma, não especificado"
+    },
+    {
+        "SUBCAT": "C460",
+        "DESCRICAO": "Sarcoma de Kaposi da pele",
+        "DESCRABREV": "C46.0 Sarcoma de Kaposi da pele",
+        "neoplasias": "C460-Sarcoma de Kaposi da pele"
+    },
+    {
+        "SUBCAT": "C461",
+        "DESCRICAO": "Sarcoma de Kaposi de tecidos moles",
+        "DESCRABREV": "C46.1 Sarcoma de Kaposi de tec moles",
+        "neoplasias": "C461-Sarcoma de Kaposi de tecidos moles"
+    },
+    {
+        "SUBCAT": "C462",
+        "DESCRICAO": "Sarcoma de Kaposi do palato",
+        "DESCRABREV": "C46.2 Sarcoma de Kaposi do palato",
+        "neoplasias": "C462-Sarcoma de Kaposi do palato"
+    },
+    {
+        "SUBCAT": "C463",
+        "DESCRICAO": "Sarcoma de Kaposi dos gânglios linfáticos",
+        "DESCRABREV": "C46.3 Sarcoma de Kaposi dos ganglios linfaticos",
+        "neoplasias": "C463-Sarcoma de Kaposi dos gânglios linfáticos"
+    },
+    {
+        "SUBCAT": "C467",
+        "DESCRICAO": "Sarcoma de Kaposi de outras localizações",
+        "DESCRABREV": "C46.7 Sarcoma de Kaposi de outr localiz",
+        "neoplasias": "C467-Sarcoma de Kaposi de outras localizações"
+    },
+    {
+        "SUBCAT": "C468",
+        "DESCRICAO": "Sarcoma de Kaposi de múltiplos órgãos",
+        "DESCRABREV": "C46.8 Sarcoma de Kaposi de mult orgaos",
+        "neoplasias": "C468-Sarcoma de Kaposi de múltiplos órgãos"
+    },
+    {
+        "SUBCAT": "C469",
+        "DESCRICAO": "Sarcoma de Kaposi, não especificado",
+        "DESCRABREV": "C46.9 Sarcoma de Kaposi NE",
+        "neoplasias": "C469-Sarcoma de Kaposi, não especificado"
+    },
+    {
+        "SUBCAT": "C470",
+        "DESCRICAO": "Neoplasia maligna dos nervos periféricos da cabeça, face e pescoço",
+        "DESCRABREV": "C47.0 Nervos perifericos da cabeca face e pescoco",
+        "neoplasias": "C470-Neoplasia maligna dos nervos periféricos da cabeça, face e pescoço"
+    },
+    {
+        "SUBCAT": "C471",
+        "DESCRICAO": "Neoplasia maligna dos nervos periféricos dos membros superiores, incluindo ombro",
+        "DESCRABREV": "C47.1 Nervos perifericos membros super incl ombro",
+        "neoplasias": "C471-Neoplasia maligna dos nervos periféricos dos membros superiores, incluindo ombro"
+    },
+    {
+        "SUBCAT": "C472",
+        "DESCRICAO": "Neoplasia maligna dos nervos periféricos dos membros inferiores, incluindo quadril",
+        "DESCRABREV": "C47.2 Nervos periferic membros infer incl quadril",
+        "neoplasias": "C472-Neoplasia maligna dos nervos periféricos dos membros inferiores, incluindo quadril"
+    },
+    {
+        "SUBCAT": "C473",
+        "DESCRICAO": "Neoplasia maligna dos nervos periféricos do tórax",
+        "DESCRABREV": "C47.3 Nervos perifericos do torax",
+        "neoplasias": "C473-Neoplasia maligna dos nervos periféricos do tórax"
+    },
+    {
+        "SUBCAT": "C474",
+        "DESCRICAO": "Neoplasia maligna dos nervos periféricos do abdome",
+        "DESCRABREV": "C47.4 Nervos perifericos do abdome",
+        "neoplasias": "C474-Neoplasia maligna dos nervos periféricos do abdome"
+    },
+    {
+        "SUBCAT": "C475",
+        "DESCRICAO": "Neoplasia maligna dos nervos periféricos da pelve",
+        "DESCRABREV": "C47.5 Nervos perifericos da pelve",
+        "neoplasias": "C475-Neoplasia maligna dos nervos periféricos da pelve"
+    },
+    {
+        "SUBCAT": "C476",
+        "DESCRICAO": "Neoplasia maligna dos nervos periféricos do tronco",
+        "DESCRABREV": "C47.6 Nervos perifericos do tronco",
+        "neoplasias": "C476-Neoplasia maligna dos nervos periféricos do tronco"
+    },
+    {
+        "SUBCAT": "C478",
+        "DESCRICAO": "Neoplasia maligna dos nervos periféricos e do sistema nervoso autônomo com lesão invasiva",
+        "DESCRABREV": "C47.8 Lesao invasiva nervos perif e sist nerv auto",
+        "neoplasias": "C478-Neoplasia maligna dos nervos periféricos e do sistema nervoso autônomo com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C479",
+        "DESCRICAO": "Neoplasia maligna dos nervos periféricos e sistema nervoso autônomo, não especificados",
+        "DESCRABREV": "C47.9 Nervos perifericos e sist nerv autonomo NE",
+        "neoplasias": "C479-Neoplasia maligna dos nervos periféricos e sistema nervoso autônomo, não especificados"
+    },
+    {
+        "SUBCAT": "C480",
+        "DESCRICAO": "Neoplasia maligna do retroperitônio",
+        "DESCRABREV": "C48.0 Retroperitonio",
+        "neoplasias": "C480-Neoplasia maligna do retroperitônio"
+    },
+    {
+        "SUBCAT": "C481",
+        "DESCRICAO": "Neoplasia maligna de partes especificadas do peritônio",
+        "DESCRABREV": "C48.1 Partes espec do peritonio",
+        "neoplasias": "C481-Neoplasia maligna de partes especificadas do peritônio"
+    },
+    {
+        "SUBCAT": "C482",
+        "DESCRICAO": "Neoplasia maligna do peritônio",
+        "DESCRABREV": "C48.2 Peritonio",
+        "neoplasias": "C482-Neoplasia maligna do peritônio"
+    },
+    {
+        "SUBCAT": "C488",
+        "DESCRICAO": "Neoplasia maligna dos tecidos moles do retroperitônio e do peritônio com lesão invasiva",
+        "DESCRABREV": "C48.8 Lesao invasiva tec moles retro- e peritonio",
+        "neoplasias": "C488-Neoplasia maligna dos tecidos moles do retroperitônio e do peritônio com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C490",
+        "DESCRICAO": "Neoplasia maligna do tecido conjuntivo e tecidos moles da cabeça, face e pescoço",
+        "DESCRABREV": "C49.0 Tec conjuntivo e moles cabeca face e pescoco",
+        "neoplasias": "C490-Neoplasia maligna do tecido conjuntivo e tecidos moles da cabeça, face e pescoço"
+    },
+    {
+        "SUBCAT": "C491",
+        "DESCRICAO": "Neoplasia maligna do tecido conjuntivo e tecidos moles dos membros superiores, incluindo ombro",
+        "DESCRABREV": "C49.1 Tec conjuntivo e moles membr sup incl ombro",
+        "neoplasias": "C491-Neoplasia maligna do tecido conjuntivo e tecidos moles dos membros superiores, incluindo ombro"
+    },
+    {
+        "SUBCAT": "C492",
+        "DESCRICAO": "Neoplasia maligna do tecido conjuntivo e tecidos moles dos membros inferiores, incluindo quadril",
+        "DESCRABREV": "C49.2 Tec conjuntivo e moles membr inf incl quadr",
+        "neoplasias": "C492-Neoplasia maligna do tecido conjuntivo e tecidos moles dos membros inferiores, incluindo quadril"
+    },
+    {
+        "SUBCAT": "C493",
+        "DESCRICAO": "Neoplasia maligna do tecido conjuntivo e tecidos moles do tórax",
+        "DESCRABREV": "C49.3 Tec conjuntivo e tec moles do torax",
+        "neoplasias": "C493-Neoplasia maligna do tecido conjuntivo e tecidos moles do tórax"
+    },
+    {
+        "SUBCAT": "C494",
+        "DESCRICAO": "Neoplasia maligna do tecido conjuntivo e tecidos moles do abdome",
+        "DESCRABREV": "C49.4 Tec conjuntivo e tec moles do abdome",
+        "neoplasias": "C494-Neoplasia maligna do tecido conjuntivo e tecidos moles do abdome"
+    },
+    {
+        "SUBCAT": "C495",
+        "DESCRICAO": "Neoplasia maligna do tecido conjuntivo e tecidos moles da pelve",
+        "DESCRABREV": "C49.5 Tec conjuntivo e tec moles da pelve",
+        "neoplasias": "C495-Neoplasia maligna do tecido conjuntivo e tecidos moles da pelve"
+    },
+    {
+        "SUBCAT": "C496",
+        "DESCRICAO": "Neoplasia maligna do tecido conjuntivo e tecidos moles do tronco",
+        "DESCRABREV": "C49.6 Tec conjuntivo e tec moles do tronco",
+        "neoplasias": "C496-Neoplasia maligna do tecido conjuntivo e tecidos moles do tronco"
+    },
+    {
+        "SUBCAT": "C498",
+        "DESCRICAO": "Neoplasia maligna do tecido conjuntivo e dos tecidos moles com lesão invasiva",
+        "DESCRABREV": "C49.8 Lesao invasiva tec conjuntivo e tec moles",
+        "neoplasias": "C498-Neoplasia maligna do tecido conjuntivo e dos tecidos moles com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C499",
+        "DESCRICAO": "Neoplasia maligna do tecido conjuntivo e tecidos moles, não especificados",
+        "DESCRABREV": "C49.9 Neopl malig tec conjuntivo e tec moles NE",
+        "neoplasias": "C499-Neoplasia maligna do tecido conjuntivo e tecidos moles, não especificados"
+    },
+    {
+        "SUBCAT": "C500",
+        "DESCRICAO": "Neoplasia maligna do mamilo e aréola",
+        "DESCRABREV": "C50.0 Mamilo e areola",
+        "neoplasias": "C500-Neoplasia maligna do mamilo e aréola"
+    },
+    {
+        "SUBCAT": "C501",
+        "DESCRICAO": "Neoplasia maligna da porção central da mama",
+        "DESCRABREV": "C50.1 Porcao central da mama",
+        "neoplasias": "C501-Neoplasia maligna da porção central da mama"
+    },
+    {
+        "SUBCAT": "C502",
+        "DESCRICAO": "Neoplasia maligna do quadrante superior interno da mama",
+        "DESCRABREV": "C50.2 Quadrante super interno da mama",
+        "neoplasias": "C502-Neoplasia maligna do quadrante superior interno da mama"
+    },
+    {
+        "SUBCAT": "C503",
+        "DESCRICAO": "Neoplasia maligna do quadrante inferior interno da mama",
+        "DESCRABREV": "C50.3 Quadrante infer interno da mama",
+        "neoplasias": "C503-Neoplasia maligna do quadrante inferior interno da mama"
+    },
+    {
+        "SUBCAT": "C504",
+        "DESCRICAO": "Neoplasia maligna do quadrante superior externo da mama",
+        "DESCRABREV": "C50.4 Quadrante super externo da mama",
+        "neoplasias": "C504-Neoplasia maligna do quadrante superior externo da mama"
+    },
+    {
+        "SUBCAT": "C505",
+        "DESCRICAO": "Neoplasia maligna do quadrante inferior externo da mama",
+        "DESCRABREV": "C50.5 Quadrante infer externo da mama",
+        "neoplasias": "C505-Neoplasia maligna do quadrante inferior externo da mama"
+    },
+    {
+        "SUBCAT": "C506",
+        "DESCRICAO": "Neoplasia maligna da porção axilar da mama",
+        "DESCRABREV": "C50.6 Porcao axilar da mama",
+        "neoplasias": "C506-Neoplasia maligna da porção axilar da mama"
+    },
+    {
+        "SUBCAT": "C508",
+        "DESCRICAO": "Neoplasia maligna da mama com lesão invasiva",
+        "DESCRABREV": "C50.8 Lesao invasiva da mama",
+        "neoplasias": "C508-Neoplasia maligna da mama com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C509",
+        "DESCRICAO": "Neoplasia maligna da mama, não especificada",
+        "DESCRABREV": "C50.9 Mama NE",
+        "neoplasias": "C509-Neoplasia maligna da mama, não especificada"
+    },
+    {
+        "SUBCAT": "C510",
+        "DESCRICAO": "Neoplasia maligna dos grandes lábios",
+        "DESCRABREV": "C51.0 Grandes labios",
+        "neoplasias": "C510-Neoplasia maligna dos grandes lábios"
+    },
+    {
+        "SUBCAT": "C511",
+        "DESCRICAO": "Neoplasia maligna dos pequenos lábios",
+        "DESCRABREV": "C51.1 Pequenos labios",
+        "neoplasias": "C511-Neoplasia maligna dos pequenos lábios"
+    },
+    {
+        "SUBCAT": "C512",
+        "DESCRICAO": "Neoplasia maligna do clitóris",
+        "DESCRABREV": "C51.2 Clitoris",
+        "neoplasias": "C512-Neoplasia maligna do clitóris"
+    },
+    {
+        "SUBCAT": "C518",
+        "DESCRICAO": "Neoplasia maligna da vulva com lesão invasiva",
+        "DESCRABREV": "C51.8 Lesao invasiva da vulva",
+        "neoplasias": "C518-Neoplasia maligna da vulva com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C519",
+        "DESCRICAO": "Neoplasia maligna da vulva, não especificada",
+        "DESCRABREV": "C51.9 Vulva NE",
+        "neoplasias": "C519-Neoplasia maligna da vulva, não especificada"
+    },
+    {
+        "SUBCAT": "C52",
+        "DESCRICAO": "Neoplasia maligna da vagina",
+        "DESCRABREV": "C52   Neopl malig da vagina",
+        "neoplasias": "C52-Neoplasia maligna da vagina"
+    },
+    {
+        "SUBCAT": "C530",
+        "DESCRICAO": "Neoplasia maligna do endocérvix",
+        "DESCRABREV": "C53.0 Endocervix",
+        "neoplasias": "C530-Neoplasia maligna do endocérvix"
+    },
+    {
+        "SUBCAT": "C531",
+        "DESCRICAO": "Neoplasia maligna do exocérvix",
+        "DESCRABREV": "C53.1 Exocervix",
+        "neoplasias": "C531-Neoplasia maligna do exocérvix"
+    },
+    {
+        "SUBCAT": "C538",
+        "DESCRICAO": "Neoplasia maligna do colo do útero com lesão invasiva",
+        "DESCRABREV": "C53.8 Lesao invasiva do colo do utero",
+        "neoplasias": "C538-Neoplasia maligna do colo do útero com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C539",
+        "DESCRICAO": "Neoplasia maligna do colo do útero, não especificado",
+        "DESCRABREV": "C53.9 Colo do utero NE",
+        "neoplasias": "C539-Neoplasia maligna do colo do útero, não especificado"
+    },
+    {
+        "SUBCAT": "C540",
+        "DESCRICAO": "Neoplasia maligna do istmo do útero",
+        "DESCRABREV": "C54.0 Istmo do utero",
+        "neoplasias": "C540-Neoplasia maligna do istmo do útero"
+    },
+    {
+        "SUBCAT": "C541",
+        "DESCRICAO": "Neoplasia maligna do endométrio",
+        "DESCRABREV": "C54.1 Endometrio",
+        "neoplasias": "C541-Neoplasia maligna do endométrio"
+    },
+    {
+        "SUBCAT": "C542",
+        "DESCRICAO": "Neoplasia maligna do miométrio",
+        "DESCRABREV": "C54.2 Miometrio",
+        "neoplasias": "C542-Neoplasia maligna do miométrio"
+    },
+    {
+        "SUBCAT": "C543",
+        "DESCRICAO": "Neoplasia maligna do fundo do útero",
+        "DESCRABREV": "C54.3 Fundo do utero",
+        "neoplasias": "C543-Neoplasia maligna do fundo do útero"
+    },
+    {
+        "SUBCAT": "C548",
+        "DESCRICAO": "Neoplasia maligna do corpo do útero com lesão invasiva",
+        "DESCRABREV": "C54.8 Lesao invasiva do corpo do utero",
+        "neoplasias": "C548-Neoplasia maligna do corpo do útero com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C549",
+        "DESCRICAO": "Neoplasia maligna do corpo do útero, não especificado",
+        "DESCRABREV": "C54.9 Corpo do utero NE",
+        "neoplasias": "C549-Neoplasia maligna do corpo do útero, não especificado"
+    },
+    {
+        "SUBCAT": "C55",
+        "DESCRICAO": "Neoplasia maligna do útero, porção não especificada",
+        "DESCRABREV": "C55   Neopl malig do utero porcao NE",
+        "neoplasias": "C55-Neoplasia maligna do útero, porção não especificada"
+    },
+    {
+        "SUBCAT": "C56",
+        "DESCRICAO": "Neoplasia maligna do ovário",
+        "DESCRABREV": "C56   Neopl malig do ovario",
+        "neoplasias": "C56-Neoplasia maligna do ovário"
+    },
+    {
+        "SUBCAT": "C570",
+        "DESCRICAO": "Neoplasia maligna da trompa de Falópio",
+        "DESCRABREV": "C57.0 Trompa de Falopio",
+        "neoplasias": "C570-Neoplasia maligna da trompa de Falópio"
+    },
+    {
+        "SUBCAT": "C571",
+        "DESCRICAO": "Neoplasia maligna do ligamento largo",
+        "DESCRABREV": "C57.1 Ligamento largo",
+        "neoplasias": "C571-Neoplasia maligna do ligamento largo"
+    },
+    {
+        "SUBCAT": "C572",
+        "DESCRICAO": "Neoplasia maligna do ligamento redondo",
+        "DESCRABREV": "C57.2 Ligamento redondo",
+        "neoplasias": "C572-Neoplasia maligna do ligamento redondo"
+    },
+    {
+        "SUBCAT": "C573",
+        "DESCRICAO": "Neoplasia maligna do paramétrio",
+        "DESCRABREV": "C57.3 Parametrio",
+        "neoplasias": "C573-Neoplasia maligna do paramétrio"
+    },
+    {
+        "SUBCAT": "C574",
+        "DESCRICAO": "Neoplasia maligna dos anexos uterinos",
+        "DESCRABREV": "C57.4 Anexos uterinos",
+        "neoplasias": "C574-Neoplasia maligna dos anexos uterinos"
+    },
+    {
+        "SUBCAT": "C577",
+        "DESCRICAO": "Neoplasia maligna de outras partes especificadas dos órgãos genitais femininos",
+        "DESCRABREV": "C57.7 Outr partes espec orgaos genitais femin",
+        "neoplasias": "C577-Neoplasia maligna de outras partes especificadas dos órgãos genitais femininos"
+    },
+    {
+        "SUBCAT": "C578",
+        "DESCRICAO": "Neoplasia maligna dos órgãos genitais femininos com lesão invasiva",
+        "DESCRABREV": "C57.8 Lesao invasiva dos orgaos genitais femin",
+        "neoplasias": "C578-Neoplasia maligna dos órgãos genitais femininos com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C579",
+        "DESCRICAO": "Neoplasia maligna de órgão genital feminino, não especificado",
+        "DESCRABREV": "C57.9 Orgao genital femin NE",
+        "neoplasias": "C579-Neoplasia maligna de órgão genital feminino, não especificado"
+    },
+    {
+        "SUBCAT": "C58",
+        "DESCRICAO": "Neoplasia maligna da placenta",
+        "DESCRABREV": "C58   Neopl malig da placenta",
+        "neoplasias": "C58-Neoplasia maligna da placenta"
+    },
+    {
+        "SUBCAT": "C600",
+        "DESCRICAO": "Neoplasia maligna do prepúcio",
+        "DESCRABREV": "C60.0 Prepucio",
+        "neoplasias": "C600-Neoplasia maligna do prepúcio"
+    },
+    {
+        "SUBCAT": "C601",
+        "DESCRICAO": "Neoplasia maligna da glande",
+        "DESCRABREV": "C60.1 Glande",
+        "neoplasias": "C601-Neoplasia maligna da glande"
+    },
+    {
+        "SUBCAT": "C602",
+        "DESCRICAO": "Neoplasia maligna do corpo do pênis",
+        "DESCRABREV": "C60.2 Corpo do penis",
+        "neoplasias": "C602-Neoplasia maligna do corpo do pênis"
+    },
+    {
+        "SUBCAT": "C608",
+        "DESCRICAO": "Neoplasia maligna do pênis com lesão invasiva",
+        "DESCRABREV": "C60.8 Lesao invasiva do penis",
+        "neoplasias": "C608-Neoplasia maligna do pênis com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C609",
+        "DESCRICAO": "Neoplasia maligna do pênis, não especificado",
+        "DESCRABREV": "C60.9 Penis NE",
+        "neoplasias": "C609-Neoplasia maligna do pênis, não especificado"
+    },
+    {
+        "SUBCAT": "C61",
+        "DESCRICAO": "Neoplasia maligna da próstata",
+        "DESCRABREV": "C61   Neopl malig da prostata",
+        "neoplasias": "C61-Neoplasia maligna da próstata"
+    },
+    {
+        "SUBCAT": "C620",
+        "DESCRICAO": "Neoplasia maligna do testículo criptorquídico",
+        "DESCRABREV": "C62.0 Testiculo criptorquidico",
+        "neoplasias": "C620-Neoplasia maligna do testículo criptorquídico"
+    },
+    {
+        "SUBCAT": "C621",
+        "DESCRICAO": "Neoplasia maligna do testículo tópico",
+        "DESCRABREV": "C62.1 Testiculo topico",
+        "neoplasias": "C621-Neoplasia maligna do testículo tópico"
+    },
+    {
+        "SUBCAT": "C629",
+        "DESCRICAO": "Neoplasia maligna do testículo, sem outras especificações",
+        "DESCRABREV": "C62.9 Testiculo SOE",
+        "neoplasias": "C629-Neoplasia maligna do testículo, sem outras especificações"
+    },
+    {
+        "SUBCAT": "C630",
+        "DESCRICAO": "Neoplasia maligna do epidídimo",
+        "DESCRABREV": "C63.0 Epididimo",
+        "neoplasias": "C630-Neoplasia maligna do epidídimo"
+    },
+    {
+        "SUBCAT": "C631",
+        "DESCRICAO": "Neoplasia maligna do cordão espermático",
+        "DESCRABREV": "C63.1 Cordao espermatico",
+        "neoplasias": "C631-Neoplasia maligna do cordão espermático"
+    },
+    {
+        "SUBCAT": "C632",
+        "DESCRICAO": "Neoplasia maligna do escroto",
+        "DESCRABREV": "C63.2 Escroto",
+        "neoplasias": "C632-Neoplasia maligna do escroto"
+    },
+    {
+        "SUBCAT": "C637",
+        "DESCRICAO": "Neoplasia maligna de outros órgãos genitais masculinos especificados",
+        "DESCRABREV": "C63.7 Outr orgaos genitais masc espec",
+        "neoplasias": "C637-Neoplasia maligna de outros órgãos genitais masculinos especificados"
+    },
+    {
+        "SUBCAT": "C638",
+        "DESCRICAO": "Neoplasia maligna dos órgãos genitais masculinos com lesão invasiva",
+        "DESCRABREV": "C63.8 Lesao invasiva orgaos genitais masc",
+        "neoplasias": "C638-Neoplasia maligna dos órgãos genitais masculinos com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C639",
+        "DESCRICAO": "Neoplasia maligna de órgão genital masculino, não especificado",
+        "DESCRABREV": "C63.9 Orgao genital masc NE",
+        "neoplasias": "C639-Neoplasia maligna de órgão genital masculino, não especificado"
+    },
+    {
+        "SUBCAT": "C64",
+        "DESCRICAO": "Neoplasia maligna do rim, exceto pelve renal",
+        "DESCRABREV": "C64   Neopl malig do rim exceto pelve renal",
+        "neoplasias": "C64-Neoplasia maligna do rim, exceto pelve renal"
+    },
+    {
+        "SUBCAT": "C65",
+        "DESCRICAO": "Neoplasia maligna da pelve renal",
+        "DESCRABREV": "C65   Neopl malig da pelve renal",
+        "neoplasias": "C65-Neoplasia maligna da pelve renal"
+    },
+    {
+        "SUBCAT": "C66",
+        "DESCRICAO": "Neoplasia maligna dos ureteres",
+        "DESCRABREV": "C66   Neopl malig dos ureteres",
+        "neoplasias": "C66-Neoplasia maligna dos ureteres"
+    },
+    {
+        "SUBCAT": "C670",
+        "DESCRICAO": "Neoplasia maligna do trígono da bexiga",
+        "DESCRABREV": "C67.0 Trigono da bexiga",
+        "neoplasias": "C670-Neoplasia maligna do trígono da bexiga"
+    },
+    {
+        "SUBCAT": "C671",
+        "DESCRICAO": "Neoplasia maligna da cúpula da bexiga",
+        "DESCRABREV": "C67.1 Cupula da bexiga",
+        "neoplasias": "C671-Neoplasia maligna da cúpula da bexiga"
+    },
+    {
+        "SUBCAT": "C672",
+        "DESCRICAO": "Neoplasia maligna da parede lateral da bexiga",
+        "DESCRABREV": "C67.2 Parede lateral da bexiga",
+        "neoplasias": "C672-Neoplasia maligna da parede lateral da bexiga"
+    },
+    {
+        "SUBCAT": "C673",
+        "DESCRICAO": "Neoplasia maligna da parede anterior da bexiga",
+        "DESCRABREV": "C67.3 Parede anterior da bexiga",
+        "neoplasias": "C673-Neoplasia maligna da parede anterior da bexiga"
+    },
+    {
+        "SUBCAT": "C674",
+        "DESCRICAO": "Neoplasia maligna da parede posterior da bexiga",
+        "DESCRABREV": "C67.4 Parede posterior da bexiga",
+        "neoplasias": "C674-Neoplasia maligna da parede posterior da bexiga"
+    },
+    {
+        "SUBCAT": "C675",
+        "DESCRICAO": "Neoplasia maligna do colo da bexiga",
+        "DESCRABREV": "C67.5 Colo da bexiga",
+        "neoplasias": "C675-Neoplasia maligna do colo da bexiga"
+    },
+    {
+        "SUBCAT": "C676",
+        "DESCRICAO": "Neoplasia maligna do orifício uretérico",
+        "DESCRABREV": "C67.6 Orificio ureterico",
+        "neoplasias": "C676-Neoplasia maligna do orifício uretérico"
+    },
+    {
+        "SUBCAT": "C677",
+        "DESCRICAO": "Neoplasia maligna do úraco",
+        "DESCRABREV": "C67.7 Uraco",
+        "neoplasias": "C677-Neoplasia maligna do úraco"
+    },
+    {
+        "SUBCAT": "C678",
+        "DESCRICAO": "Neoplasia maligna da bexiga com lesão invasiva",
+        "DESCRABREV": "C67.8 Lesao invasiva da bexiga",
+        "neoplasias": "C678-Neoplasia maligna da bexiga com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C679",
+        "DESCRICAO": "Neoplasia maligna da bexiga, sem outra especificações",
+        "DESCRABREV": "C67.9 Bexiga SOE",
+        "neoplasias": "C679-Neoplasia maligna da bexiga, sem outra especificações"
+    },
+    {
+        "SUBCAT": "C680",
+        "DESCRICAO": "Neoplasia maligna da uretra",
+        "DESCRABREV": "C68.0 Uretra",
+        "neoplasias": "C680-Neoplasia maligna da uretra"
+    },
+    {
+        "SUBCAT": "C681",
+        "DESCRICAO": "Neoplasia maligna da glândula parauretral",
+        "DESCRABREV": "C68.1 Gland parauretral",
+        "neoplasias": "C681-Neoplasia maligna da glândula parauretral"
+    },
+    {
+        "SUBCAT": "C688",
+        "DESCRICAO": "Neoplasia maligna dos órgãos urinários com lesão invasiva",
+        "DESCRABREV": "C68.8 Lesao invasiva dos orgaos urinarios",
+        "neoplasias": "C688-Neoplasia maligna dos órgãos urinários com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C689",
+        "DESCRICAO": "Neoplasia maligna de órgão urinário, não especificado",
+        "DESCRABREV": "C68.9 Orgao urinario NE",
+        "neoplasias": "C689-Neoplasia maligna de órgão urinário, não especificado"
+    },
+    {
+        "SUBCAT": "C690",
+        "DESCRICAO": "Neoplasia maligna da conjuntiva",
+        "DESCRABREV": "C69.0 Conjuntiva",
+        "neoplasias": "C690-Neoplasia maligna da conjuntiva"
+    },
+    {
+        "SUBCAT": "C691",
+        "DESCRICAO": "Neoplasia maligna da córnea",
+        "DESCRABREV": "C69.1 Cornea",
+        "neoplasias": "C691-Neoplasia maligna da córnea"
+    },
+    {
+        "SUBCAT": "C692",
+        "DESCRICAO": "Neoplasia maligna da retina",
+        "DESCRABREV": "C69.2 Retina",
+        "neoplasias": "C692-Neoplasia maligna da retina"
+    },
+    {
+        "SUBCAT": "C693",
+        "DESCRICAO": "Neoplasia maligna da coróide",
+        "DESCRABREV": "C69.3 Coroide",
+        "neoplasias": "C693-Neoplasia maligna da coróide"
+    },
+    {
+        "SUBCAT": "C694",
+        "DESCRICAO": "Neoplasia maligna do corpo ciliar",
+        "DESCRABREV": "C69.4 Corpo ciliar",
+        "neoplasias": "C694-Neoplasia maligna do corpo ciliar"
+    },
+    {
+        "SUBCAT": "C695",
+        "DESCRICAO": "Neoplasia maligna da glândula e canal lacrimal",
+        "DESCRABREV": "C69.5 Gland e canal lacrimal",
+        "neoplasias": "C695-Neoplasia maligna da glândula e canal lacrimal"
+    },
+    {
+        "SUBCAT": "C696",
+        "DESCRICAO": "Neoplasia maligna da órbita",
+        "DESCRABREV": "C69.6 Orbita",
+        "neoplasias": "C696-Neoplasia maligna da órbita"
+    },
+    {
+        "SUBCAT": "C698",
+        "DESCRICAO": "Neoplasia maligna do olho e anexos com lesão invasiva",
+        "DESCRABREV": "C69.8 Lesao invasiva do olho e anexos",
+        "neoplasias": "C698-Neoplasia maligna do olho e anexos com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C699",
+        "DESCRICAO": "Neoplasia maligna do olho, não especificado",
+        "DESCRABREV": "C69.9 Olho NE",
+        "neoplasias": "C699-Neoplasia maligna do olho, não especificado"
+    },
+    {
+        "SUBCAT": "C700",
+        "DESCRICAO": "Neoplasia maligna das meninges cerebrais",
+        "DESCRABREV": "C70.0 Meninges cerebrais",
+        "neoplasias": "C700-Neoplasia maligna das meninges cerebrais"
+    },
+    {
+        "SUBCAT": "C701",
+        "DESCRICAO": "Neoplasia maligna das meninges espinhais",
+        "DESCRABREV": "C70.1 Meninges espinhais",
+        "neoplasias": "C701-Neoplasia maligna das meninges espinhais"
+    },
+    {
+        "SUBCAT": "C709",
+        "DESCRICAO": "Neoplasia maligna da meninge, não especificada",
+        "DESCRABREV": "C70.9 Meninge NE",
+        "neoplasias": "C709-Neoplasia maligna da meninge, não especificada"
+    },
+    {
+        "SUBCAT": "C710",
+        "DESCRICAO": "Neoplasia maligna do cérebro, exceto lobos e ventrículos",
+        "DESCRABREV": "C71.0 Cerebro exceto lobos e ventriculos",
+        "neoplasias": "C710-Neoplasia maligna do cérebro, exceto lobos e ventrículos"
+    },
+    {
+        "SUBCAT": "C711",
+        "DESCRICAO": "Neoplasia maligna do lobo frontal",
+        "DESCRABREV": "C71.1 Lobo frontal",
+        "neoplasias": "C711-Neoplasia maligna do lobo frontal"
+    },
+    {
+        "SUBCAT": "C712",
+        "DESCRICAO": "Neoplasia maligna do lobo temporal",
+        "DESCRABREV": "C71.2 Lobo temporal",
+        "neoplasias": "C712-Neoplasia maligna do lobo temporal"
+    },
+    {
+        "SUBCAT": "C713",
+        "DESCRICAO": "Neoplasia maligna do lobo parietal",
+        "DESCRABREV": "C71.3 Lobo parietal",
+        "neoplasias": "C713-Neoplasia maligna do lobo parietal"
+    },
+    {
+        "SUBCAT": "C714",
+        "DESCRICAO": "Neoplasia maligna do lobo occipital",
+        "DESCRABREV": "C71.4 Lobo occipital",
+        "neoplasias": "C714-Neoplasia maligna do lobo occipital"
+    },
+    {
+        "SUBCAT": "C715",
+        "DESCRICAO": "Neoplasia maligna do ventrículo cerebral",
+        "DESCRABREV": "C71.5 Ventriculo cerebral",
+        "neoplasias": "C715-Neoplasia maligna do ventrículo cerebral"
+    },
+    {
+        "SUBCAT": "C716",
+        "DESCRICAO": "Neoplasia maligna do cerebelo",
+        "DESCRABREV": "C71.6 Cerebelo",
+        "neoplasias": "C716-Neoplasia maligna do cerebelo"
+    },
+    {
+        "SUBCAT": "C717",
+        "DESCRICAO": "Neoplasia maligna do tronco cerebral",
+        "DESCRABREV": "C71.7 Tronco cerebral",
+        "neoplasias": "C717-Neoplasia maligna do tronco cerebral"
+    },
+    {
+        "SUBCAT": "C718",
+        "DESCRICAO": "Neoplasia maligna do encéfalo com lesão invasiva",
+        "DESCRABREV": "C71.8 Lesao invasiva do encefalo",
+        "neoplasias": "C718-Neoplasia maligna do encéfalo com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C719",
+        "DESCRICAO": "Neoplasia maligna do encéfalo, não especificado",
+        "DESCRABREV": "C71.9 Encefalo NE",
+        "neoplasias": "C719-Neoplasia maligna do encéfalo, não especificado"
+    },
+    {
+        "SUBCAT": "C720",
+        "DESCRICAO": "Neoplasia maligna da medula espinhal",
+        "DESCRABREV": "C72.0 Medula espinhal",
+        "neoplasias": "C720-Neoplasia maligna da medula espinhal"
+    },
+    {
+        "SUBCAT": "C721",
+        "DESCRICAO": "Neoplasia maligna da cauda eqüina",
+        "DESCRABREV": "C72.1 Cauda equina",
+        "neoplasias": "C721-Neoplasia maligna da cauda eqüina"
+    },
+    {
+        "SUBCAT": "C722",
+        "DESCRICAO": "Neoplasia maligna do nervo olfativo",
+        "DESCRABREV": "C72.2 Nervo olfativo",
+        "neoplasias": "C722-Neoplasia maligna do nervo olfativo"
+    },
+    {
+        "SUBCAT": "C723",
+        "DESCRICAO": "Neoplasia maligna do nervo óptico",
+        "DESCRABREV": "C72.3 Nervo optico",
+        "neoplasias": "C723-Neoplasia maligna do nervo óptico"
+    },
+    {
+        "SUBCAT": "C724",
+        "DESCRICAO": "Neoplasia maligna do nervo acústico",
+        "DESCRABREV": "C72.4 Nervo acustico",
+        "neoplasias": "C724-Neoplasia maligna do nervo acústico"
+    },
+    {
+        "SUBCAT": "C725",
+        "DESCRICAO": "Neoplasia maligna de outros nervos cranianos e os não especificados",
+        "DESCRABREV": "C72.5 Outr nervos cranianos e os NE",
+        "neoplasias": "C725-Neoplasia maligna de outros nervos cranianos e os não especificados"
+    },
+    {
+        "SUBCAT": "C728",
+        "DESCRICAO": "Neoplasia maligna do encéfalo e de outras partes do sistema nervoso central com lesão invasiva",
+        "DESCRABREV": "C72.8 Lesao invasiva encef out part sist nerv cent",
+        "neoplasias": "C728-Neoplasia maligna do encéfalo e de outras partes do sistema nervoso central com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C729",
+        "DESCRICAO": "Neoplasia maligna do sistema nervoso central, não especificado",
+        "DESCRABREV": "C72.9 Sist nervoso central NE",
+        "neoplasias": "C729-Neoplasia maligna do sistema nervoso central, não especificado"
+    },
+    {
+        "SUBCAT": "C73",
+        "DESCRICAO": "Neoplasia maligna da glândula tireóide",
+        "DESCRABREV": "C73   Neopl malig da gland tireoide",
+        "neoplasias": "C73-Neoplasia maligna da glândula tireóide"
+    },
+    {
+        "SUBCAT": "C740",
+        "DESCRICAO": "Neoplasia maligna do córtex da supra-renal",
+        "DESCRABREV": "C74.0 Cortex da supra-renal",
+        "neoplasias": "C740-Neoplasia maligna do córtex da supra-renal"
+    },
+    {
+        "SUBCAT": "C741",
+        "DESCRICAO": "Neoplasia maligna da medula da supra-renal",
+        "DESCRABREV": "C74.1 Medula da supra-renal",
+        "neoplasias": "C741-Neoplasia maligna da medula da supra-renal"
+    },
+    {
+        "SUBCAT": "C749",
+        "DESCRICAO": "Neoplasia maligna da glândula supra-renal, não especificada",
+        "DESCRABREV": "C74.9 Gland supra-renal NE",
+        "neoplasias": "C749-Neoplasia maligna da glândula supra-renal, não especificada"
+    },
+    {
+        "SUBCAT": "C750",
+        "DESCRICAO": "Neoplasia maligna da glândula paratireóide",
+        "DESCRABREV": "C75.0 Gland paratireoide",
+        "neoplasias": "C750-Neoplasia maligna da glândula paratireóide"
+    },
+    {
+        "SUBCAT": "C751",
+        "DESCRICAO": "Neoplasia maligna da glândula hipófise (pituitária)",
+        "DESCRABREV": "C75.1 Gland hipofise",
+        "neoplasias": "C751-Neoplasia maligna da glândula hipófise (pituitária)"
+    },
+    {
+        "SUBCAT": "C752",
+        "DESCRICAO": "Neoplasia maligna do conduto craniofaríngeo",
+        "DESCRABREV": "C75.2 Conduto craniofaringeo",
+        "neoplasias": "C752-Neoplasia maligna do conduto craniofaríngeo"
+    },
+    {
+        "SUBCAT": "C753",
+        "DESCRICAO": "Neoplasia maligna da glândula pineal",
+        "DESCRABREV": "C75.3 Gland pineal",
+        "neoplasias": "C753-Neoplasia maligna da glândula pineal"
+    },
+    {
+        "SUBCAT": "C754",
+        "DESCRICAO": "Neoplasia maligna do corpo carotídeo",
+        "DESCRABREV": "C75.4 Corpo carotideo",
+        "neoplasias": "C754-Neoplasia maligna do corpo carotídeo"
+    },
+    {
+        "SUBCAT": "C755",
+        "DESCRICAO": "Neoplasia maligna do corpo aórtico e outros paragânglios",
+        "DESCRABREV": "C75.5 Corpo aortico e outr paraganglios",
+        "neoplasias": "C755-Neoplasia maligna do corpo aórtico e outros paragânglios"
+    },
+    {
+        "SUBCAT": "C758",
+        "DESCRICAO": "Neoplasia maligna com comprometimento pluriglandular, sem outra especificação",
+        "DESCRABREV": "C75.8 Compr pluriglandular SOE",
+        "neoplasias": "C758-Neoplasia maligna com comprometimento pluriglandular, sem outra especificação"
+    },
+    {
+        "SUBCAT": "C759",
+        "DESCRICAO": "Neoplasia maligna de glândula endócrina, não especificada",
+        "DESCRABREV": "C75.9 Gland endocrina NE",
+        "neoplasias": "C759-Neoplasia maligna de glândula endócrina, não especificada"
+    },
+    {
+        "SUBCAT": "C760",
+        "DESCRICAO": "Neoplasia maligna da cabeça, face e pescoço",
+        "DESCRABREV": "C76.0 Cabeca face e pescoco",
+        "neoplasias": "C760-Neoplasia maligna da cabeça, face e pescoço"
+    },
+    {
+        "SUBCAT": "C761",
+        "DESCRICAO": "Neoplasia maligna do tórax",
+        "DESCRABREV": "C76.1 Torax",
+        "neoplasias": "C761-Neoplasia maligna do tórax"
+    },
+    {
+        "SUBCAT": "C762",
+        "DESCRICAO": "Neoplasia maligna do abdome",
+        "DESCRABREV": "C76.2 Abdome",
+        "neoplasias": "C762-Neoplasia maligna do abdome"
+    },
+    {
+        "SUBCAT": "C763",
+        "DESCRICAO": "Neoplasia maligna da pelve",
+        "DESCRABREV": "C76.3 Pelve",
+        "neoplasias": "C763-Neoplasia maligna da pelve"
+    },
+    {
+        "SUBCAT": "C764",
+        "DESCRICAO": "Neoplasia maligna do membro superior",
+        "DESCRABREV": "C76.4 Membro super",
+        "neoplasias": "C764-Neoplasia maligna do membro superior"
+    },
+    {
+        "SUBCAT": "C765",
+        "DESCRICAO": "Neoplasia maligna do membro inferior",
+        "DESCRABREV": "C76.5 Membro infer",
+        "neoplasias": "C765-Neoplasia maligna do membro inferior"
+    },
+    {
+        "SUBCAT": "C767",
+        "DESCRICAO": "Neoplasia maligna de outras localizações mal definidas",
+        "DESCRABREV": "C76.7 Outr localiz mal definidas",
+        "neoplasias": "C767-Neoplasia maligna de outras localizações mal definidas"
+    },
+    {
+        "SUBCAT": "C768",
+        "DESCRICAO": "Neoplasia maligna de outras localizações e das mal definidas com lesão invasiva",
+        "DESCRABREV": "C76.8 Lesao invasiva outr localiz e mal definidas",
+        "neoplasias": "C768-Neoplasia maligna de outras localizações e das mal definidas com lesão invasiva"
+    },
+    {
+        "SUBCAT": "C770",
+        "DESCRICAO": "Neoplasia maligna secundária e não especificada dos gânglios linfáticos da cabeça, face e pescoço",
+        "DESCRABREV": "C77.0 Ganglios linfaticos da cabeca face e pescoco",
+        "neoplasias": "C770-Neoplasia maligna secundária e não especificada dos gânglios linfáticos da cabeça, face e pescoço"
+    },
+    {
+        "SUBCAT": "C771",
+        "DESCRICAO": "Neoplasia maligna secundária e não especificada dos gânglios linfáticos intratorácicos",
+        "DESCRABREV": "C77.1 Ganglios linfaticos intratoracicos",
+        "neoplasias": "C771-Neoplasia maligna secundária e não especificada dos gânglios linfáticos intratorácicos"
+    },
+    {
+        "SUBCAT": "C772",
+        "DESCRICAO": "Neoplasia maligna secundária e não especificada dos gânglios linfáticos intra-abdominais",
+        "DESCRABREV": "C77.2 Ganglios linfaticos intra-abdominais",
+        "neoplasias": "C772-Neoplasia maligna secundária e não especificada dos gânglios linfáticos intra-abdominais"
+    },
+    {
+        "SUBCAT": "C773",
+        "DESCRICAO": "Neoplasia maligna secundária e não especificada dos gânglios linfáticos axilares e dos membros superiores",
+        "DESCRABREV": "C77.3 Ganglios linfaticos axilares e membros super",
+        "neoplasias": "C773-Neoplasia maligna secundária e não especificada dos gânglios linfáticos axilares e dos membros superiores"
+    },
+    {
+        "SUBCAT": "C774",
+        "DESCRICAO": "Neoplasia maligna secundária e não especificada dos gânglios linfáticos inguinais e dos membros inferiores",
+        "DESCRABREV": "C77.4 Ganglios linfaticos inguinais e membr infer",
+        "neoplasias": "C774-Neoplasia maligna secundária e não especificada dos gânglios linfáticos inguinais e dos membros inferiores"
+    },
+    {
+        "SUBCAT": "C775",
+        "DESCRICAO": "Neoplasia maligna secundária e não especificada dos gânglios linfáticos intrapélvicos",
+        "DESCRABREV": "C77.5 Ganglios linfaticos intrapelvicos",
+        "neoplasias": "C775-Neoplasia maligna secundária e não especificada dos gânglios linfáticos intrapélvicos"
+    },
+    {
+        "SUBCAT": "C778",
+        "DESCRICAO": "Neoplasia maligna secundária e não especificada dos gânglios linfáticos de múltiplas regiões",
+        "DESCRABREV": "C77.8 Ganglios linfaticos de mult regioes",
+        "neoplasias": "C778-Neoplasia maligna secundária e não especificada dos gânglios linfáticos de múltiplas regiões"
+    },
+    {
+        "SUBCAT": "C779",
+        "DESCRICAO": "Neoplasia maligna secundária e não especificada de gânglio linfático, não especificado",
+        "DESCRABREV": "C77.9 Ganglio linfatico NE",
+        "neoplasias": "C779-Neoplasia maligna secundária e não especificada de gânglio linfático, não especificado"
+    },
+    {
+        "SUBCAT": "C780",
+        "DESCRICAO": "Neoplasia maligna secundária dos pulmões",
+        "DESCRABREV": "C78.0 Neopl malig secund dos pulmoes",
+        "neoplasias": "C780-Neoplasia maligna secundária dos pulmões"
+    },
+    {
+        "SUBCAT": "C781",
+        "DESCRICAO": "Neoplasia maligna secundária do mediastino",
+        "DESCRABREV": "C78.1 Neopl malig secund do mediastino",
+        "neoplasias": "C781-Neoplasia maligna secundária do mediastino"
+    },
+    {
+        "SUBCAT": "C782",
+        "DESCRICAO": "Neoplasia maligna secundária da pleura",
+        "DESCRABREV": "C78.2 Neopl malig secund da pleura",
+        "neoplasias": "C782-Neoplasia maligna secundária da pleura"
+    },
+    {
+        "SUBCAT": "C783",
+        "DESCRICAO": "Neoplasia maligna secundária de outros órgãos respiratórios e não especificados",
+        "DESCRABREV": "C78.3 Neopl malig secund outr orgaos respirat e NE",
+        "neoplasias": "C783-Neoplasia maligna secundária de outros órgãos respiratórios e não especificados"
+    },
+    {
+        "SUBCAT": "C784",
+        "DESCRICAO": "Neoplasia maligna secundária do intestino delgado",
+        "DESCRABREV": "C78.4 Neopl malig secund do intestino delgado",
+        "neoplasias": "C784-Neoplasia maligna secundária do intestino delgado"
+    },
+    {
+        "SUBCAT": "C785",
+        "DESCRICAO": "Neoplasia maligna secundária do intestino grosso e do reto",
+        "DESCRABREV": "C78.5 Neopl malig secund intestino grosso e reto",
+        "neoplasias": "C785-Neoplasia maligna secundária do intestino grosso e do reto"
+    },
+    {
+        "SUBCAT": "C786",
+        "DESCRICAO": "Neoplasia maligna secundária do retroperitônio e do peritônio",
+        "DESCRABREV": "C78.6 Neopl malig secund retro- e peritonio",
+        "neoplasias": "C786-Neoplasia maligna secundária do retroperitônio e do peritônio"
+    },
+    {
+        "SUBCAT": "C787",
+        "DESCRICAO": "Neoplasia maligna secundária do fígado",
+        "DESCRABREV": "C78.7 Neopl malig secund do figado",
+        "neoplasias": "C787-Neoplasia maligna secundária do fígado"
+    },
+    {
+        "SUBCAT": "C788",
+        "DESCRICAO": "Neoplasia maligna secundária de outros órgãos digestivos e não especificados",
+        "DESCRABREV": "C78.8 Neopl malig secund outr org digestivos e NE",
+        "neoplasias": "C788-Neoplasia maligna secundária de outros órgãos digestivos e não especificados"
+    },
+    {
+        "SUBCAT": "C790",
+        "DESCRICAO": "Neoplasia maligna secundária do rim e da pelve renal",
+        "DESCRABREV": "C79.0 Neopl malig secund do rim e da pelve renal",
+        "neoplasias": "C790-Neoplasia maligna secundária do rim e da pelve renal"
+    },
+    {
+        "SUBCAT": "C791",
+        "DESCRICAO": "Neoplasia maligna secundária da bexiga, de outro órgão urinário e não especificado",
+        "DESCRABREV": "C79.1 Neopl malig secund bexiga outr org urin e NE",
+        "neoplasias": "C791-Neoplasia maligna secundária da bexiga, de outro órgão urinário e não especificado"
+    },
+    {
+        "SUBCAT": "C792",
+        "DESCRICAO": "Neoplasia maligna secundária da pele",
+        "DESCRABREV": "C79.2 Neopl malig secund da pele",
+        "neoplasias": "C792-Neoplasia maligna secundária da pele"
+    },
+    {
+        "SUBCAT": "C793",
+        "DESCRICAO": "Neoplasia maligna secundária do encéfalo e das meninges cerebrais",
+        "DESCRABREV": "C79.3 Neopl malig secund encefalo e mening cerebr",
+        "neoplasias": "C793-Neoplasia maligna secundária do encéfalo e das meninges cerebrais"
+    },
+    {
+        "SUBCAT": "C794",
+        "DESCRICAO": "Neoplasia maligna secundária de outras partes do sistema nervoso e não especificadas",
+        "DESCRABREV": "C79.4 Neopl malig secund outr part sist nerv e NE",
+        "neoplasias": "C794-Neoplasia maligna secundária de outras partes do sistema nervoso e não especificadas"
+    },
+    {
+        "SUBCAT": "C795",
+        "DESCRICAO": "Neoplasia maligna secundária dos ossos e da medula óssea",
+        "DESCRABREV": "C79.5 Neopl malig secund ossos e medula ossea",
+        "neoplasias": "C795-Neoplasia maligna secundária dos ossos e da medula óssea"
+    },
+    {
+        "SUBCAT": "C796",
+        "DESCRICAO": "Neoplasia maligna secundária do ovário",
+        "DESCRABREV": "C79.6 Neopl malig secund do ovario",
+        "neoplasias": "C796-Neoplasia maligna secundária do ovário"
+    },
+    {
+        "SUBCAT": "C797",
+        "DESCRICAO": "Neoplasia maligna secundária das glândulas supra-renais (adrenais)",
+        "DESCRABREV": "C79.7 Neopl malig secund das gland supra-renais",
+        "neoplasias": "C797-Neoplasia maligna secundária das glândulas supra-renais (adrenais)"
+    },
+    {
+        "SUBCAT": "C798",
+        "DESCRICAO": "Neoplasia maligna secundária de outra localização especificada",
+        "DESCRABREV": "C79.8 Neopl malig secund de outr localiz espec",
+        "neoplasias": "C798-Neoplasia maligna secundária de outra localização especificada"
+    },
+    {
+        "SUBCAT": "C80",
+        "DESCRICAO": "Neoplasia maligna, sem especificação de localização",
+        "DESCRABREV": "C80   Neopl malig s/especificacao de localiz",
+        "neoplasias": "C80-Neoplasia maligna, sem especificação de localização"
+    },
+    {
+        "SUBCAT": "C810",
+        "DESCRICAO": "Doença de Hodgkin, predominância linfocítica",
+        "DESCRABREV": "C81.0 Predom linfocitica",
+        "neoplasias": "C810-Doença de Hodgkin, predominância linfocítica"
+    },
+    {
+        "SUBCAT": "C811",
+        "DESCRICAO": "Doença de Hodgkin, esclerose nodular",
+        "DESCRABREV": "C81.1 Esclerose nodular",
+        "neoplasias": "C811-Doença de Hodgkin, esclerose nodular"
+    },
+    {
+        "SUBCAT": "C812",
+        "DESCRICAO": "Doença de Hodgkin, celularidade mista",
+        "DESCRABREV": "C81.2 Celularidade mista",
+        "neoplasias": "C812-Doença de Hodgkin, celularidade mista"
+    },
+    {
+        "SUBCAT": "C813",
+        "DESCRICAO": "Doença de Hodgkin, depleção linfocítica",
+        "DESCRABREV": "C81.3 Deplecao linfocitica",
+        "neoplasias": "C813-Doença de Hodgkin, depleção linfocítica"
+    },
+    {
+        "SUBCAT": "C817",
+        "DESCRICAO": "Outra forma da doença de Hodgkin",
+        "DESCRABREV": "C81.7 Outr form da doenc de Hodgkin",
+        "neoplasias": "C817-Outra forma da doença de Hodgkin"
+    },
+    {
+        "SUBCAT": "C819",
+        "DESCRICAO": "Doença de Hodgkin, não especificada",
+        "DESCRABREV": "C81.9 Doenc de Hodgkin NE",
+        "neoplasias": "C819-Doença de Hodgkin, não especificada"
+    },
+    {
+        "SUBCAT": "C820",
+        "DESCRICAO": "Linfoma não-Hodgkin, pequenas células clivadas, folicular",
+        "DESCRABREV": "C82.0 Pequenas celulas clivadas folicular",
+        "neoplasias": "C820-Linfoma não-Hodgkin, pequenas células clivadas, folicular"
+    },
+    {
+        "SUBCAT": "C821",
+        "DESCRICAO": "Linfoma não-Hodgkin, misto, de pequenas e grandes células clivadas, folicular",
+        "DESCRABREV": "C82.1 Misto peq/grandes celulas clivadas folicular",
+        "neoplasias": "C821-Linfoma não-Hodgkin, misto, de pequenas e grandes células clivadas, folicular"
+    },
+    {
+        "SUBCAT": "C822",
+        "DESCRICAO": "Linfoma não-Hodgkin, grandes células, folicular",
+        "DESCRABREV": "C82.2 Grandes celulas folicular",
+        "neoplasias": "C822-Linfoma não-Hodgkin, grandes células, folicular"
+    },
+    {
+        "SUBCAT": "C827",
+        "DESCRICAO": "Outros tipos de linfoma não-Hodgkin, folicular",
+        "DESCRABREV": "C82.7 Outr tipos de linfoma nao-Hodgkin folicular",
+        "neoplasias": "C827-Outros tipos de linfoma não-Hodgkin, folicular"
+    },
+    {
+        "SUBCAT": "C829",
+        "DESCRICAO": "Linfoma não-Hodgkin, folicular, não especificado",
+        "DESCRABREV": "C82.9 Linfoma nao-Hodgkin folicular NE",
+        "neoplasias": "C829-Linfoma não-Hodgkin, folicular, não especificado"
+    },
+    {
+        "SUBCAT": "C830",
+        "DESCRICAO": "Linfoma não-Hodgkin difuso, pequenas células (difuso)",
+        "DESCRABREV": "C83.0 Pequenas celulas",
+        "neoplasias": "C830-Linfoma não-Hodgkin difuso, pequenas células (difuso)"
+    },
+    {
+        "SUBCAT": "C831",
+        "DESCRICAO": "Linfoma não-Hodgkin difuso, pequenas células clivadas (difuso)",
+        "DESCRABREV": "C83.1 Pequenas celulas clivadas",
+        "neoplasias": "C831-Linfoma não-Hodgkin difuso, pequenas células clivadas (difuso)"
+    },
+    {
+        "SUBCAT": "C832",
+        "DESCRICAO": "Linfoma não-Hodgkin difuso, misto, de pequenas e grandes células (difuso)",
+        "DESCRABREV": "C83.2 Misto de pequenas e grandes celulas",
+        "neoplasias": "C832-Linfoma não-Hodgkin difuso, misto, de pequenas e grandes células (difuso)"
+    },
+    {
+        "SUBCAT": "C833",
+        "DESCRICAO": "Linfoma não-Hodgkin difuso, grandes células (difuso)",
+        "DESCRABREV": "C83.3 Grandes celulas",
+        "neoplasias": "C833-Linfoma não-Hodgkin difuso, grandes células (difuso)"
+    },
+    {
+        "SUBCAT": "C834",
+        "DESCRICAO": "Linfoma não-Hodgkin difuso, imunoblástico (difuso)",
+        "DESCRABREV": "C83.4 Imunoblastico",
+        "neoplasias": "C834-Linfoma não-Hodgkin difuso, imunoblástico (difuso)"
+    },
+    {
+        "SUBCAT": "C835",
+        "DESCRICAO": "Linfoma não-Hodgkin difuso, linfoblástico (difuso)",
+        "DESCRABREV": "C83.5 Linfoblastico",
+        "neoplasias": "C835-Linfoma não-Hodgkin difuso, linfoblástico (difuso)"
+    },
+    {
+        "SUBCAT": "C836",
+        "DESCRICAO": "Linfoma não-Hodgkin difuso, indiferenciado (difuso)",
+        "DESCRABREV": "C83.6 Indiferenciado",
+        "neoplasias": "C836-Linfoma não-Hodgkin difuso, indiferenciado (difuso)"
+    },
+    {
+        "SUBCAT": "C837",
+        "DESCRICAO": "Tumor de Burkitt",
+        "DESCRABREV": "C83.7 Tumor de Burkitt",
+        "neoplasias": "C837-Tumor de Burkitt"
+    },
+    {
+        "SUBCAT": "C838",
+        "DESCRICAO": "Outros tipos de linfoma não-Hodgkin difuso",
+        "DESCRABREV": "C83.8 Outr tipos de linfoma nao-Hodgkin difuso",
+        "neoplasias": "C838-Outros tipos de linfoma não-Hodgkin difuso"
+    },
+    {
+        "SUBCAT": "C839",
+        "DESCRICAO": "Linfoma não-Hodgkin difuso, não especificado",
+        "DESCRABREV": "C83.9 Linfoma nao-Hodgkin difuso NE",
+        "neoplasias": "C839-Linfoma não-Hodgkin difuso, não especificado"
+    },
+    {
+        "SUBCAT": "C840",
+        "DESCRICAO": "Micose fungóide",
+        "DESCRABREV": "C84.0 Micose fungoide",
+        "neoplasias": "C840-Micose fungóide"
+    },
+    {
+        "SUBCAT": "C841",
+        "DESCRICAO": "Doença de Sézary",
+        "DESCRABREV": "C84.1 Doenc de Sezary",
+        "neoplasias": "C841-Doença de Sézary"
+    },
+    {
+        "SUBCAT": "C842",
+        "DESCRICAO": "Linfoma da zona T",
+        "DESCRABREV": "C84.2 Linfoma da zona T",
+        "neoplasias": "C842-Linfoma da zona T"
+    },
+    {
+        "SUBCAT": "C843",
+        "DESCRICAO": "Linfoma linfoepitelióide",
+        "DESCRABREV": "C84.3 Linfoma linfoepitelioide",
+        "neoplasias": "C843-Linfoma linfoepitelióide"
+    },
+    {
+        "SUBCAT": "C844",
+        "DESCRICAO": "Linfoma de células T, periférico",
+        "DESCRABREV": "C84.4 Linfoma de celulas T periferico",
+        "neoplasias": "C844-Linfoma de células T, periférico"
+    },
+    {
+        "SUBCAT": "C845",
+        "DESCRICAO": "Outros linfomas de células T e os não especificados",
+        "DESCRABREV": "C84.5 Outr linfomas de celulas T e os NE",
+        "neoplasias": "C845-Outros linfomas de células T e os não especificados"
+    },
+    {
+        "SUBCAT": "C850",
+        "DESCRICAO": "Linfossarcoma",
+        "DESCRABREV": "C85.0 Linfossarcoma",
+        "neoplasias": "C850-Linfossarcoma"
+    },
+    {
+        "SUBCAT": "C851",
+        "DESCRICAO": "Linfoma de células B, não especificado",
+        "DESCRABREV": "C85.1 Linfoma de celulas B NE",
+        "neoplasias": "C851-Linfoma de células B, não especificado"
+    },
+    {
+        "SUBCAT": "C857",
+        "DESCRICAO": "Outros tipos especificados de linfoma não-Hodgkin",
+        "DESCRABREV": "C85.7 Outr tipos espec de linfoma nao-Hodgkin",
+        "neoplasias": "C857-Outros tipos especificados de linfoma não-Hodgkin"
+    },
+    {
+        "SUBCAT": "C859",
+        "DESCRICAO": "Linfoma não-Hodgkin de tipo não especificado",
+        "DESCRABREV": "C85.9 Linfoma nao-Hodgkin de tipo NE",
+        "neoplasias": "C859-Linfoma não-Hodgkin de tipo não especificado"
+    },
+    {
+        "SUBCAT": "C880",
+        "DESCRICAO": "Macroglobulinemia de Waldenström",
+        "DESCRABREV": "C88.0 Macroglobulinemia de Waldenstrom",
+        "neoplasias": "C880-Macroglobulinemia de Waldenström"
+    },
+    {
+        "SUBCAT": "C881",
+        "DESCRICAO": "Doença de cadeia pesada alfa",
+        "DESCRABREV": "C88.1 Doenc de cadeia pesada alfa",
+        "neoplasias": "C881-Doença de cadeia pesada alfa"
+    },
+    {
+        "SUBCAT": "C882",
+        "DESCRICAO": "Doença de cadeia pesada gama",
+        "DESCRABREV": "C88.2 Doenc de cadeia pesada gama",
+        "neoplasias": "C882-Doença de cadeia pesada gama"
+    },
+    {
+        "SUBCAT": "C883",
+        "DESCRICAO": "Doença imunoproliferativa do intestino delgado",
+        "DESCRABREV": "C88.3 Doenc imunoproliferativa intestino delgado",
+        "neoplasias": "C883-Doença imunoproliferativa do intestino delgado"
+    },
+    {
+        "SUBCAT": "C887",
+        "DESCRICAO": "Outras doenças imunoproliferativas malignas",
+        "DESCRABREV": "C88.7 Outr doenc imunoproliferativas malignas",
+        "neoplasias": "C887-Outras doenças imunoproliferativas malignas"
+    },
+    {
+        "SUBCAT": "C889",
+        "DESCRICAO": "Doença imunoproliferativa maligna, não especificada",
+        "DESCRABREV": "C88.9 Doenc imunoproliferativa maligna NE",
+        "neoplasias": "C889-Doença imunoproliferativa maligna, não especificada"
+    },
+    {
+        "SUBCAT": "C900",
+        "DESCRICAO": "Mieloma múltiplo",
+        "DESCRABREV": "C90.0 Mieloma mult",
+        "neoplasias": "C900-Mieloma múltiplo"
+    },
+    {
+        "SUBCAT": "C901",
+        "DESCRICAO": "Leucemia plasmocitária",
+        "DESCRABREV": "C90.1 Leucemia plasmocitaria",
+        "neoplasias": "C901-Leucemia plasmocitária"
+    },
+    {
+        "SUBCAT": "C902",
+        "DESCRICAO": "Plasmocitoma extramedular",
+        "DESCRABREV": "C90.2 Plasmocitoma extramedular",
+        "neoplasias": "C902-Plasmocitoma extramedular"
+    },
+    {
+        "SUBCAT": "C910",
+        "DESCRICAO": "Leucemia linfoblástica aguda",
+        "DESCRABREV": "C91.0 Leucemia linfoblastica aguda",
+        "neoplasias": "C910-Leucemia linfoblástica aguda"
+    },
+    {
+        "SUBCAT": "C911",
+        "DESCRICAO": "Leucemia linfocítica crônica",
+        "DESCRABREV": "C91.1 Leucemia linfocitica cronica",
+        "neoplasias": "C911-Leucemia linfocítica crônica"
+    },
+    {
+        "SUBCAT": "C912",
+        "DESCRICAO": "Leucemia linfocítica subaguda",
+        "DESCRABREV": "C91.2 Leucemia linfocitica subaguda",
+        "neoplasias": "C912-Leucemia linfocítica subaguda"
+    },
+    {
+        "SUBCAT": "C913",
+        "DESCRICAO": "Leucemia pró-linfocítica",
+        "DESCRABREV": "C91.3 Leucemia pro-linfocitica",
+        "neoplasias": "C913-Leucemia pró-linfocítica"
+    },
+    {
+        "SUBCAT": "C914",
+        "DESCRICAO": "Leucemia de células pilosas",
+        "DESCRABREV": "C91.4 Leucemia de celulas pilosas",
+        "neoplasias": "C914-Leucemia de células pilosas"
+    },
+    {
+        "SUBCAT": "C915",
+        "DESCRICAO": "Leucemia de células T do adulto",
+        "DESCRABREV": "C91.5 Leucemia de celulas T do adulto",
+        "neoplasias": "C915-Leucemia de células T do adulto"
+    },
+    {
+        "SUBCAT": "C917",
+        "DESCRICAO": "Outras leucemias linfóides",
+        "DESCRABREV": "C91.7 Outr leucemias linfoides",
+        "neoplasias": "C917-Outras leucemias linfóides"
+    },
+    {
+        "SUBCAT": "C919",
+        "DESCRICAO": "Leucemia linfóide, não especificada",
+        "DESCRABREV": "C91.9 Leucemia linfoide NE",
+        "neoplasias": "C919-Leucemia linfóide, não especificada"
+    },
+    {
+        "SUBCAT": "C920",
+        "DESCRICAO": "Leucemia mielóide aguda",
+        "DESCRABREV": "C92.0 Leucemia mieloide aguda",
+        "neoplasias": "C920-Leucemia mielóide aguda"
+    },
+    {
+        "SUBCAT": "C921",
+        "DESCRICAO": "Leucemia mielóide crônica",
+        "DESCRABREV": "C92.1 Leucemia mieloide cronica",
+        "neoplasias": "C921-Leucemia mielóide crônica"
+    },
+    {
+        "SUBCAT": "C922",
+        "DESCRICAO": "Leucemia mielóide subaguda",
+        "DESCRABREV": "C92.2 Leucemia mieloide subaguda",
+        "neoplasias": "C922-Leucemia mielóide subaguda"
+    },
+    {
+        "SUBCAT": "C923",
+        "DESCRICAO": "Sarcoma mielóide",
+        "DESCRABREV": "C92.3 Sarcoma mieloide",
+        "neoplasias": "C923-Sarcoma mielóide"
+    },
+    {
+        "SUBCAT": "C924",
+        "DESCRICAO": "Leucemia pró-mielocítica aguda",
+        "DESCRABREV": "C92.4 Leucemia pro-mielocitica aguda",
+        "neoplasias": "C924-Leucemia pró-mielocítica aguda"
+    },
+    {
+        "SUBCAT": "C925",
+        "DESCRICAO": "Leucemia mielomonocítica aguda",
+        "DESCRABREV": "C92.5 Leucemia mielomonocitica aguda",
+        "neoplasias": "C925-Leucemia mielomonocítica aguda"
+    },
+    {
+        "SUBCAT": "C927",
+        "DESCRICAO": "Outras leucemias mielóides",
+        "DESCRABREV": "C92.7 Outr leucemias mieloides",
+        "neoplasias": "C927-Outras leucemias mielóides"
+    },
+    {
+        "SUBCAT": "C929",
+        "DESCRICAO": "Leucemia mielóide, não especificada",
+        "DESCRABREV": "C92.9 Leucemia mieloide NE",
+        "neoplasias": "C929-Leucemia mielóide, não especificada"
+    },
+    {
+        "SUBCAT": "C930",
+        "DESCRICAO": "Leucemia monocítica aguda",
+        "DESCRABREV": "C93.0 Leucemia monocitica aguda",
+        "neoplasias": "C930-Leucemia monocítica aguda"
+    },
+    {
+        "SUBCAT": "C931",
+        "DESCRICAO": "Leucemia monocítica crônica",
+        "DESCRABREV": "C93.1 Leucemia monocitica cronica",
+        "neoplasias": "C931-Leucemia monocítica crônica"
+    },
+    {
+        "SUBCAT": "C932",
+        "DESCRICAO": "Leucemia monocítica subaguda",
+        "DESCRABREV": "C93.2 Leucemia monocitica subaguda",
+        "neoplasias": "C932-Leucemia monocítica subaguda"
+    },
+    {
+        "SUBCAT": "C937",
+        "DESCRICAO": "Outras leucemias monocíticas",
+        "DESCRABREV": "C93.7 Outr leucemias monociticas",
+        "neoplasias": "C937-Outras leucemias monocíticas"
+    },
+    {
+        "SUBCAT": "C939",
+        "DESCRICAO": "Leucemia monocítica, não especificada",
+        "DESCRABREV": "C93.9 Leucemia monocitica NE",
+        "neoplasias": "C939-Leucemia monocítica, não especificada"
+    },
+    {
+        "SUBCAT": "C940",
+        "DESCRICAO": "Eritremia e eritroleucemia agudas",
+        "DESCRABREV": "C94.0 Eritremia e eritroleucemia agudas",
+        "neoplasias": "C940-Eritremia e eritroleucemia agudas"
+    },
+    {
+        "SUBCAT": "C941",
+        "DESCRICAO": "Eritremia crônica",
+        "DESCRABREV": "C94.1 Eritremia cronica",
+        "neoplasias": "C941-Eritremia crônica"
+    },
+    {
+        "SUBCAT": "C942",
+        "DESCRICAO": "Leucemia megacarioblástica aguda",
+        "DESCRABREV": "C94.2 Leucemia megacarioblastica aguda",
+        "neoplasias": "C942-Leucemia megacarioblástica aguda"
+    },
+    {
+        "SUBCAT": "C943",
+        "DESCRICAO": "Leucemia de mastócitos",
+        "DESCRABREV": "C94.3 Leucemia de mastocitos",
+        "neoplasias": "C943-Leucemia de mastócitos"
+    },
+    {
+        "SUBCAT": "C944",
+        "DESCRICAO": "Panmielose aguda",
+        "DESCRABREV": "C94.4 Panmielose aguda",
+        "neoplasias": "C944-Panmielose aguda"
+    },
+    {
+        "SUBCAT": "C945",
+        "DESCRICAO": "Mielofibrose aguda",
+        "DESCRABREV": "C94.5 Mielofibrose aguda",
+        "neoplasias": "C945-Mielofibrose aguda"
+    },
+    {
+        "SUBCAT": "C947",
+        "DESCRICAO": "Outras leucemias especificadas",
+        "DESCRABREV": "C94.7 Outr leucemias espec",
+        "neoplasias": "C947-Outras leucemias especificadas"
+    },
+    {
+        "SUBCAT": "C950",
+        "DESCRICAO": "Leucemia aguda de tipo celular não especificado",
+        "DESCRABREV": "C95.0 Leucemia aguda de tipo celular NE",
+        "neoplasias": "C950-Leucemia aguda de tipo celular não especificado"
+    },
+    {
+        "SUBCAT": "C951",
+        "DESCRICAO": "Leucemia crônica de tipo celular não especificado",
+        "DESCRABREV": "C95.1 Leucemia cronica de tipo celular NE",
+        "neoplasias": "C951-Leucemia crônica de tipo celular não especificado"
+    },
+    {
+        "SUBCAT": "C952",
+        "DESCRICAO": "Leucemia subaguda de tipo celular não especificado",
+        "DESCRABREV": "C95.2 Leucemia subaguda de tipo celular NE",
+        "neoplasias": "C952-Leucemia subaguda de tipo celular não especificado"
+    },
+    {
+        "SUBCAT": "C957",
+        "DESCRICAO": "Outras leucemias de tipo celular não especificado",
+        "DESCRABREV": "C95.7 Outr leucemias de tipo celular NE",
+        "neoplasias": "C957-Outras leucemias de tipo celular não especificado"
+    },
+    {
+        "SUBCAT": "C959",
+        "DESCRICAO": "Leucemia não especificada",
+        "DESCRABREV": "C95.9 Leucemia NE",
+        "neoplasias": "C959-Leucemia não especificada"
+    },
+    {
+        "SUBCAT": "C960",
+        "DESCRICAO": "Doença de Letterer-Siwe",
+        "DESCRABREV": "C96.0 Doenc de Letterer-Siwe",
+        "neoplasias": "C960-Doença de Letterer-Siwe"
+    },
+    {
+        "SUBCAT": "C961",
+        "DESCRICAO": "Histiocitose maligna",
+        "DESCRABREV": "C96.1 Histiocitose maligna",
+        "neoplasias": "C961-Histiocitose maligna"
+    },
+    {
+        "SUBCAT": "C962",
+        "DESCRICAO": "Tumor maligno de mastócitos",
+        "DESCRABREV": "C96.2 Tumor maligno de mastocitos",
+        "neoplasias": "C962-Tumor maligno de mastócitos"
+    },
+    {
+        "SUBCAT": "C963",
+        "DESCRICAO": "Linfoma histiocítico verdadeiro",
+        "DESCRABREV": "C96.3 Linfoma histiocitico verdadeiro",
+        "neoplasias": "C963-Linfoma histiocítico verdadeiro"
+    },
+    {
+        "SUBCAT": "C967",
+        "DESCRICAO": "Outras neoplasias malignas especificadas dos tecidos linfático, hematopoético e tecidos correlatos",
+        "DESCRABREV": "C96.7 Outr neop mal espec tec linf hematop e corr",
+        "neoplasias": "C967-Outras neoplasias malignas especificadas dos tecidos linfático, hematopoético e tecidos correlatos"
+    },
+    {
+        "SUBCAT": "C969",
+        "DESCRICAO": "Neoplasia maligna dos tecidos linfático, hematopoético e tecidos correlatos, não especificada",
+        "DESCRABREV": "C96.9 Neop mal tec linf hematop e corr NE",
+        "neoplasias": "C969-Neoplasia maligna dos tecidos linfático, hematopoético e tecidos correlatos, não especificada"
+    },
+    {
+        "SUBCAT": "C97",
+        "DESCRICAO": "Neoplasias malignas de localizações múltiplas independentes (primárias)",
+        "DESCRABREV": "C97   Neopl malig de localiz mult independentes",
+        "neoplasias": "C97-Neoplasias malignas de localizações múltiplas independentes (primárias)"
+    },
+    {
+        "SUBCAT": "D000",
+        "DESCRICAO": "Carcinoma in situ dos lábios, cavidade oral e faringe",
+        "DESCRABREV": "D00.0 Labios cavidade oral e faringe",
+        "neoplasias": "D000-Carcinoma in situ dos lábios, cavidade oral e faringe"
+    },
+    {
+        "SUBCAT": "D001",
+        "DESCRICAO": "Carcinoma in situ do esôfago",
+        "DESCRABREV": "D00.1 Esofago",
+        "neoplasias": "D001-Carcinoma in situ do esôfago"
+    },
+    {
+        "SUBCAT": "D002",
+        "DESCRICAO": "Carcinoma in situ do estômago",
+        "DESCRABREV": "D00.2 Estomago",
+        "neoplasias": "D002-Carcinoma in situ do estômago"
+    },
+    {
+        "SUBCAT": "D010",
+        "DESCRICAO": "Carcinoma in situ do cólon",
+        "DESCRABREV": "D01.0 Colon",
+        "neoplasias": "D010-Carcinoma in situ do cólon"
+    },
+    {
+        "SUBCAT": "D011",
+        "DESCRICAO": "Carcinoma in situ da junção retossigmóide",
+        "DESCRABREV": "D01.1 Juncao retossigmoide",
+        "neoplasias": "D011-Carcinoma in situ da junção retossigmóide"
+    },
+    {
+        "SUBCAT": "D012",
+        "DESCRICAO": "Carcinoma in situ do reto",
+        "DESCRABREV": "D01.2 Reto",
+        "neoplasias": "D012-Carcinoma in situ do reto"
+    },
+    {
+        "SUBCAT": "D013",
+        "DESCRICAO": "Carcinoma in situ do ânus e canal anal",
+        "DESCRABREV": "D01.3 Anus e canal anal",
+        "neoplasias": "D013-Carcinoma in situ do ânus e canal anal"
+    },
+    {
+        "SUBCAT": "D014",
+        "DESCRICAO": "Carcinoma in situ de outras partes do intestino e as não especificadas",
+        "DESCRABREV": "D01.4 Outr partes do intestino e as NE",
+        "neoplasias": "D014-Carcinoma in situ de outras partes do intestino e as não especificadas"
+    },
+    {
+        "SUBCAT": "D015",
+        "DESCRICAO": "Carcinoma in situ do fígado, vesícula biliar e vias biliares",
+        "DESCRABREV": "D01.5 Figado vesicula biliar e vias biliares",
+        "neoplasias": "D015-Carcinoma in situ do fígado, vesícula biliar e vias biliares"
+    },
+    {
+        "SUBCAT": "D017",
+        "DESCRICAO": "Carcinoma in situ de outros órgãos especificados do aparelho digestivo",
+        "DESCRABREV": "D01.7 Outr orgaos espec do aparelho digestivo",
+        "neoplasias": "D017-Carcinoma in situ de outros órgãos especificados do aparelho digestivo"
+    },
+    {
+        "SUBCAT": "D019",
+        "DESCRICAO": "Carcinoma in situ de órgãos digestivos, não especificado",
+        "DESCRABREV": "D01.9 Orgaos digestivos NE",
+        "neoplasias": "D019-Carcinoma in situ de órgãos digestivos, não especificado"
+    },
+    {
+        "SUBCAT": "D020",
+        "DESCRICAO": "Carcinoma in situ da laringe",
+        "DESCRABREV": "D02.0 Laringe",
+        "neoplasias": "D020-Carcinoma in situ da laringe"
+    },
+    {
+        "SUBCAT": "D021",
+        "DESCRICAO": "Carcinoma in situ da traquéia",
+        "DESCRABREV": "D02.1 Traqueia",
+        "neoplasias": "D021-Carcinoma in situ da traquéia"
+    },
+    {
+        "SUBCAT": "D022",
+        "DESCRICAO": "Carcinoma in situ dos brônquios e pulmões",
+        "DESCRABREV": "D02.2 Bronquios e pulmoes",
+        "neoplasias": "D022-Carcinoma in situ dos brônquios e pulmões"
+    },
+    {
+        "SUBCAT": "D023",
+        "DESCRICAO": "Carcinoma in situ de outras partes do aparelho respiratório",
+        "DESCRABREV": "D02.3 Outr partes do aparelho respirat",
+        "neoplasias": "D023-Carcinoma in situ de outras partes do aparelho respiratório"
+    },
+    {
+        "SUBCAT": "D029",
+        "DESCRICAO": "Carcinoma in situ do aparelho respiratório, não especificado",
+        "DESCRABREV": "D02.9 Aparelho respirat NE",
+        "neoplasias": "D029-Carcinoma in situ do aparelho respiratório, não especificado"
+    },
+    {
+        "SUBCAT": "D030",
+        "DESCRICAO": "Melanoma in situ do lábio",
+        "DESCRABREV": "D03.0 Melanoma in situ do labio",
+        "neoplasias": "D030-Melanoma in situ do lábio"
+    },
+    {
+        "SUBCAT": "D031",
+        "DESCRICAO": "Melanoma in situ da pálpebra, incluindo o canto",
+        "DESCRABREV": "D03.1 Melanoma in situ da palpebra incl o canto",
+        "neoplasias": "D031-Melanoma in situ da pálpebra, incluindo o canto"
+    },
+    {
+        "SUBCAT": "D032",
+        "DESCRICAO": "Melanoma in situ da orelha e do conduto auditivo externo",
+        "DESCRABREV": "D03.2 Melanoma in situ orelha e conduto audit ext",
+        "neoplasias": "D032-Melanoma in situ da orelha e do conduto auditivo externo"
+    },
+    {
+        "SUBCAT": "D033",
+        "DESCRICAO": "Melanoma in situ de outras partes, e de partes não especificadas da face",
+        "DESCRABREV": "D03.3 Melanoma in situ outr partes e NE da face",
+        "neoplasias": "D033-Melanoma in situ de outras partes, e de partes não especificadas da face"
+    },
+    {
+        "SUBCAT": "D034",
+        "DESCRICAO": "Melanoma in situ do couro cabeludo e do pescoço",
+        "DESCRABREV": "D03.4 Melanoma in situ couro cabeludo e pescoco",
+        "neoplasias": "D034-Melanoma in situ do couro cabeludo e do pescoço"
+    },
+    {
+        "SUBCAT": "D035",
+        "DESCRICAO": "Melanoma in situ do tronco",
+        "DESCRABREV": "D03.5 Melanoma in situ do tronco",
+        "neoplasias": "D035-Melanoma in situ do tronco"
+    },
+    {
+        "SUBCAT": "D036",
+        "DESCRICAO": "Melanoma in situ dos membros superiores, incluindo ombro",
+        "DESCRABREV": "D03.6 Melanoma in situ membros super incl ombro",
+        "neoplasias": "D036-Melanoma in situ dos membros superiores, incluindo ombro"
+    },
+    {
+        "SUBCAT": "D037",
+        "DESCRICAO": "Melanoma in situ dos membros inferiores, incluindo quadril",
+        "DESCRABREV": "D03.7 Melanoma in situ membros infer incl quadril",
+        "neoplasias": "D037-Melanoma in situ dos membros inferiores, incluindo quadril"
+    },
+    {
+        "SUBCAT": "D038",
+        "DESCRICAO": "Melanoma in situ de outras localizações",
+        "DESCRABREV": "D03.8 Melanoma in situ de outr localiz",
+        "neoplasias": "D038-Melanoma in situ de outras localizações"
+    },
+    {
+        "SUBCAT": "D039",
+        "DESCRICAO": "Melanoma in situ, não especificado",
+        "DESCRABREV": "D03.9 Melanoma in situ NE",
+        "neoplasias": "D039-Melanoma in situ, não especificado"
+    },
+    {
+        "SUBCAT": "D040",
+        "DESCRICAO": "Carcinoma in situ da pele do lábio",
+        "DESCRABREV": "D04.0 Pele do labio",
+        "neoplasias": "D040-Carcinoma in situ da pele do lábio"
+    },
+    {
+        "SUBCAT": "D041",
+        "DESCRICAO": "Carcinoma in situ da pele da pálpebra, incluindo o canto",
+        "DESCRABREV": "D04.1 Pele da palpebra incl o canto",
+        "neoplasias": "D041-Carcinoma in situ da pele da pálpebra, incluindo o canto"
+    },
+    {
+        "SUBCAT": "D042",
+        "DESCRICAO": "Carcinoma in situ da pele da orelha e do conduto auditivo externo",
+        "DESCRABREV": "D04.2 Pele da orelha e do conduto auditivo externo",
+        "neoplasias": "D042-Carcinoma in situ da pele da orelha e do conduto auditivo externo"
+    },
+    {
+        "SUBCAT": "D043",
+        "DESCRICAO": "Carcinoma in situ da pele de outras partes e de partes não especificadas da face",
+        "DESCRABREV": "D04.3 Pele de outr partes e de partes NE da face",
+        "neoplasias": "D043-Carcinoma in situ da pele de outras partes e de partes não especificadas da face"
+    },
+    {
+        "SUBCAT": "D044",
+        "DESCRICAO": "Carcinoma in situ da pele do couro cabeludo e do pescoço",
+        "DESCRABREV": "D04.4 Pele do couro cabeludo e do pescoco",
+        "neoplasias": "D044-Carcinoma in situ da pele do couro cabeludo e do pescoço"
+    },
+    {
+        "SUBCAT": "D045",
+        "DESCRICAO": "Carcinoma in situ da pele do tronco",
+        "DESCRABREV": "D04.5 Pele do tronco",
+        "neoplasias": "D045-Carcinoma in situ da pele do tronco"
+    },
+    {
+        "SUBCAT": "D046",
+        "DESCRICAO": "Carcinoma in situ da pele dos membros superiores, incluindo ombro",
+        "DESCRABREV": "D04.6 Pele dos membros super incl ombro",
+        "neoplasias": "D046-Carcinoma in situ da pele dos membros superiores, incluindo ombro"
+    },
+    {
+        "SUBCAT": "D047",
+        "DESCRICAO": "Carcinoma in situ da pele dos membros inferiores, incluindo quadril",
+        "DESCRABREV": "D04.7 Pele dos membros infer incl quadril",
+        "neoplasias": "D047-Carcinoma in situ da pele dos membros inferiores, incluindo quadril"
+    },
+    {
+        "SUBCAT": "D048",
+        "DESCRICAO": "Carcinoma in situ da pele de outras localizações",
+        "DESCRABREV": "D04.8 Pele de outr localiz",
+        "neoplasias": "D048-Carcinoma in situ da pele de outras localizações"
+    },
+    {
+        "SUBCAT": "D049",
+        "DESCRICAO": "Carcinoma in situ da pele, não especificada",
+        "DESCRABREV": "D04.9 Pele NE",
+        "neoplasias": "D049-Carcinoma in situ da pele, não especificada"
+    },
+    {
+        "SUBCAT": "D050",
+        "DESCRICAO": "Carcinoma lobular in situ",
+        "DESCRABREV": "D05.0 Carcinoma lobular in situ",
+        "neoplasias": "D050-Carcinoma lobular in situ"
+    },
+    {
+        "SUBCAT": "D051",
+        "DESCRICAO": "Carcinoma intraductal in situ",
+        "DESCRABREV": "D05.1 Carcinoma intraductal in situ",
+        "neoplasias": "D051-Carcinoma intraductal in situ"
+    },
+    {
+        "SUBCAT": "D057",
+        "DESCRICAO": "Outros carcinomas in situ",
+        "DESCRABREV": "D05.7 Outr carcinomas in situ",
+        "neoplasias": "D057-Outros carcinomas in situ"
+    },
+    {
+        "SUBCAT": "D059",
+        "DESCRICAO": "Carcinoma in situ da mama, não especificado",
+        "DESCRABREV": "D05.9 Carcinoma in situ da mama NE",
+        "neoplasias": "D059-Carcinoma in situ da mama, não especificado"
+    },
+    {
+        "SUBCAT": "D060",
+        "DESCRICAO": "Carcinoma in situ do endocérvix",
+        "DESCRABREV": "D06.0 Endocervix",
+        "neoplasias": "D060-Carcinoma in situ do endocérvix"
+    },
+    {
+        "SUBCAT": "D061",
+        "DESCRICAO": "Carcinoma in situ do exocérvix",
+        "DESCRABREV": "D06.1 Exocervix",
+        "neoplasias": "D061-Carcinoma in situ do exocérvix"
+    },
+    {
+        "SUBCAT": "D067",
+        "DESCRICAO": "Carcinoma in situ de outras partes do colo do útero",
+        "DESCRABREV": "D06.7 Outr partes do colo do utero",
+        "neoplasias": "D067-Carcinoma in situ de outras partes do colo do útero"
+    },
+    {
+        "SUBCAT": "D069",
+        "DESCRICAO": "Carcinoma in situ do colo do útero, não especificado",
+        "DESCRABREV": "D06.9 Colo do utero NE",
+        "neoplasias": "D069-Carcinoma in situ do colo do útero, não especificado"
+    },
+    {
+        "SUBCAT": "D070",
+        "DESCRICAO": "Carcinoma in situ do endométrio",
+        "DESCRABREV": "D07.0 Endometrio",
+        "neoplasias": "D070-Carcinoma in situ do endométrio"
+    },
+    {
+        "SUBCAT": "D071",
+        "DESCRICAO": "Carcinoma in situ da vulva",
+        "DESCRABREV": "D07.1 Vulva",
+        "neoplasias": "D071-Carcinoma in situ da vulva"
+    },
+    {
+        "SUBCAT": "D072",
+        "DESCRICAO": "Carcinoma in situ da vagina",
+        "DESCRABREV": "D07.2 Vagina",
+        "neoplasias": "D072-Carcinoma in situ da vagina"
+    },
+    {
+        "SUBCAT": "D073",
+        "DESCRICAO": "Carcinoma in situ de outros órgãos genitais femininos e os não especificados",
+        "DESCRABREV": "D07.3 Outr orgaos genitais femin e os NE",
+        "neoplasias": "D073-Carcinoma in situ de outros órgãos genitais femininos e os não especificados"
+    },
+    {
+        "SUBCAT": "D074",
+        "DESCRICAO": "Carcinoma in situ do pênis",
+        "DESCRABREV": "D07.4 Penis",
+        "neoplasias": "D074-Carcinoma in situ do pênis"
+    },
+    {
+        "SUBCAT": "D075",
+        "DESCRICAO": "Carcinoma in situ da próstata",
+        "DESCRABREV": "D07.5 Prostata",
+        "neoplasias": "D075-Carcinoma in situ da próstata"
+    },
+    {
+        "SUBCAT": "D076",
+        "DESCRICAO": "Carcinoma in situ de outros órgãos genitais masculinos e os não especificados",
+        "DESCRABREV": "D07.6 Outr orgaos genitais masc e os NE",
+        "neoplasias": "D076-Carcinoma in situ de outros órgãos genitais masculinos e os não especificados"
+    },
+    {
+        "SUBCAT": "D090",
+        "DESCRICAO": "Carcinoma in situ da bexiga",
+        "DESCRABREV": "D09.0 Bexiga",
+        "neoplasias": "D090-Carcinoma in situ da bexiga"
+    },
+    {
+        "SUBCAT": "D091",
+        "DESCRICAO": "Carcinoma in situ de outros órgãos urinários e os não especificados",
+        "DESCRABREV": "D09.1 Outr orgaos urinarios e os NE",
+        "neoplasias": "D091-Carcinoma in situ de outros órgãos urinários e os não especificados"
+    },
+    {
+        "SUBCAT": "D092",
+        "DESCRICAO": "Carcinoma in situ do olho",
+        "DESCRABREV": "D09.2 Olho",
+        "neoplasias": "D092-Carcinoma in situ do olho"
+    },
+    {
+        "SUBCAT": "D093",
+        "DESCRICAO": "Carcinoma in situ da tireóide e de outras glândulas endócrinas",
+        "DESCRABREV": "D09.3 Tireoide e de outr gland endocrinas",
+        "neoplasias": "D093-Carcinoma in situ da tireóide e de outras glândulas endócrinas"
+    },
+    {
+        "SUBCAT": "D097",
+        "DESCRICAO": "Carcinoma in situ de outras localizações especificadas",
+        "DESCRABREV": "D09.7 Carcinoma in situ de outr localiz espec",
+        "neoplasias": "D097-Carcinoma in situ de outras localizações especificadas"
+    },
+    {
+        "SUBCAT": "D099",
+        "DESCRICAO": "Carcinoma in situ, não especificado",
+        "DESCRABREV": "D09.9 Carcinoma in situ NE",
+        "neoplasias": "D099-Carcinoma in situ, não especificado"
+    },
+    {
+        "SUBCAT": "D100",
+        "DESCRICAO": "Neoplasia benigna dos lábios",
+        "DESCRABREV": "D10.0 Labios",
+        "neoplasias": "D100-Neoplasia benigna dos lábios"
+    },
+    {
+        "SUBCAT": "D101",
+        "DESCRICAO": "Neoplasia benigna da língua",
+        "DESCRABREV": "D10.1 Lingua",
+        "neoplasias": "D101-Neoplasia benigna da língua"
+    },
+    {
+        "SUBCAT": "D102",
+        "DESCRICAO": "Neoplasia benigna do assoalho da boca",
+        "DESCRABREV": "D10.2 Assoalho da boca",
+        "neoplasias": "D102-Neoplasia benigna do assoalho da boca"
+    },
+    {
+        "SUBCAT": "D103",
+        "DESCRICAO": "Neoplasia benigna de outras partes da boca e as não especificadas",
+        "DESCRABREV": "D10.3 Outr partes da boca e as NE",
+        "neoplasias": "D103-Neoplasia benigna de outras partes da boca e as não especificadas"
+    },
+    {
+        "SUBCAT": "D104",
+        "DESCRICAO": "Neoplasia benigna da amígdala",
+        "DESCRABREV": "D10.4 Amigdala",
+        "neoplasias": "D104-Neoplasia benigna da amígdala"
+    },
+    {
+        "SUBCAT": "D105",
+        "DESCRICAO": "Neoplasia benigna de outras partes da orofaringe",
+        "DESCRABREV": "D10.5 Outr partes da orofaringe",
+        "neoplasias": "D105-Neoplasia benigna de outras partes da orofaringe"
+    },
+    {
+        "SUBCAT": "D106",
+        "DESCRICAO": "Neoplasia benigna da nasofaringe",
+        "DESCRABREV": "D10.6 Nasofaringe",
+        "neoplasias": "D106-Neoplasia benigna da nasofaringe"
+    },
+    {
+        "SUBCAT": "D107",
+        "DESCRICAO": "Neoplasia benigna da hipofaringe",
+        "DESCRABREV": "D10.7 Hipofaringe",
+        "neoplasias": "D107-Neoplasia benigna da hipofaringe"
+    },
+    {
+        "SUBCAT": "D109",
+        "DESCRICAO": "Neoplasia benigna da faringe, não especificada",
+        "DESCRABREV": "D10.9 Faringe NE",
+        "neoplasias": "D109-Neoplasia benigna da faringe, não especificada"
+    },
+    {
+        "SUBCAT": "D110",
+        "DESCRICAO": "Neoplasia benigna da glândula parótida",
+        "DESCRABREV": "D11.0 Gland parotida",
+        "neoplasias": "D110-Neoplasia benigna da glândula parótida"
+    },
+    {
+        "SUBCAT": "D117",
+        "DESCRICAO": "Neoplasia benigna de outras glândulas salivares maiores",
+        "DESCRABREV": "D11.7 Outr gland salivares maiores",
+        "neoplasias": "D117-Neoplasia benigna de outras glândulas salivares maiores"
+    },
+    {
+        "SUBCAT": "D119",
+        "DESCRICAO": "Neoplasia benigna da glândula salivar maior, não especificada",
+        "DESCRABREV": "D11.9 Gland salivar maior NE",
+        "neoplasias": "D119-Neoplasia benigna da glândula salivar maior, não especificada"
+    },
+    {
+        "SUBCAT": "D120",
+        "DESCRICAO": "Neoplasia benigna do ceco",
+        "DESCRABREV": "D12.0 Ceco",
+        "neoplasias": "D120-Neoplasia benigna do ceco"
+    },
+    {
+        "SUBCAT": "D121",
+        "DESCRICAO": "Neoplasia benigna do apêndice (vermiforme)",
+        "DESCRABREV": "D12.1 Apendice",
+        "neoplasias": "D121-Neoplasia benigna do apêndice (vermiforme)"
+    },
+    {
+        "SUBCAT": "D122",
+        "DESCRICAO": "Neoplasia benigna do cólon ascendente",
+        "DESCRABREV": "D12.2 Colon ascendente",
+        "neoplasias": "D122-Neoplasia benigna do cólon ascendente"
+    },
+    {
+        "SUBCAT": "D123",
+        "DESCRICAO": "Neoplasia benigna do cólon transverso",
+        "DESCRABREV": "D12.3 Colon transverso",
+        "neoplasias": "D123-Neoplasia benigna do cólon transverso"
+    },
+    {
+        "SUBCAT": "D124",
+        "DESCRICAO": "Neoplasia benigna do cólon descendente",
+        "DESCRABREV": "D12.4 Colon descendente",
+        "neoplasias": "D124-Neoplasia benigna do cólon descendente"
+    },
+    {
+        "SUBCAT": "D125",
+        "DESCRICAO": "Neoplasia benigna do cólon sigmóide",
+        "DESCRABREV": "D12.5 Colon sigmoide",
+        "neoplasias": "D125-Neoplasia benigna do cólon sigmóide"
+    },
+    {
+        "SUBCAT": "D126",
+        "DESCRICAO": "Neoplasia benigna do cólon, não especificada",
+        "DESCRABREV": "D12.6 Colon NE",
+        "neoplasias": "D126-Neoplasia benigna do cólon, não especificada"
+    },
+    {
+        "SUBCAT": "D127",
+        "DESCRICAO": "Neoplasia benigna da junção retossigmóide",
+        "DESCRABREV": "D12.7 Juncao retossigmoide",
+        "neoplasias": "D127-Neoplasia benigna da junção retossigmóide"
+    },
+    {
+        "SUBCAT": "D128",
+        "DESCRICAO": "Neoplasia benigna do reto",
+        "DESCRABREV": "D12.8 Reto",
+        "neoplasias": "D128-Neoplasia benigna do reto"
+    },
+    {
+        "SUBCAT": "D129",
+        "DESCRICAO": "Neoplasia benigna do canal anal e ânus",
+        "DESCRABREV": "D12.9 Canal anal e anus",
+        "neoplasias": "D129-Neoplasia benigna do canal anal e ânus"
+    },
+    {
+        "SUBCAT": "D130",
+        "DESCRICAO": "Neoplasia benigna do esôfago",
+        "DESCRABREV": "D13.0 Esofago",
+        "neoplasias": "D130-Neoplasia benigna do esôfago"
+    },
+    {
+        "SUBCAT": "D131",
+        "DESCRICAO": "Neoplasia benigna do estômago",
+        "DESCRABREV": "D13.1 Estomago",
+        "neoplasias": "D131-Neoplasia benigna do estômago"
+    },
+    {
+        "SUBCAT": "D132",
+        "DESCRICAO": "Neoplasia benigna do duodeno",
+        "DESCRABREV": "D13.2 Duodeno",
+        "neoplasias": "D132-Neoplasia benigna do duodeno"
+    },
+    {
+        "SUBCAT": "D133",
+        "DESCRICAO": "Neoplasia benigna de outras partes e partes não especificadas do intestino delgado",
+        "DESCRABREV": "D13.3 Outr partes e partes NE do intestino delgado",
+        "neoplasias": "D133-Neoplasia benigna de outras partes e partes não especificadas do intestino delgado"
+    },
+    {
+        "SUBCAT": "D134",
+        "DESCRICAO": "Neoplasia benigna do fígado",
+        "DESCRABREV": "D13.4 Figado",
+        "neoplasias": "D134-Neoplasia benigna do fígado"
+    },
+    {
+        "SUBCAT": "D135",
+        "DESCRICAO": "Neoplasia benigna das vias biliares extra-hepáticas",
+        "DESCRABREV": "D13.5 Vias biliares extra-hepaticas",
+        "neoplasias": "D135-Neoplasia benigna das vias biliares extra-hepáticas"
+    },
+    {
+        "SUBCAT": "D136",
+        "DESCRICAO": "Neoplasia benigna do pâncreas",
+        "DESCRABREV": "D13.6 Pancreas",
+        "neoplasias": "D136-Neoplasia benigna do pâncreas"
+    },
+    {
+        "SUBCAT": "D137",
+        "DESCRICAO": "Neoplasia benigna do pâncreas endócrino",
+        "DESCRABREV": "D13.7 Pancreas endocrino",
+        "neoplasias": "D137-Neoplasia benigna do pâncreas endócrino"
+    },
+    {
+        "SUBCAT": "D139",
+        "DESCRICAO": "Neoplasia benigna de localizações mal definidas do aparelho digestivo",
+        "DESCRABREV": "D13.9 Localiz mal definidas do aparelho digestivo",
+        "neoplasias": "D139-Neoplasia benigna de localizações mal definidas do aparelho digestivo"
+    },
+    {
+        "SUBCAT": "D140",
+        "DESCRICAO": "Neoplasia benigna do ouvido médio, cavidade nasal e seios paranasais",
+        "DESCRABREV": "D14.0 Ouvido medio cav nasal e seios paranasais",
+        "neoplasias": "D140-Neoplasia benigna do ouvido médio, cavidade nasal e seios paranasais"
+    },
+    {
+        "SUBCAT": "D141",
+        "DESCRICAO": "Neoplasia benigna da laringe",
+        "DESCRABREV": "D14.1 Laringe",
+        "neoplasias": "D141-Neoplasia benigna da laringe"
+    },
+    {
+        "SUBCAT": "D142",
+        "DESCRICAO": "Neoplasia benigna da traquéia",
+        "DESCRABREV": "D14.2 Traqueia",
+        "neoplasias": "D142-Neoplasia benigna da traquéia"
+    },
+    {
+        "SUBCAT": "D143",
+        "DESCRICAO": "Neoplasia benigna dos brônquios e pulmão",
+        "DESCRABREV": "D14.3 Bronquios e pulmao",
+        "neoplasias": "D143-Neoplasia benigna dos brônquios e pulmão"
+    },
+    {
+        "SUBCAT": "D144",
+        "DESCRICAO": "Neoplasia benigna do aparelho respiratório, não especificado",
+        "DESCRABREV": "D14.4 Aparelho respirat NE",
+        "neoplasias": "D144-Neoplasia benigna do aparelho respiratório, não especificado"
+    },
+    {
+        "SUBCAT": "D150",
+        "DESCRICAO": "Neoplasia benigna do timo",
+        "DESCRABREV": "D15.0 Timo",
+        "neoplasias": "D150-Neoplasia benigna do timo"
+    },
+    {
+        "SUBCAT": "D151",
+        "DESCRICAO": "Neoplasia benigna do coração",
+        "DESCRABREV": "D15.1 Coracao",
+        "neoplasias": "D151-Neoplasia benigna do coração"
+    },
+    {
+        "SUBCAT": "D152",
+        "DESCRICAO": "Neoplasia benigna do mediastino",
+        "DESCRABREV": "D15.2 Mediastino",
+        "neoplasias": "D152-Neoplasia benigna do mediastino"
+    },
+    {
+        "SUBCAT": "D157",
+        "DESCRICAO": "Neoplasia benigna de outros órgãos intratorácicos especificados",
+        "DESCRABREV": "D15.7 Outr orgaos intratoracicos espec",
+        "neoplasias": "D157-Neoplasia benigna de outros órgãos intratorácicos especificados"
+    },
+    {
+        "SUBCAT": "D159",
+        "DESCRICAO": "Neoplasia benigna de órgão intratorácico, não especificado",
+        "DESCRABREV": "D15.9 Orgao intratoracico NE",
+        "neoplasias": "D159-Neoplasia benigna de órgão intratorácico, não especificado"
+    },
+    {
+        "SUBCAT": "D160",
+        "DESCRICAO": "Neoplasia benigna da omoplata [escápula] e ossos longos dos membros superiores",
+        "DESCRABREV": "D16.0 Omoplata e ossos longos dos membros super",
+        "neoplasias": "D160-Neoplasia benigna da omoplata [escápula] e ossos longos dos membros superiores"
+    },
+    {
+        "SUBCAT": "D161",
+        "DESCRICAO": "Neoplasia benigna dos ossos curtos dos membros superiores",
+        "DESCRABREV": "D16.1 Ossos curtos dos membros super",
+        "neoplasias": "D161-Neoplasia benigna dos ossos curtos dos membros superiores"
+    },
+    {
+        "SUBCAT": "D162",
+        "DESCRICAO": "Neoplasia benigna dos ossos longos dos membros inferiores",
+        "DESCRABREV": "D16.2 Ossos longos dos membros infer",
+        "neoplasias": "D162-Neoplasia benigna dos ossos longos dos membros inferiores"
+    },
+    {
+        "SUBCAT": "D163",
+        "DESCRICAO": "Neoplasia benigna dos ossos curtos dos membros inferiores",
+        "DESCRABREV": "D16.3 Ossos curtos dos membros infer",
+        "neoplasias": "D163-Neoplasia benigna dos ossos curtos dos membros inferiores"
+    },
+    {
+        "SUBCAT": "D164",
+        "DESCRICAO": "Neoplasia benigna dos ossos do crânio e da face",
+        "DESCRABREV": "D16.4 Ossos do cranio e da face",
+        "neoplasias": "D164-Neoplasia benigna dos ossos do crânio e da face"
+    },
+    {
+        "SUBCAT": "D165",
+        "DESCRICAO": "Neoplasia benigna do osso da mandíbula",
+        "DESCRABREV": "D16.5 Osso da mandibula",
+        "neoplasias": "D165-Neoplasia benigna do osso da mandíbula"
+    },
+    {
+        "SUBCAT": "D166",
+        "DESCRICAO": "Neoplasia benigna da coluna vertebral",
+        "DESCRABREV": "D16.6 Coluna vertebral",
+        "neoplasias": "D166-Neoplasia benigna da coluna vertebral"
+    },
+    {
+        "SUBCAT": "D167",
+        "DESCRICAO": "Neoplasia benigna das costelas, do esterno e da clavícula",
+        "DESCRABREV": "D16.7 Costelas do esterno e da clavicula",
+        "neoplasias": "D167-Neoplasia benigna das costelas, do esterno e da clavícula"
+    },
+    {
+        "SUBCAT": "D168",
+        "DESCRICAO": "Neoplasia benigna dos ossos pélvicos, sacro e cóccix",
+        "DESCRABREV": "D16.8 Ossos pelvicos sacro e coccix",
+        "neoplasias": "D168-Neoplasia benigna dos ossos pélvicos, sacro e cóccix"
+    },
+    {
+        "SUBCAT": "D169",
+        "DESCRICAO": "Neoplasia benigna do osso e cartilagem articular, não especificado",
+        "DESCRABREV": "D16.9 Osso e cartilagem articular NE",
+        "neoplasias": "D169-Neoplasia benigna do osso e cartilagem articular, não especificado"
+    },
+    {
+        "SUBCAT": "D170",
+        "DESCRICAO": "Neoplasia lipomatosa benigna da pele e do tecido subcutâneo da cabeça, face e pescoço",
+        "DESCRABREV": "D17.0 Neop lipom ben pele tec subcut cab face pesc",
+        "neoplasias": "D170-Neoplasia lipomatosa benigna da pele e do tecido subcutâneo da cabeça, face e pescoço"
+    },
+    {
+        "SUBCAT": "D171",
+        "DESCRICAO": "Neoplasia lipomatosa benigna da pele e tecido subcutâneo do tronco",
+        "DESCRABREV": "D17.1 Neopl lipomatosa benig pele tec subcut tronc",
+        "neoplasias": "D171-Neoplasia lipomatosa benigna da pele e tecido subcutâneo do tronco"
+    },
+    {
+        "SUBCAT": "D172",
+        "DESCRICAO": "Neoplasia lipomatosa benigna da pele e tecido subcutâneo dos membros",
+        "DESCRABREV": "D17.2 Neopl lipomatosa benig pele tec subcut membr",
+        "neoplasias": "D172-Neoplasia lipomatosa benigna da pele e tecido subcutâneo dos membros"
+    },
+    {
+        "SUBCAT": "D173",
+        "DESCRICAO": "Neoplasia lipomatosa benigna da pele e tecido subcutâneo de outras localizações e de localizações não especificadas",
+        "DESCRABREV": "D17.3 Neopl lip benig pele tec subc outr loc e NE",
+        "neoplasias": "D173-Neoplasia lipomatosa benigna da pele e tecido subcutâneo de outras localizações e de localizações não especificadas"
+    },
+    {
+        "SUBCAT": "D174",
+        "DESCRICAO": "Neoplasia lipomatosa benigna de órgãos intratorácicos",
+        "DESCRABREV": "D17.4 Neopl lipomatosa benig orgaos intratoracicos",
+        "neoplasias": "D174-Neoplasia lipomatosa benigna de órgãos intratorácicos"
+    },
+    {
+        "SUBCAT": "D175",
+        "DESCRICAO": "Neoplasia lipomatosa benigna de órgãos intra-abdominais",
+        "DESCRABREV": "D17.5 Neopl lipomatosa benig orgaos intra-abdomin",
+        "neoplasias": "D175-Neoplasia lipomatosa benigna de órgãos intra-abdominais"
+    },
+    {
+        "SUBCAT": "D176",
+        "DESCRICAO": "Neoplasia lipomatosa benigna do cordão espermático",
+        "DESCRABREV": "D17.6 Neopl lipomatosa benig do cordao espermatico",
+        "neoplasias": "D176-Neoplasia lipomatosa benigna do cordão espermático"
+    },
+    {
+        "SUBCAT": "D177",
+        "DESCRICAO": "Neoplasia lipomatosa benigna de outras localizações",
+        "DESCRABREV": "D17.7 Neoplasia lipomatosa benigna de outr localiz",
+        "neoplasias": "D177-Neoplasia lipomatosa benigna de outras localizações"
+    },
+    {
+        "SUBCAT": "D179",
+        "DESCRICAO": "Neoplasia lipomatosa benigna de localização não especificada",
+        "DESCRABREV": "D17.9 Neoplasia lipomatosa benigna de localiz NE",
+        "neoplasias": "D179-Neoplasia lipomatosa benigna de localização não especificada"
+    },
+    {
+        "SUBCAT": "D180",
+        "DESCRICAO": "Hemangioma de qualquer localização",
+        "DESCRABREV": "D18.0 Hemangioma de qualquer localiz",
+        "neoplasias": "D180-Hemangioma de qualquer localização"
+    },
+    {
+        "SUBCAT": "D181",
+        "DESCRICAO": "Linfangioma de qualquer localização",
+        "DESCRABREV": "D18.1 Linfangioma de qualquer localiz",
+        "neoplasias": "D181-Linfangioma de qualquer localização"
+    },
+    {
+        "SUBCAT": "D190",
+        "DESCRICAO": "Neoplasia benigna do tecido mesotelial da pleura",
+        "DESCRABREV": "D19.0 Tec mesotelial da pleura",
+        "neoplasias": "D190-Neoplasia benigna do tecido mesotelial da pleura"
+    },
+    {
+        "SUBCAT": "D191",
+        "DESCRICAO": "Neoplasia benigna do tecido mesotelial do peritônio",
+        "DESCRABREV": "D19.1 Tec mesotelial do peritonio",
+        "neoplasias": "D191-Neoplasia benigna do tecido mesotelial do peritônio"
+    },
+    {
+        "SUBCAT": "D197",
+        "DESCRICAO": "Neoplasia benigna do tecido mesotelial de outras localizações",
+        "DESCRABREV": "D19.7 Tec mesotelial de outr localiz",
+        "neoplasias": "D197-Neoplasia benigna do tecido mesotelial de outras localizações"
+    },
+    {
+        "SUBCAT": "D199",
+        "DESCRICAO": "Neoplasia benigna do tecido mesotelial, não especificado",
+        "DESCRABREV": "D19.9 Tec mesotelial NE",
+        "neoplasias": "D199-Neoplasia benigna do tecido mesotelial, não especificado"
+    },
+    {
+        "SUBCAT": "D200",
+        "DESCRICAO": "Neoplasia benigna do retroperitônio",
+        "DESCRABREV": "D20.0 Retroperitonio",
+        "neoplasias": "D200-Neoplasia benigna do retroperitônio"
+    },
+    {
+        "SUBCAT": "D201",
+        "DESCRICAO": "Neoplasia benigna do peritônio",
+        "DESCRABREV": "D20.1 Peritonio",
+        "neoplasias": "D201-Neoplasia benigna do peritônio"
+    },
+    {
+        "SUBCAT": "D210",
+        "DESCRICAO": "Neoplasia benigna do tecido conjuntivo e outros tecidos moles da cabeça, face e pescoço",
+        "DESCRABREV": "D21.0 Tec conj e outr tec moles cabeca face e pesc",
+        "neoplasias": "D210-Neoplasia benigna do tecido conjuntivo e outros tecidos moles da cabeça, face e pescoço"
+    },
+    {
+        "SUBCAT": "D211",
+        "DESCRICAO": "Neoplasia benigna do tecido conjuntivo e outros tecidos moles dos membros superiores, incluindo ombro",
+        "DESCRABREV": "D21.1 Tec conj e out tec moles membr sup incl ombr",
+        "neoplasias": "D211-Neoplasia benigna do tecido conjuntivo e outros tecidos moles dos membros superiores, incluindo ombro"
+    },
+    {
+        "SUBCAT": "D212",
+        "DESCRICAO": "Neoplasia benigna do tecido conjuntivo e outros tecidos moles dos membros inferiores, incluindo quadril",
+        "DESCRABREV": "D21.2 Tec conj e out tec moles membr inf incl quad",
+        "neoplasias": "D212-Neoplasia benigna do tecido conjuntivo e outros tecidos moles dos membros inferiores, incluindo quadril"
+    },
+    {
+        "SUBCAT": "D213",
+        "DESCRICAO": "Neoplasia benigna do tecido conjuntivo e outros tecidos moles do tórax",
+        "DESCRABREV": "D21.3 Tec conjuntivo e outr tec moles do torax",
+        "neoplasias": "D213-Neoplasia benigna do tecido conjuntivo e outros tecidos moles do tórax"
+    },
+    {
+        "SUBCAT": "D214",
+        "DESCRICAO": "Neoplasia benigna do tecido conjuntivo e outros tecidos moles do abdome",
+        "DESCRABREV": "D21.4 Tec conjuntivo e outr tec moles do abdome",
+        "neoplasias": "D214-Neoplasia benigna do tecido conjuntivo e outros tecidos moles do abdome"
+    },
+    {
+        "SUBCAT": "D215",
+        "DESCRICAO": "Neoplasia benigna do tecido conjuntivo e outros tecidos moles da pelve",
+        "DESCRABREV": "D21.5 Tec conjuntivo e outr tec moles da pelve",
+        "neoplasias": "D215-Neoplasia benigna do tecido conjuntivo e outros tecidos moles da pelve"
+    },
+    {
+        "SUBCAT": "D216",
+        "DESCRICAO": "Neoplasia benigna do tecido conjuntivo e outros tecidos moles do tronco, não especificado",
+        "DESCRABREV": "D21.6 Tec conjuntivo e outr tec moles do tronco NE",
+        "neoplasias": "D216-Neoplasia benigna do tecido conjuntivo e outros tecidos moles do tronco, não especificado"
+    },
+    {
+        "SUBCAT": "D219",
+        "DESCRICAO": "Neoplasia benigna do tecido conjuntivo e outros tecidos moles, sem outra especificação",
+        "DESCRABREV": "D21.9 Tec conjuntivo e outr tec moles s/outr espec",
+        "neoplasias": "D219-Neoplasia benigna do tecido conjuntivo e outros tecidos moles, sem outra especificação"
+    },
+    {
+        "SUBCAT": "D220",
+        "DESCRICAO": "Nevo melanocítico do lábio",
+        "DESCRABREV": "D22.0 Nevo melanocitico do labio",
+        "neoplasias": "D220-Nevo melanocítico do lábio"
+    },
+    {
+        "SUBCAT": "D221",
+        "DESCRICAO": "Nevo melanocítico da pálpebra, incluindo o canto",
+        "DESCRABREV": "D22.1 Nevo melanocitico da palpebra incl o canto",
+        "neoplasias": "D221-Nevo melanocítico da pálpebra, incluindo o canto"
+    },
+    {
+        "SUBCAT": "D222",
+        "DESCRICAO": "Nevo melanocítico da orelha e do conduto auditivo externo",
+        "DESCRABREV": "D22.2 Nevo melanocitico orelha e cond auditivo ext",
+        "neoplasias": "D222-Nevo melanocítico da orelha e do conduto auditivo externo"
+    },
+    {
+        "SUBCAT": "D223",
+        "DESCRICAO": "Nevo melanocítico de outras partes e de partes não especificadas da face",
+        "DESCRABREV": "D22.3 Nevo melanocitico outr partes e NE da face",
+        "neoplasias": "D223-Nevo melanocítico de outras partes e de partes não especificadas da face"
+    },
+    {
+        "SUBCAT": "D224",
+        "DESCRICAO": "Nevo melanocítico do couro cabeludo e do pescoço",
+        "DESCRABREV": "D22.4 Nevo melanocitico couro cabeludo e pescoco",
+        "neoplasias": "D224-Nevo melanocítico do couro cabeludo e do pescoço"
+    },
+    {
+        "SUBCAT": "D225",
+        "DESCRICAO": "Nevo melanocítico do tronco",
+        "DESCRABREV": "D22.5 Nevo melanocitico do tronco",
+        "neoplasias": "D225-Nevo melanocítico do tronco"
+    },
+    {
+        "SUBCAT": "D226",
+        "DESCRICAO": "Nevo melanocítico dos membros superiores, incluindo ombro",
+        "DESCRABREV": "D22.6 Nevo melanocitico membros super incl ombro",
+        "neoplasias": "D226-Nevo melanocítico dos membros superiores, incluindo ombro"
+    },
+    {
+        "SUBCAT": "D227",
+        "DESCRICAO": "Nevo melanocítico dos membros inferiores, incluindo quadril",
+        "DESCRABREV": "D22.7 Nevo melanocitico membros infer incl quadril",
+        "neoplasias": "D227-Nevo melanocítico dos membros inferiores, incluindo quadril"
+    },
+    {
+        "SUBCAT": "D229",
+        "DESCRICAO": "Nevo melanocítico, não especificado",
+        "DESCRABREV": "D22.9 Nevo melanocitico NE",
+        "neoplasias": "D229-Nevo melanocítico, não especificado"
+    },
+    {
+        "SUBCAT": "D230",
+        "DESCRICAO": "Neoplasia benigna da pele dos lábios",
+        "DESCRABREV": "D23.0 Pele dos labios",
+        "neoplasias": "D230-Neoplasia benigna da pele dos lábios"
+    },
+    {
+        "SUBCAT": "D231",
+        "DESCRICAO": "Neoplasia benigna da pele da pálpebra, incluindo o canto",
+        "DESCRABREV": "D23.1 Pele da palpebra incl o canto",
+        "neoplasias": "D231-Neoplasia benigna da pele da pálpebra, incluindo o canto"
+    },
+    {
+        "SUBCAT": "D232",
+        "DESCRICAO": "Neoplasia benigna da pele da orelha e do conduto auditivo externo",
+        "DESCRABREV": "D23.2 Pele da orelha e do conduto auditivo externo",
+        "neoplasias": "D232-Neoplasia benigna da pele da orelha e do conduto auditivo externo"
+    },
+    {
+        "SUBCAT": "D233",
+        "DESCRICAO": "Neoplasia benigna da pele de outras partes e de partes não especificadas da face",
+        "DESCRABREV": "D23.3 Pele de outr partes e de partes NE da face",
+        "neoplasias": "D233-Neoplasia benigna da pele de outras partes e de partes não especificadas da face"
+    },
+    {
+        "SUBCAT": "D234",
+        "DESCRICAO": "Neoplasia benigna da pele do couro cabeludo e do pescoço",
+        "DESCRABREV": "D23.4 Pele do couro cabeludo e do pescoco",
+        "neoplasias": "D234-Neoplasia benigna da pele do couro cabeludo e do pescoço"
+    },
+    {
+        "SUBCAT": "D235",
+        "DESCRICAO": "Neoplasia benigna da pele do tronco",
+        "DESCRABREV": "D23.5 Pele do tronco",
+        "neoplasias": "D235-Neoplasia benigna da pele do tronco"
+    },
+    {
+        "SUBCAT": "D236",
+        "DESCRICAO": "Neoplasia benigna da pele dos membros superiores, incluindo o ombro",
+        "DESCRABREV": "D23.6 Pele dos membros super incl o ombro",
+        "neoplasias": "D236-Neoplasia benigna da pele dos membros superiores, incluindo o ombro"
+    },
+    {
+        "SUBCAT": "D237",
+        "DESCRICAO": "Neoplasia benigna da pele dos membros inferiores, incluindo o quadril",
+        "DESCRABREV": "D23.7 Pele dos membros infer incl o quadril",
+        "neoplasias": "D237-Neoplasia benigna da pele dos membros inferiores, incluindo o quadril"
+    },
+    {
+        "SUBCAT": "D239",
+        "DESCRICAO": "Neoplasia benigna da pele, não especificada",
+        "DESCRABREV": "D23.9 Pele NE",
+        "neoplasias": "D239-Neoplasia benigna da pele, não especificada"
+    },
+    {
+        "SUBCAT": "D24",
+        "DESCRICAO": "Neoplasia benigna da mama",
+        "DESCRABREV": "D24   Neopl benig da mama",
+        "neoplasias": "D24-Neoplasia benigna da mama"
+    },
+    {
+        "SUBCAT": "D250",
+        "DESCRICAO": "Leiomioma submucoso do útero",
+        "DESCRABREV": "D25.0 Leiomioma submucoso do utero",
+        "neoplasias": "D250-Leiomioma submucoso do útero"
+    },
+    {
+        "SUBCAT": "D251",
+        "DESCRICAO": "Leiomioma intramural do útero",
+        "DESCRABREV": "D25.1 Leiomioma intramural do utero",
+        "neoplasias": "D251-Leiomioma intramural do útero"
+    },
+    {
+        "SUBCAT": "D252",
+        "DESCRICAO": "Leiomioma subseroso do útero",
+        "DESCRABREV": "D25.2 Leiomioma subseroso do utero",
+        "neoplasias": "D252-Leiomioma subseroso do útero"
+    },
+    {
+        "SUBCAT": "D259",
+        "DESCRICAO": "Leiomioma do útero, não especificado",
+        "DESCRABREV": "D25.9 Leiomioma do utero NE",
+        "neoplasias": "D259-Leiomioma do útero, não especificado"
+    },
+    {
+        "SUBCAT": "D260",
+        "DESCRICAO": "Neoplasia benigna do colo do útero",
+        "DESCRABREV": "D26.0 Colo do utero",
+        "neoplasias": "D260-Neoplasia benigna do colo do útero"
+    },
+    {
+        "SUBCAT": "D261",
+        "DESCRICAO": "Neoplasia benigna do corpo do útero",
+        "DESCRABREV": "D26.1 Corpo do utero",
+        "neoplasias": "D261-Neoplasia benigna do corpo do útero"
+    },
+    {
+        "SUBCAT": "D267",
+        "DESCRICAO": "Neoplasia benigna de outras partes do útero",
+        "DESCRABREV": "D26.7 Outr partes do utero",
+        "neoplasias": "D267-Neoplasia benigna de outras partes do útero"
+    },
+    {
+        "SUBCAT": "D269",
+        "DESCRICAO": "Neoplasia benigna do útero, não especificado",
+        "DESCRABREV": "D26.9 Utero NE",
+        "neoplasias": "D269-Neoplasia benigna do útero, não especificado"
+    },
+    {
+        "SUBCAT": "D27",
+        "DESCRICAO": "Neoplasia benigna do ovário",
+        "DESCRABREV": "D27   Neopl benig do ovario",
+        "neoplasias": "D27-Neoplasia benigna do ovário"
+    },
+    {
+        "SUBCAT": "D280",
+        "DESCRICAO": "Neoplasia benigna da vulva",
+        "DESCRABREV": "D28.0 Vulva",
+        "neoplasias": "D280-Neoplasia benigna da vulva"
+    },
+    {
+        "SUBCAT": "D281",
+        "DESCRICAO": "Neoplasia benigna da vagina",
+        "DESCRABREV": "D28.1 Vagina",
+        "neoplasias": "D281-Neoplasia benigna da vagina"
+    },
+    {
+        "SUBCAT": "D282",
+        "DESCRICAO": "Neoplasia benigna das trompas e ligamentos uterinos",
+        "DESCRABREV": "D28.2 Trompas e ligamentos uterinos",
+        "neoplasias": "D282-Neoplasia benigna das trompas e ligamentos uterinos"
+    },
+    {
+        "SUBCAT": "D287",
+        "DESCRICAO": "Neoplasia benigna de outros órgãos genitais femininos especificados",
+        "DESCRABREV": "D28.7 Outr orgaos genitais femin espec",
+        "neoplasias": "D287-Neoplasia benigna de outros órgãos genitais femininos especificados"
+    },
+    {
+        "SUBCAT": "D289",
+        "DESCRICAO": "Neoplasia benigna de órgão genital feminino, não especificado",
+        "DESCRABREV": "D28.9 Orgao genital femin NE",
+        "neoplasias": "D289-Neoplasia benigna de órgão genital feminino, não especificado"
+    },
+    {
+        "SUBCAT": "D290",
+        "DESCRICAO": "Neoplasia benigna do pênis",
+        "DESCRABREV": "D29.0 Penis",
+        "neoplasias": "D290-Neoplasia benigna do pênis"
+    },
+    {
+        "SUBCAT": "D291",
+        "DESCRICAO": "Neoplasia benigna da próstata",
+        "DESCRABREV": "D29.1 Prostata",
+        "neoplasias": "D291-Neoplasia benigna da próstata"
+    },
+    {
+        "SUBCAT": "D292",
+        "DESCRICAO": "Neoplasia benigna dos testículos",
+        "DESCRABREV": "D29.2 Testiculos",
+        "neoplasias": "D292-Neoplasia benigna dos testículos"
+    },
+    {
+        "SUBCAT": "D293",
+        "DESCRICAO": "Neoplasia benigna do epidídimo",
+        "DESCRABREV": "D29.3 Epididimo",
+        "neoplasias": "D293-Neoplasia benigna do epidídimo"
+    },
+    {
+        "SUBCAT": "D294",
+        "DESCRICAO": "Neoplasia benigna do escroto",
+        "DESCRABREV": "D29.4 Escroto",
+        "neoplasias": "D294-Neoplasia benigna do escroto"
+    },
+    {
+        "SUBCAT": "D297",
+        "DESCRICAO": "Neoplasia benigna de outros órgãos genitais masculinos",
+        "DESCRABREV": "D29.7 Outr orgaos genitais masc",
+        "neoplasias": "D297-Neoplasia benigna de outros órgãos genitais masculinos"
+    },
+    {
+        "SUBCAT": "D299",
+        "DESCRICAO": "Neoplasia benigna de órgão genital masculino, não especificado",
+        "DESCRABREV": "D29.9 Orgao genital masc NE",
+        "neoplasias": "D299-Neoplasia benigna de órgão genital masculino, não especificado"
+    },
+    {
+        "SUBCAT": "D300",
+        "DESCRICAO": "Neoplasia benigna do rim",
+        "DESCRABREV": "D30.0 Rim",
+        "neoplasias": "D300-Neoplasia benigna do rim"
+    },
+    {
+        "SUBCAT": "D301",
+        "DESCRICAO": "Neoplasia benigna da pelve renal",
+        "DESCRABREV": "D30.1 Pelve renal",
+        "neoplasias": "D301-Neoplasia benigna da pelve renal"
+    },
+    {
+        "SUBCAT": "D302",
+        "DESCRICAO": "Neoplasia benigna do ureter",
+        "DESCRABREV": "D30.2 Ureter",
+        "neoplasias": "D302-Neoplasia benigna do ureter"
+    },
+    {
+        "SUBCAT": "D303",
+        "DESCRICAO": "Neoplasia benigna da bexiga",
+        "DESCRABREV": "D30.3 Bexiga",
+        "neoplasias": "D303-Neoplasia benigna da bexiga"
+    },
+    {
+        "SUBCAT": "D304",
+        "DESCRICAO": "Neoplasia benigna da uretra",
+        "DESCRABREV": "D30.4 Uretra",
+        "neoplasias": "D304-Neoplasia benigna da uretra"
+    },
+    {
+        "SUBCAT": "D307",
+        "DESCRICAO": "Neoplasia benigna de outros órgãos urinários",
+        "DESCRABREV": "D30.7 Outr orgaos urinarios",
+        "neoplasias": "D307-Neoplasia benigna de outros órgãos urinários"
+    },
+    {
+        "SUBCAT": "D309",
+        "DESCRICAO": "Neoplasia benigna de órgão urinário, não especificado",
+        "DESCRABREV": "D30.9 Orgao urinario NE",
+        "neoplasias": "D309-Neoplasia benigna de órgão urinário, não especificado"
+    },
+    {
+        "SUBCAT": "D310",
+        "DESCRICAO": "Neoplasia benigna da conjuntiva",
+        "DESCRABREV": "D31.0 Conjuntiva",
+        "neoplasias": "D310-Neoplasia benigna da conjuntiva"
+    },
+    {
+        "SUBCAT": "D311",
+        "DESCRICAO": "Neoplasia benigna da córnea",
+        "DESCRABREV": "D31.1 Cornea",
+        "neoplasias": "D311-Neoplasia benigna da córnea"
+    },
+    {
+        "SUBCAT": "D312",
+        "DESCRICAO": "Neoplasia benigna da retina",
+        "DESCRABREV": "D31.2 Retina",
+        "neoplasias": "D312-Neoplasia benigna da retina"
+    },
+    {
+        "SUBCAT": "D313",
+        "DESCRICAO": "Neoplasia benigna da coróide",
+        "DESCRABREV": "D31.3 Coroide",
+        "neoplasias": "D313-Neoplasia benigna da coróide"
+    },
+    {
+        "SUBCAT": "D314",
+        "DESCRICAO": "Neoplasia benigna do corpo ciliar",
+        "DESCRABREV": "D31.4 Corpo ciliar",
+        "neoplasias": "D314-Neoplasia benigna do corpo ciliar"
+    },
+    {
+        "SUBCAT": "D315",
+        "DESCRICAO": "Neoplasia benigna das glândulas e dos canais lacrimais",
+        "DESCRABREV": "D31.5 Gland e dos canais lacrimais",
+        "neoplasias": "D315-Neoplasia benigna das glândulas e dos canais lacrimais"
+    },
+    {
+        "SUBCAT": "D316",
+        "DESCRICAO": "Neoplasia benigna da órbita, não especificada",
+        "DESCRABREV": "D31.6 Orbita NE",
+        "neoplasias": "D316-Neoplasia benigna da órbita, não especificada"
+    },
+    {
+        "SUBCAT": "D319",
+        "DESCRICAO": "Neoplasia benigna do olho, não especificado",
+        "DESCRABREV": "D31.9 Olho NE",
+        "neoplasias": "D319-Neoplasia benigna do olho, não especificado"
+    },
+    {
+        "SUBCAT": "D320",
+        "DESCRICAO": "Neoplasia benigna das meninges cerebrais",
+        "DESCRABREV": "D32.0 Meninges cerebrais",
+        "neoplasias": "D320-Neoplasia benigna das meninges cerebrais"
+    },
+    {
+        "SUBCAT": "D321",
+        "DESCRICAO": "Neoplasia benigna das meninges espinhais",
+        "DESCRABREV": "D32.1 Meninges espinhais",
+        "neoplasias": "D321-Neoplasia benigna das meninges espinhais"
+    },
+    {
+        "SUBCAT": "D329",
+        "DESCRICAO": "Neoplasia benigna das meninges, não especificada",
+        "DESCRABREV": "D32.9 Meninges NE",
+        "neoplasias": "D329-Neoplasia benigna das meninges, não especificada"
+    },
+    {
+        "SUBCAT": "D330",
+        "DESCRICAO": "Neoplasia benigna do encéfalo, supratentorial",
+        "DESCRABREV": "D33.0 Encefalo supratentorial",
+        "neoplasias": "D330-Neoplasia benigna do encéfalo, supratentorial"
+    },
+    {
+        "SUBCAT": "D331",
+        "DESCRICAO": "Neoplasia benigna do encéfalo, infratentorial",
+        "DESCRABREV": "D33.1 Encefalo infratentorial",
+        "neoplasias": "D331-Neoplasia benigna do encéfalo, infratentorial"
+    },
+    {
+        "SUBCAT": "D332",
+        "DESCRICAO": "Neoplasia benigna do encéfalo, não especificado",
+        "DESCRABREV": "D33.2 Encefalo NE",
+        "neoplasias": "D332-Neoplasia benigna do encéfalo, não especificado"
+    },
+    {
+        "SUBCAT": "D333",
+        "DESCRICAO": "Neoplasia benigna dos nervos cranianos",
+        "DESCRABREV": "D33.3 Nervos cranianos",
+        "neoplasias": "D333-Neoplasia benigna dos nervos cranianos"
+    },
+    {
+        "SUBCAT": "D334",
+        "DESCRICAO": "Neoplasia benigna da medula espinhal",
+        "DESCRABREV": "D33.4 Medula espinhal",
+        "neoplasias": "D334-Neoplasia benigna da medula espinhal"
+    },
+    {
+        "SUBCAT": "D337",
+        "DESCRICAO": "Neoplasia benigna de outras partes especificadas do sistema nervoso central",
+        "DESCRABREV": "D33.7 Outr partes espec do sist nervoso central",
+        "neoplasias": "D337-Neoplasia benigna de outras partes especificadas do sistema nervoso central"
+    },
+    {
+        "SUBCAT": "D339",
+        "DESCRICAO": "Neoplasia benigna do sistema nervoso central, não especificado",
+        "DESCRABREV": "D33.9 Sist nervoso central NE",
+        "neoplasias": "D339-Neoplasia benigna do sistema nervoso central, não especificado"
+    },
+    {
+        "SUBCAT": "D34",
+        "DESCRICAO": "Neoplasia benigna da glândula tireóide",
+        "DESCRABREV": "D34   Neopl benig da gland tireoide",
+        "neoplasias": "D34-Neoplasia benigna da glândula tireóide"
+    },
+    {
+        "SUBCAT": "D350",
+        "DESCRICAO": "Neoplasia benigna da glândula supra-renal (adrenal)",
+        "DESCRABREV": "D35.0 Gland supra-renal",
+        "neoplasias": "D350-Neoplasia benigna da glândula supra-renal (adrenal)"
+    },
+    {
+        "SUBCAT": "D351",
+        "DESCRICAO": "Neoplasia benigna da glândula paratireóide",
+        "DESCRABREV": "D35.1 Gland paratireoide",
+        "neoplasias": "D351-Neoplasia benigna da glândula paratireóide"
+    },
+    {
+        "SUBCAT": "D352",
+        "DESCRICAO": "Neoplasia benigna da glândula hipófise (pituitária)",
+        "DESCRABREV": "D35.2 Gland hipofise",
+        "neoplasias": "D352-Neoplasia benigna da glândula hipófise (pituitária)"
+    },
+    {
+        "SUBCAT": "D353",
+        "DESCRICAO": "Neoplasia benigna do conduto craniofaríngeo",
+        "DESCRABREV": "D35.3 Conduto craniofaringeo",
+        "neoplasias": "D353-Neoplasia benigna do conduto craniofaríngeo"
+    },
+    {
+        "SUBCAT": "D354",
+        "DESCRICAO": "Neoplasia benigna da glândula pineal",
+        "DESCRABREV": "D35.4 Gland pineal",
+        "neoplasias": "D354-Neoplasia benigna da glândula pineal"
+    },
+    {
+        "SUBCAT": "D355",
+        "DESCRICAO": "Neoplasia benigna do corpo carotídeo",
+        "DESCRABREV": "D35.5 Corpo carotideo",
+        "neoplasias": "D355-Neoplasia benigna do corpo carotídeo"
+    },
+    {
+        "SUBCAT": "D356",
+        "DESCRICAO": "Neoplasia benigna dos corpos aórticos e outros paragânglios",
+        "DESCRABREV": "D35.6 Corpos aorticos e outr paraganglios",
+        "neoplasias": "D356-Neoplasia benigna dos corpos aórticos e outros paragânglios"
+    },
+    {
+        "SUBCAT": "D357",
+        "DESCRICAO": "Neoplasia benigna de outras glândulas endócrinas especificadas",
+        "DESCRABREV": "D35.7 Outr gland endocrinas espec",
+        "neoplasias": "D357-Neoplasia benigna de outras glândulas endócrinas especificadas"
+    },
+    {
+        "SUBCAT": "D358",
+        "DESCRICAO": "Neoplasia benigna com comprometimento pluriglandular",
+        "DESCRABREV": "D35.8 Compr pluriglandular",
+        "neoplasias": "D358-Neoplasia benigna com comprometimento pluriglandular"
+    },
+    {
+        "SUBCAT": "D359",
+        "DESCRICAO": "Neoplasia benigna de glândula endócrina, não especificada",
+        "DESCRABREV": "D35.9 Gland endocrina NE",
+        "neoplasias": "D359-Neoplasia benigna de glândula endócrina, não especificada"
+    },
+    {
+        "SUBCAT": "D360",
+        "DESCRICAO": "Neoplasia benigna dos gânglios linfáticos (linfonodos)",
+        "DESCRABREV": "D36.0 Ganglios linfaticos",
+        "neoplasias": "D360-Neoplasia benigna dos gânglios linfáticos (linfonodos)"
+    },
+    {
+        "SUBCAT": "D361",
+        "DESCRICAO": "Neoplasia benigna dos nervos periféricos e sistema nervoso autônomo",
+        "DESCRABREV": "D36.1 Nervos perifericos e sist nervoso autonomo",
+        "neoplasias": "D361-Neoplasia benigna dos nervos periféricos e sistema nervoso autônomo"
+    },
+    {
+        "SUBCAT": "D367",
+        "DESCRICAO": "Neoplasia benigna de outras localizações especificadas",
+        "DESCRABREV": "D36.7 Outr localiz espec",
+        "neoplasias": "D367-Neoplasia benigna de outras localizações especificadas"
+    },
+    {
+        "SUBCAT": "D369",
+        "DESCRICAO": "Neoplasia benigna de localização não especificada",
+        "DESCRABREV": "D36.9 Neopl benig de localiz NE",
+        "neoplasias": "D369-Neoplasia benigna de localização não especificada"
+    },
+    {
+        "SUBCAT": "D370",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do lábio, cavidade oral e faringe",
+        "DESCRABREV": "D37.0 Labio cavidade oral e faringe",
+        "neoplasias": "D370-Neoplasia de comportamento incerto ou desconhecido do lábio, cavidade oral e faringe"
+    },
+    {
+        "SUBCAT": "D371",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do estômago",
+        "DESCRABREV": "D37.1 Estomago",
+        "neoplasias": "D371-Neoplasia de comportamento incerto ou desconhecido do estômago"
+    },
+    {
+        "SUBCAT": "D372",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do intestino delgado",
+        "DESCRABREV": "D37.2 Intestino delgado",
+        "neoplasias": "D372-Neoplasia de comportamento incerto ou desconhecido do intestino delgado"
+    },
+    {
+        "SUBCAT": "D373",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do apêndice",
+        "DESCRABREV": "D37.3 Apendice",
+        "neoplasias": "D373-Neoplasia de comportamento incerto ou desconhecido do apêndice"
+    },
+    {
+        "SUBCAT": "D374",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido dos cólons",
+        "DESCRABREV": "D37.4 Colons",
+        "neoplasias": "D374-Neoplasia de comportamento incerto ou desconhecido dos cólons"
+    },
+    {
+        "SUBCAT": "D375",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do reto",
+        "DESCRABREV": "D37.5 Reto",
+        "neoplasias": "D375-Neoplasia de comportamento incerto ou desconhecido do reto"
+    },
+    {
+        "SUBCAT": "D376",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do fígado, vesícula biliar e vias biliares",
+        "DESCRABREV": "D37.6 Figado vesicula biliar e vias biliares",
+        "neoplasias": "D376-Neoplasia de comportamento incerto ou desconhecido do fígado, vesícula biliar e vias biliares"
+    },
+    {
+        "SUBCAT": "D377",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de outros órgãos digestivos",
+        "DESCRABREV": "D37.7 Outr orgaos digestivos",
+        "neoplasias": "D377-Neoplasia de comportamento incerto ou desconhecido de outros órgãos digestivos"
+    },
+    {
+        "SUBCAT": "D379",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de órgão digestivo, não especificado",
+        "DESCRABREV": "D37.9 Orgao digestivo NE",
+        "neoplasias": "D379-Neoplasia de comportamento incerto ou desconhecido de órgão digestivo, não especificado"
+    },
+    {
+        "SUBCAT": "D380",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da laringe",
+        "DESCRABREV": "D38.0 Laringe",
+        "neoplasias": "D380-Neoplasia de comportamento incerto ou desconhecido da laringe"
+    },
+    {
+        "SUBCAT": "D381",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da traquéia, brônquios e pulmão",
+        "DESCRABREV": "D38.1 Traqueia bronquios e pulmao",
+        "neoplasias": "D381-Neoplasia de comportamento incerto ou desconhecido da traquéia, brônquios e pulmão"
+    },
+    {
+        "SUBCAT": "D382",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da pleura",
+        "DESCRABREV": "D38.2 Pleura",
+        "neoplasias": "D382-Neoplasia de comportamento incerto ou desconhecido da pleura"
+    },
+    {
+        "SUBCAT": "D383",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do mediastino",
+        "DESCRABREV": "D38.3 Mediastino",
+        "neoplasias": "D383-Neoplasia de comportamento incerto ou desconhecido do mediastino"
+    },
+    {
+        "SUBCAT": "D384",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do timo",
+        "DESCRABREV": "D38.4 Timo",
+        "neoplasias": "D384-Neoplasia de comportamento incerto ou desconhecido do timo"
+    },
+    {
+        "SUBCAT": "D385",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de outros órgãos respiratórios",
+        "DESCRABREV": "D38.5 Outr orgaos respirat",
+        "neoplasias": "D385-Neoplasia de comportamento incerto ou desconhecido de outros órgãos respiratórios"
+    },
+    {
+        "SUBCAT": "D386",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de órgão respiratório, não especificado",
+        "DESCRABREV": "D38.6 Orgao respirat NE",
+        "neoplasias": "D386-Neoplasia de comportamento incerto ou desconhecido de órgão respiratório, não especificado"
+    },
+    {
+        "SUBCAT": "D390",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do útero",
+        "DESCRABREV": "D39.0 Utero",
+        "neoplasias": "D390-Neoplasia de comportamento incerto ou desconhecido do útero"
+    },
+    {
+        "SUBCAT": "D391",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do ovário",
+        "DESCRABREV": "D39.1 Ovario",
+        "neoplasias": "D391-Neoplasia de comportamento incerto ou desconhecido do ovário"
+    },
+    {
+        "SUBCAT": "D392",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da placenta",
+        "DESCRABREV": "D39.2 Placenta",
+        "neoplasias": "D392-Neoplasia de comportamento incerto ou desconhecido da placenta"
+    },
+    {
+        "SUBCAT": "D397",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de outros órgãos genitais femininos",
+        "DESCRABREV": "D39.7 Outr orgaos genitais femin",
+        "neoplasias": "D397-Neoplasia de comportamento incerto ou desconhecido de outros órgãos genitais femininos"
+    },
+    {
+        "SUBCAT": "D399",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de órgão genital feminino, não especificado",
+        "DESCRABREV": "D39.9 Orgao genital femin NE",
+        "neoplasias": "D399-Neoplasia de comportamento incerto ou desconhecido de órgão genital feminino, não especificado"
+    },
+    {
+        "SUBCAT": "D400",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da próstata",
+        "DESCRABREV": "D40.0 Prostata",
+        "neoplasias": "D400-Neoplasia de comportamento incerto ou desconhecido da próstata"
+    },
+    {
+        "SUBCAT": "D401",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do testículo",
+        "DESCRABREV": "D40.1 Testiculo",
+        "neoplasias": "D401-Neoplasia de comportamento incerto ou desconhecido do testículo"
+    },
+    {
+        "SUBCAT": "D407",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de outros órgãos genitais masculinos",
+        "DESCRABREV": "D40.7 Outr orgaos genitais masc",
+        "neoplasias": "D407-Neoplasia de comportamento incerto ou desconhecido de outros órgãos genitais masculinos"
+    },
+    {
+        "SUBCAT": "D409",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de órgão genital masculino, não especificado",
+        "DESCRABREV": "D40.9 Orgao genital masc NE",
+        "neoplasias": "D409-Neoplasia de comportamento incerto ou desconhecido de órgão genital masculino, não especificado"
+    },
+    {
+        "SUBCAT": "D410",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do rim",
+        "DESCRABREV": "D41.0 Rim",
+        "neoplasias": "D410-Neoplasia de comportamento incerto ou desconhecido do rim"
+    },
+    {
+        "SUBCAT": "D411",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da pelve renal",
+        "DESCRABREV": "D41.1 Pelve renal",
+        "neoplasias": "D411-Neoplasia de comportamento incerto ou desconhecido da pelve renal"
+    },
+    {
+        "SUBCAT": "D412",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do ureter",
+        "DESCRABREV": "D41.2 Ureter",
+        "neoplasias": "D412-Neoplasia de comportamento incerto ou desconhecido do ureter"
+    },
+    {
+        "SUBCAT": "D413",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da uretra",
+        "DESCRABREV": "D41.3 Uretra",
+        "neoplasias": "D413-Neoplasia de comportamento incerto ou desconhecido da uretra"
+    },
+    {
+        "SUBCAT": "D414",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da bexiga",
+        "DESCRABREV": "D41.4 Bexiga",
+        "neoplasias": "D414-Neoplasia de comportamento incerto ou desconhecido da bexiga"
+    },
+    {
+        "SUBCAT": "D417",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de outros órgãos urinários",
+        "DESCRABREV": "D41.7 Outr orgaos urinarios",
+        "neoplasias": "D417-Neoplasia de comportamento incerto ou desconhecido de outros órgãos urinários"
+    },
+    {
+        "SUBCAT": "D419",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de órgão urinário, não especificado",
+        "DESCRABREV": "D41.9 Orgao urinario NE",
+        "neoplasias": "D419-Neoplasia de comportamento incerto ou desconhecido de órgão urinário, não especificado"
+    },
+    {
+        "SUBCAT": "D420",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido das meninges cerebrais",
+        "DESCRABREV": "D42.0 Meninges cerebrais",
+        "neoplasias": "D420-Neoplasia de comportamento incerto ou desconhecido das meninges cerebrais"
+    },
+    {
+        "SUBCAT": "D421",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido das meninges espinhais",
+        "DESCRABREV": "D42.1 Meninges espinhais",
+        "neoplasias": "D421-Neoplasia de comportamento incerto ou desconhecido das meninges espinhais"
+    },
+    {
+        "SUBCAT": "D429",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de meninges não especificadas",
+        "DESCRABREV": "D42.9 Meninges NE",
+        "neoplasias": "D429-Neoplasia de comportamento incerto ou desconhecido de meninges não especificadas"
+    },
+    {
+        "SUBCAT": "D430",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do encéfalo, supratentorial",
+        "DESCRABREV": "D43.0 Encefalo supratentorial",
+        "neoplasias": "D430-Neoplasia de comportamento incerto ou desconhecido do encéfalo, supratentorial"
+    },
+    {
+        "SUBCAT": "D431",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do encéfalo, infratentorial",
+        "DESCRABREV": "D43.1 Encefalo infratentorial",
+        "neoplasias": "D431-Neoplasia de comportamento incerto ou desconhecido do encéfalo, infratentorial"
+    },
+    {
+        "SUBCAT": "D432",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do encéfalo, não especificado",
+        "DESCRABREV": "D43.2 Encefalo NE",
+        "neoplasias": "D432-Neoplasia de comportamento incerto ou desconhecido do encéfalo, não especificado"
+    },
+    {
+        "SUBCAT": "D433",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido dos nervos cranianos",
+        "DESCRABREV": "D43.3 Nervos cranianos",
+        "neoplasias": "D433-Neoplasia de comportamento incerto ou desconhecido dos nervos cranianos"
+    },
+    {
+        "SUBCAT": "D434",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da medula espinhal",
+        "DESCRABREV": "D43.4 Medula espinhal",
+        "neoplasias": "D434-Neoplasia de comportamento incerto ou desconhecido da medula espinhal"
+    },
+    {
+        "SUBCAT": "D437",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de outras partes do sistema nervoso central",
+        "DESCRABREV": "D43.7 Outr partes do sist nervoso central",
+        "neoplasias": "D437-Neoplasia de comportamento incerto ou desconhecido de outras partes do sistema nervoso central"
+    },
+    {
+        "SUBCAT": "D439",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do sistema nervoso central, não especificado",
+        "DESCRABREV": "D43.9 Sist nervoso central NE",
+        "neoplasias": "D439-Neoplasia de comportamento incerto ou desconhecido do sistema nervoso central, não especificado"
+    },
+    {
+        "SUBCAT": "D440",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da glândula tireóide",
+        "DESCRABREV": "D44.0 Gland tireoide",
+        "neoplasias": "D440-Neoplasia de comportamento incerto ou desconhecido da glândula tireóide"
+    },
+    {
+        "SUBCAT": "D441",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da glândula supra-renal (adrenal)",
+        "DESCRABREV": "D44.1 Gland supra-renal",
+        "neoplasias": "D441-Neoplasia de comportamento incerto ou desconhecido da glândula supra-renal (adrenal)"
+    },
+    {
+        "SUBCAT": "D442",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da glândula paratireóide",
+        "DESCRABREV": "D44.2 Gland paratireoide",
+        "neoplasias": "D442-Neoplasia de comportamento incerto ou desconhecido da glândula paratireóide"
+    },
+    {
+        "SUBCAT": "D443",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da glândula hipófise (pituitária)",
+        "DESCRABREV": "D44.3 Gland hipofise",
+        "neoplasias": "D443-Neoplasia de comportamento incerto ou desconhecido da glândula hipófise (pituitária)"
+    },
+    {
+        "SUBCAT": "D444",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do conduto craniofaríngeo",
+        "DESCRABREV": "D44.4 Conduto craniofaringeo",
+        "neoplasias": "D444-Neoplasia de comportamento incerto ou desconhecido do conduto craniofaríngeo"
+    },
+    {
+        "SUBCAT": "D445",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da glândula pineal",
+        "DESCRABREV": "D44.5 Gland pineal",
+        "neoplasias": "D445-Neoplasia de comportamento incerto ou desconhecido da glândula pineal"
+    },
+    {
+        "SUBCAT": "D446",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do corpo carotídeo",
+        "DESCRABREV": "D44.6 Corpo carotideo",
+        "neoplasias": "D446-Neoplasia de comportamento incerto ou desconhecido do corpo carotídeo"
+    },
+    {
+        "SUBCAT": "D447",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido dos corpos aórticos e outros paragânglios",
+        "DESCRABREV": "D44.7 Corpos aorticos e outr paraganglios",
+        "neoplasias": "D447-Neoplasia de comportamento incerto ou desconhecido dos corpos aórticos e outros paragânglios"
+    },
+    {
+        "SUBCAT": "D448",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido com comprometimento pluriglandular",
+        "DESCRABREV": "D44.8 Compr pluriglandular",
+        "neoplasias": "D448-Neoplasia de comportamento incerto ou desconhecido com comprometimento pluriglandular"
+    },
+    {
+        "SUBCAT": "D449",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de glândula endócrina, não especificada",
+        "DESCRABREV": "D44.9 Gland endocrina NE",
+        "neoplasias": "D449-Neoplasia de comportamento incerto ou desconhecido de glândula endócrina, não especificada"
+    },
+    {
+        "SUBCAT": "D45",
+        "DESCRICAO": "Policitemia vera",
+        "DESCRABREV": "D45   Policitemia vera",
+        "neoplasias": "D45-Policitemia vera"
+    },
+    {
+        "SUBCAT": "D460",
+        "DESCRICAO": "Anemia refratária sem sideroblastos",
+        "DESCRABREV": "D46.0 Anemia refrataria s/sideroblastos",
+        "neoplasias": "D460-Anemia refratária sem sideroblastos"
+    },
+    {
+        "SUBCAT": "D461",
+        "DESCRICAO": "Anemia refratária com sideroblastos",
+        "DESCRABREV": "D46.1 Anemia refrataria c/sideroblastos",
+        "neoplasias": "D461-Anemia refratária com sideroblastos"
+    },
+    {
+        "SUBCAT": "D462",
+        "DESCRICAO": "Anemia refratária com excesso de blastos",
+        "DESCRABREV": "D46.2 Anemia refrataria c/excesso de blastos",
+        "neoplasias": "D462-Anemia refratária com excesso de blastos"
+    },
+    {
+        "SUBCAT": "D463",
+        "DESCRICAO": "Anemia refratária com excesso de blastos com transformação",
+        "DESCRABREV": "D46.3 Anemia refrataria c/excesso blastos c/transf",
+        "neoplasias": "D463-Anemia refratária com excesso de blastos com transformação"
+    },
+    {
+        "SUBCAT": "D464",
+        "DESCRICAO": "Anemia refratária, não especificada",
+        "DESCRABREV": "D46.4 Anemia refrataria NE",
+        "neoplasias": "D464-Anemia refratária, não especificada"
+    },
+    {
+        "SUBCAT": "D467",
+        "DESCRICAO": "Outras síndromes mielodisplásicas",
+        "DESCRABREV": "D46.7 Outr sindr mielodisplasicas",
+        "neoplasias": "D467-Outras síndromes mielodisplásicas"
+    },
+    {
+        "SUBCAT": "D469",
+        "DESCRICAO": "Síndrome mielodisplásica, não especificada",
+        "DESCRABREV": "D46.9 Sindr mielodisplasica NE",
+        "neoplasias": "D469-Síndrome mielodisplásica, não especificada"
+    },
+    {
+        "SUBCAT": "D470",
+        "DESCRICAO": "Tumores de comportamento incerto ou desconhecido de mastócitos e células histiocíticas",
+        "DESCRABREV": "D47.0 Tum comp inc/desc mastocit celulas histiocit",
+        "neoplasias": "D470-Tumores de comportamento incerto ou desconhecido de mastócitos e células histiocíticas"
+    },
+    {
+        "SUBCAT": "D471",
+        "DESCRICAO": "Doença mieloproliferativa crônica",
+        "DESCRABREV": "D47.1 Doenc mieloproliferativa cronica",
+        "neoplasias": "D471-Doença mieloproliferativa crônica"
+    },
+    {
+        "SUBCAT": "D472",
+        "DESCRICAO": "Gamopatia monoclonal",
+        "DESCRABREV": "D47.2 Gamopatia monoclonal",
+        "neoplasias": "D472-Gamopatia monoclonal"
+    },
+    {
+        "SUBCAT": "D473",
+        "DESCRICAO": "Trombocitemia essencial (hemorrágica)",
+        "DESCRABREV": "D47.3 Trombocitemia essencial",
+        "neoplasias": "D473-Trombocitemia essencial (hemorrágica)"
+    },
+    {
+        "SUBCAT": "D477",
+        "DESCRICAO": "Outras neoplasias especificadas de comportamento incerto ou desconhecido dos tecidos linfático, hematopoético e tecidos relacionados",
+        "DESCRABREV": "D47.7 Out neop esp comp inc/des linf hemat tec rel",
+        "neoplasias": "D477-Outras neoplasias especificadas de comportamento incerto ou desconhecido dos tecidos linfático, hematopoético e tecidos relacionados"
+    },
+    {
+        "SUBCAT": "D479",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido dos tecidos linfático, hematopoético e tecidos correlatos, não especificada",
+        "DESCRABREV": "D47.9 Neop comp inc/des tec linf hemat tec corr NE",
+        "neoplasias": "D479-Neoplasia de comportamento incerto ou desconhecido dos tecidos linfático, hematopoético e tecidos correlatos, não especificada"
+    },
+    {
+        "SUBCAT": "D480",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido dos ossos e cartilagens articulares",
+        "DESCRABREV": "D48.0 Ossos e cartilagens articulares",
+        "neoplasias": "D480-Neoplasia de comportamento incerto ou desconhecido dos ossos e cartilagens articulares"
+    },
+    {
+        "SUBCAT": "D481",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do tecido conjuntivo e outros tecidos moles",
+        "DESCRABREV": "D48.1 Tec conjuntivo e outr tec moles",
+        "neoplasias": "D481-Neoplasia de comportamento incerto ou desconhecido do tecido conjuntivo e outros tecidos moles"
+    },
+    {
+        "SUBCAT": "D482",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido dos nervos periféricos e do sistema nervoso periférico",
+        "DESCRABREV": "D48.2 Nervos perifericos e sist nervoso periferico",
+        "neoplasias": "D482-Neoplasia de comportamento incerto ou desconhecido dos nervos periféricos e do sistema nervoso periférico"
+    },
+    {
+        "SUBCAT": "D483",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do retroperitônio",
+        "DESCRABREV": "D48.3 Retroperitonio",
+        "neoplasias": "D483-Neoplasia de comportamento incerto ou desconhecido do retroperitônio"
+    },
+    {
+        "SUBCAT": "D484",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido do peritônio",
+        "DESCRABREV": "D48.4 Peritonio",
+        "neoplasias": "D484-Neoplasia de comportamento incerto ou desconhecido do peritônio"
+    },
+    {
+        "SUBCAT": "D485",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da pele",
+        "DESCRABREV": "D48.5 Pele",
+        "neoplasias": "D485-Neoplasia de comportamento incerto ou desconhecido da pele"
+    },
+    {
+        "SUBCAT": "D486",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido da mama",
+        "DESCRABREV": "D48.6 Mama",
+        "neoplasias": "D486-Neoplasia de comportamento incerto ou desconhecido da mama"
+    },
+    {
+        "SUBCAT": "D487",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido de outras localizações especificadas",
+        "DESCRABREV": "D48.7 Outr localiz espec",
+        "neoplasias": "D487-Neoplasia de comportamento incerto ou desconhecido de outras localizações especificadas"
+    },
+    {
+        "SUBCAT": "D489",
+        "DESCRICAO": "Neoplasia de comportamento incerto ou desconhecido sem outra especificação",
+        "DESCRABREV": "D48.9 Neopl comp incerto/desconhecido s/outr espec",
+        "neoplasias": "D489-Neoplasia de comportamento incerto ou desconhecido sem outra especificação"
+    }
+]

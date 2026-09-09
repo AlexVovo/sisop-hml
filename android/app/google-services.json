@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "404829095558",
+    "project_id": "sisop-rs-hml",
+    "storage_bucket": "sisop-rs-hml.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404829095558:android:459d96a77b33f3118cb307",
+        "android_client_info": {
+          "package_name": "com.example.registroici.hml"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Ehf1yyC52XpOTqqIWUunKTHBtBka2oI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
