@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:regsitroweb/pagesapp/cadastroPage/widgetCadastro.dart';
+import 'package:regsitroweb/pagesapp/tcle/tcle_sign_page.dart';
+import 'package:regsitroweb/service/tcle_service.dart';
 import 'package:regsitroweb/service/tools/size/sizeResponsive.dart';
 import 'package:regsitroweb/service/tools/size/sizescreen.dart';
 
@@ -20,6 +22,61 @@ class _CadastroPacienteFormState extends State<CadastroPacienteForm> {
   DraftSaveUiState _draftSaveState = DraftSaveUiState.idle;
   Duration _statusDuration = const Duration(milliseconds: 1400);
   int _savedPingTick = 0;
+  String? _lastTcleToken;
+
+  Future<void> _createTcleRequest() async {
+    final form = _cadastroFormKey.currentState;
+    if (form == null) return;
+    if (form.nomePacienteTcle.isEmpty || form.nomeResponsavelTcle.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Informe o paciente e o responsável.')),
+      );
+      return;
+    }
+    final token = await TcleService().createRequest(
+      patientName: form.nomePacienteTcle,
+      responsibleName: form.nomeResponsavelTcle,
+      whatsapp: form.whatsappResponsavelTcle,
+      hospital: widget.hospitalselecionado,
+      patientDraftId: form.pacienteDraftIdTcle,
+    );
+    if (!mounted) return;
+    setState(() => _lastTcleToken = token);
+
+    await Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) => TcleSignPage(token: token)),
+    );
+  }
+
+  Widget _buildTcleStatus() {
+    final token = _lastTcleToken;
+    if (token == null) return const SizedBox.shrink();
+    return StreamBuilder(
+      stream: TcleService().watch(token),
+      builder: (context, snapshot) {
+        final status = snapshot.data?.data()?['status']?.toString();
+        final signed = status == 'signed';
+        return Container(
+          margin: const EdgeInsets.only(bottom: 16),
+          padding: const EdgeInsets.all(12),
+          decoration: BoxDecoration(
+            color: signed ? Colors.green.shade50 : Colors.blue.shade50,
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Row(
+            children: [
+              Icon(
+                signed ? Icons.check_circle : Icons.schedule,
+                color: signed ? Colors.green : Colors.blue,
+              ),
+              const SizedBox(width: 8),
+              Text(signed ? 'TCLE assinado' : 'TCLE aguardando assinatura'),
+            ],
+          ),
+        );
+      },
+    );
+  }
 
   Future<void> _abrirOpcoesTcle() async {
     await showDialog<void>(
@@ -37,12 +94,25 @@ class _CadastroPacienteFormState extends State<CadastroPacienteForm> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const ListTile(
-                leading: Icon(Icons.send_outlined),
-                title: Text('Enviar TCLE'),
-                subtitle: Text('Disponível futuramente'),
-                enabled: false,
+              ListTile(
+                leading: const Icon(Icons.draw, color: Colors.blue),
+                title: const Text('Assinar o Termo'),
+                subtitle:
+                    const Text('Realizar a assinatura neste dispositivo.'),
                 contentPadding: EdgeInsets.zero,
+                onTap: () async {
+                  Navigator.of(dialogContext).pop();
+                  await _createTcleRequest();
+                },
+              ),
+              const Divider(),
+              const ListTile(
+                leading: Icon(Icons.chat_outlined),
+                title: Text('Enviar para assinar'),
+                subtitle:
+                    Text('Requer backend seguro — disponível futuramente.'),
+                contentPadding: EdgeInsets.zero,
+                enabled: false,
               ),
               const Divider(),
               ListTile(
@@ -270,6 +340,7 @@ class _CadastroPacienteFormState extends State<CadastroPacienteForm> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      _buildTcleStatus(),
                       widgetCadastroPacienteForm(
                         key: _cadastroFormKey,
                         hospitalselecionado: widget.hospitalselecionado,
@@ -290,6 +361,7 @@ class _CadastroPacienteFormState extends State<CadastroPacienteForm> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        _buildTcleStatus(),
                         widgetCadastroPacienteForm(
                           key: _cadastroFormKey,
                           hospitalselecionado: widget.hospitalselecionado,

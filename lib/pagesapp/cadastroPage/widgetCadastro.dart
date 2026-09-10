@@ -66,6 +66,7 @@ class WidgetCadastroPacienteFormState
     _terceiraLinha.dispose();
     _quartaLinha.dispose();
     _nomeDaMaeController.dispose();
+    _whatsappResponsavelController.dispose();
     _dataUltimoTrat.dispose();
     _outroHospitaldiag.dispose();
     _outroHospitalTrat.dispose();
@@ -241,6 +242,7 @@ class WidgetCadastroPacienteFormState
     conectarAutoSave(_dataNascimentoController, "dataNascimento");
     conectarAutoSave(_dataNascimentoCompController, "dataNascimento");
     conectarAutoSave(_nomeDaMaeController, "nomeDaMae");
+    conectarAutoSave(_whatsappResponsavelController, "whatsappResponsavel");
     conectarAutoSave(_idadeController, "idade");
     // descobrir uma forma de conectar o autosave para campos de seleção
     conectarAutoSaveDropdown("sexo", _sexoSelecionado);
@@ -316,6 +318,7 @@ class WidgetCadastroPacienteFormState
       _dataNascimentoCompController.text = textValue('dataNascimento');
       _idadeController.text = textValue('idade');
       _nomeDaMaeController.text = textValue('nomeDaMae');
+      _whatsappResponsavelController.text = textValue('whatsappResponsavel');
       _cpfPac.text = textValue('cpf');
       _cartaoSus.text = textValue('cartaoSus');
       // dropdowns: use nullable helper so that absence or empty string -> null
@@ -565,11 +568,20 @@ class WidgetCadastroPacienteFormState
   final TextEditingController _dataNascimentoCompController =
       TextEditingController();
   final TextEditingController _nomeDaMaeController = TextEditingController();
+  final TextEditingController _whatsappResponsavelController =
+      TextEditingController();
   final TextEditingController _idadeController = TextEditingController();
   final TextEditingController _cpfPac = TextEditingController();
   var maskcpf = MaskTextInputFormatter(mask: '###.###.###-##');
   final TextEditingController _cartaoSus = TextEditingController();
   var maskcartaosus = MaskTextInputFormatter(mask: '###############');
+  var maskWhatsapp = MaskTextInputFormatter(mask: '(##) #####-####');
+
+  String get nomePacienteTcle => _nomeController.text.trim();
+  String get nomeResponsavelTcle => _nomeDaMaeController.text.trim();
+  String get whatsappResponsavelTcle =>
+      _whatsappResponsavelController.text.trim();
+  String? get pacienteDraftIdTcle => recordId;
 // ##################################
 
   final TextEditingController _dataDaRecaida = TextEditingController();
@@ -1199,6 +1211,7 @@ class WidgetCadastroPacienteFormState
     _datadoexame.clear();
     _dataUltimoTrat.clear();
     _nomeDaMaeController.clear();
+    _whatsappResponsavelController.clear();
 
     setState(() {
       _sexoSelecionado = null; // Limpar seleção de sexo
@@ -1643,6 +1656,19 @@ class WidgetCadastroPacienteFormState
                       onChanged: (value) {
                         setState(() {});
                       },
+                    ),
+                    const SizedBox(height: 20),
+                    TextFormField(
+                      controller: _whatsappResponsavelController,
+                      inputFormatters: [maskWhatsapp],
+                      keyboardType: TextInputType.phone,
+                      decoration: const InputDecoration(
+                        labelText: 'WhatsApp do responsável:',
+                        prefixIcon: Icon(Icons.phone),
+                        border: OutlineInputBorder(),
+                        isDense: true,
+                      ),
+                      style: const TextStyle(fontSize: 20),
                     ),
                     const SizedBox(height: 20),
                     TextFormField(
