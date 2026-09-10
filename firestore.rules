@@ -51,6 +51,20 @@ service cloud.firestore {
       );
     }
 
+    match /testPatients/{patientId} {
+      allow read, delete: if admin() || (
+        signedIn() && resource.data.createdBy == request.auth.uid
+      );
+      allow create: if admin() || (
+        signedIn() && request.resource.data.createdBy == request.auth.uid
+      );
+      allow update: if admin() || (
+        signedIn() &&
+        resource.data.createdBy == request.auth.uid &&
+        request.resource.data.createdBy == request.auth.uid
+      );
+    }
+
     match /logs/{logId} {
       allow read, update, delete: if admin();
       allow create: if signedIn();

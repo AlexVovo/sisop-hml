@@ -12,16 +12,48 @@ import 'package:regsitroweb/service/tools/auth/auth_service.dart';
 import '../model/patient_model.dart';
 
 class PatientService {
+  static const _testToken = 'TOKEN_TESTE_HML';
+  static const _testPatientsCollection = 'testPatients';
+
   String? email = AuthenticationService(FirebaseAuth.instance).getName();
   String? token;
 
   PatientService(this.token);
+
+  bool get _usesTestStorage => token == _testToken;
+
+  CollectionReference<Map<String, dynamic>> get _testPatients =>
+      FirebaseFirestore.instance.collection(_testPatientsCollection);
+
+  Future<bool> _currentUserIsAdmin() async {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user == null) return false;
+    final tokenResult = await user.getIdTokenResult();
+    return tokenResult.claims?['admin'] == true;
+  }
+
+  Future<QuerySnapshot<Map<String, dynamic>>> _testPatientSnapshot() async {
+    if (await _currentUserIsAdmin()) return _testPatients.get();
+    final uid = FirebaseAuth.instance.currentUser!.uid;
+    return _testPatients.where('createdBy', isEqualTo: uid).get();
+  }
+
   Future<String> getInitialId() async {
     final idHospital = await HospitalServicer().getActiveHospitalId();
     return '${idHospital}00';
   }
 
   Future<String> fetchLastPatientRecordId() async {
+    if (_usesTestStorage) {
+      final snapshot = await _testPatientSnapshot();
+      if (snapshot.docs.isEmpty) return getInitialId();
+      final ids = snapshot.docs
+          .map((doc) => doc.data()['record_id']?.toString() ?? doc.id)
+          .toList()
+        ..sort();
+      return _nextRecordId(ids.last);
+    }
+
     final response = await http.post(
       Uri.parse('https://redcap.redcapbrasil.com.br/api/'),
       body: {
@@ -47,28 +79,18 @@ class PatientService {
       String lastRecordId = lastPatient['record_id'];
 
       // Extrair a parte numérica do ID do registro
-      final regex = RegExp(r'(\d+)$');
-      final match = regex.firstMatch(lastRecordId);
-
-      if (match != null) {
-        // Incrementar a parte numérica
-        int numericPart = int.parse(match.group(0)!);
-        numericPart++;
-
-        // Gerar o novo ID de registro com o mesmo prefixo e a parte numérica incrementada
-        String newRecordId = lastRecordId.replaceFirst(
-            regex, numericPart.toString().padLeft(match.group(0)!.length, '0'));
-
-        return newRecordId;
-      } else {
-        throw Exception('Formato de ID de registro inválido');
-      }
+      return _nextRecordId(lastRecordId);
     } else {
       throw Exception('Falha ao carregar os pacientes');
     }
   }
 
   Future<List<Patient>> fetchPatients() async {
+    if (_usesTestStorage) {
+      final snapshot = await _testPatientSnapshot();
+      return snapshot.docs.map((doc) => Patient.fromJson(doc.data())).toList();
+    }
+
     final response = await http.post(
       Uri.parse('https://redcap.redcapbrasil.com.br/api/'),
       body: {
@@ -163,6 +185,7 @@ class PatientService {
       'municio_residencia': cidadeProc,
       'uf_procedencia': estadoProc,
       'data_de_nascimento': dataNascimento,
+      'idade_do_paciente': idadePaciente,
       'sexo': sexoPaciente,
       'etnia': etniaPaciente,
       'especialidade_do_m_dica_do': especialidadePaciente,
@@ -206,6 +229,40 @@ class PatientService {
       'quarta_linha_de_tratamento': quartaLinha,
       'especialidade_medica_2': especialidadePaciente2,
     };
+
+    if (_usesTestStorage) {
+      final user = FirebaseAuth.instance.currentUser!;
+      final hospitalId = await HospitalServicer().getActiveHospitalId();
+      await _testPatients.doc(idGerado).set({
+        ...record,
+        'record_id': idGerado,
+        'hospitalId': hospitalId,
+        'createdBy': user.uid,
+        'createdByEmail': user.email,
+        'createdAt': FieldValue.serverTimestamp(),
+        'updatedAt': FieldValue.serverTimestamp(),
+        'arquivo_exame': selectedPdfFile?.name,
+        'arquivo_tcle': selectedTcleFile?.name,
+      });
+
+      await FirebaseFirestore.instance.collection('logs').add({
+        'tipo': 'cadastro_teste',
+        'id_paciente': idGerado,
+        'nome_paciente': nomePaciente,
+        'usuario': email,
+        'data': FieldValue.serverTimestamp(),
+      });
+
+      if (context.mounted) {
+        AnimatedSnackBar.material(
+          'Paciente de teste cadastrado com sucesso!',
+          type: AnimatedSnackBarType.success,
+          mobileSnackBarPosition: MobileSnackBarPosition.bottom,
+          desktopSnackBarPosition: DesktopSnackBarPosition.topCenter,
+        ).show(context);
+      }
+      return;
+    }
 
     final data = jsonEncode([record]);
 
@@ -726,6 +783,11 @@ class PatientService {
 
   Future<Patient?> verificarPacientePorId(String pacienteId) async {
     try {
+      if (_usesTestStorage) {
+        final document = await _testPatients.doc(pacienteId).get();
+        return document.exists ? Patient.fromJson(document.data()!) : null;
+      }
+
       final response = await http.post(
         Uri.parse('https://redcap.redcapbrasil.com.br/api/'),
         body: {
@@ -751,6 +813,19 @@ class PatientService {
       print('Erro ao verificar paciente: $error');
       return null;
     }
+  }
+
+  String _nextRecordId(String lastRecordId) {
+    final regex = RegExp(r'(\d+)$');
+    final match = regex.firstMatch(lastRecordId);
+    if (match == null) {
+      throw Exception('Formato de ID de registro inválido');
+    }
+    final numericPart = int.parse(match.group(0)!) + 1;
+    return lastRecordId.replaceFirst(
+      regex,
+      numericPart.toString().padLeft(match.group(0)!.length, '0'),
+    );
   }
 }
 
