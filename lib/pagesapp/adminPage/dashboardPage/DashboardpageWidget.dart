@@ -1,6 +1,3 @@
-import 'dart:convert';
-import 'dart:html' as html;
-
 import 'package:excel/excel.dart' hide Border;
 import 'package:flutter/material.dart';
 import 'package:regsitroweb/service/RedcapService.dart';
@@ -159,27 +156,6 @@ class _DashboardpagewidgetState extends State<Dashboardpagewidget> {
     return '${agora.year}${doisDigitos(agora.month)}${doisDigitos(agora.day)}';
   }
 
-  void _baixarCsv() {
-    String escapar(dynamic valor) {
-      final texto = valor.toString();
-      return '"${texto.replaceAll('"', '""')}"';
-    }
-
-    final conteudo = _linhasExportacao()
-        .map((linha) => linha.map(escapar).join(';'))
-        .join('\r\n');
-    final bytes = utf8.encode('\ufeff$conteudo');
-    final blob = html.Blob([bytes], 'text/csv;charset=utf-8');
-    final url = html.Url.createObjectUrlFromBlob(blob);
-    html.AnchorElement(href: url)
-      ..setAttribute(
-        'download',
-        'completude_rhc_ici_$_dataArquivo.csv',
-      )
-      ..click();
-    html.Url.revokeObjectUrl(url);
-  }
-
   void _baixarXlsx() {
     final excel = Excel.createExcel();
     final sheet = excel['Completude'];
@@ -308,11 +284,6 @@ class _DashboardpagewidgetState extends State<Dashboardpagewidget> {
               spacing: 10,
               runSpacing: 10,
               children: [
-                OutlinedButton.icon(
-                  onPressed: _baixarCsv,
-                  icon: const Icon(Icons.download),
-                  label: const Text('Baixar CSV'),
-                ),
                 OutlinedButton.icon(
                   onPressed: _baixarXlsx,
                   icon: const Icon(Icons.table_view),

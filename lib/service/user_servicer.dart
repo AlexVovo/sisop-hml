@@ -3,12 +3,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:regsitroweb/pagesapp/auth_pages/login/qr_auth.dart';
-import 'package:regsitroweb/pagesapp/auth_pages/login/totp_screen.dart';
-import 'package:regsitroweb/pagesapp/selectHospital/selectpage.dart';
+import 'package:regsitroweb/pagesapp/homePage/home.dart';
 import 'package:regsitroweb/service/showsnackbar.dart';
 import 'package:regsitroweb/service/tools/auth/auth_service.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class UserServicer {
   String? email = AuthenticationService(FirebaseAuth.instance).getName();
@@ -169,11 +166,13 @@ class UserServicer {
   }
 
   Future<void> handleRedirection(BuildContext context, User? user) async {
-    if (user == null) return;
+    if (user == null || user.email == null || user.email!.trim().isEmpty) {
+      ShowSnackBar(context, 'Usuário autenticado sem e-mail válido.');
+      return;
+    }
 
     try {
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-      bool isVerified = prefs.getBool('isVerified') ?? false;
+      final String email = user.email!.trim();
 
       final userDoc = await FirebaseFirestore.instance
           .collection('users')
@@ -181,28 +180,28 @@ class UserServicer {
           .get();
 
       if (userDoc.exists) {
-        await registrarAcesso(user.email!);
+        final data = userDoc.data() as Map<String, dynamic>? ?? {};
+        final hospitalAtivo = (data['hospitalAtivo'] ?? '').toString().trim();
+        final hospitaisSelecionados =
+            ((data['hospitaisSelecionados'] as List?) ?? [])
+                .map((e) => e.toString().trim())
+                .where((e) => e.isNotEmpty)
+                .toList();
 
-        if (isVerified) {
+        await registrarAcesso(email);
+
+        final String hospital = hospitalAtivo.isNotEmpty
+            ? hospitalAtivo
+            : (hospitaisSelecionados.isNotEmpty
+                ? hospitaisSelecionados.first
+                : 'ICI');
+
+        if (context.mounted) {
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-                builder: (context) => const HospitalSelectionPage()),
-          );
-        } else if (userDoc['chaveauth'] != null &&
-            userDoc['chaveauth'].isNotEmpty) {
-          Navigator.pushReplacement(
-            context,
-            MaterialPageRoute(
-                builder: (context) => TotpScreen(secret: userDoc['chaveauth'])),
-          );
-        } else {
-          Navigator.pushReplacement(
-            context,
-            MaterialPageRoute(
-                builder: (context) => QrPage(
-                      email: user.email!,
-                    )),
+              builder: (context) => HomePage(hospital: hospital),
+            ),
           );
         }
       } else {

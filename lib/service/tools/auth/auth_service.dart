@@ -3,7 +3,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:regsitroweb/service/showsnackbar.dart';
 import 'package:regsitroweb/service/tools/auth/authCheck.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthenticationService {
   final FirebaseAuth _auth;
@@ -77,15 +76,11 @@ class AuthenticationService {
 
   Future<void> signOut(BuildContext context) async {
     try {
-      // Limpar SharedPreferences ao fazer logout
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-      await prefs.remove('isVerified'); // Limpa a flag de verificação
-
       await _auth.signOut().then((value) {
         Navigator.pushAndRemoveUntil(
           context,
           MaterialPageRoute(builder: (context) => const AuthCheck()),
-          (route) => false, // Remove todas as rotas anteriores
+          (route) => false,
         );
       });
     } on FirebaseAuthException catch (e) {

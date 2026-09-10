@@ -90,7 +90,7 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
           obscureText: _obscureText,
           onSubmitted: (_) {
-            _loginAndRedirectToTOTP(context);
+            _loginAndRedirect(context);
           },
         ),
         TextButton(
@@ -107,7 +107,7 @@ class _LoginScreenState extends State<LoginScreen> {
           onPressed: _autenticando
               ? null
               : () {
-                  _loginAndRedirectToTOTP(context);
+                  _loginAndRedirect(context);
                 },
           child: const Text('Entrar'),
         ),
@@ -158,7 +158,7 @@ class _LoginScreenState extends State<LoginScreen> {
     if (mounted) setState(() => _autenticando = false);
   }
 
-  Future<void> _loginAndRedirectToTOTP(BuildContext context) async {
+  Future<void> _loginAndRedirect(BuildContext context) async {
     final String email = _emailController.text.trim();
     final String senha = _senhaController.text.trim();
 
